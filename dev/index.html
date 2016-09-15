@@ -283,82 +283,21 @@
                 height:auto;
             }
 
-            /* ========== Column Styles ========== */
+            /* ========== Repeatable Section Styles ========== */
+            /* Text Section*/
+            .adImage {
 
-            .templateColumnContainer{display:inline; width:260px;}
-
-            /**
-            * @tab Columns
-            * @section column style
-            * @tip Set the background color and borders for your email's column area.
-            */
-            #templateColumns{
-                /*@editable*/ background-color:#F4F4F4;
-                /*@editable*/ border-top:1px solid #FFFFFF;
-                /*@editable*/ border-bottom:1px solid #CCCCCC;
             }
+            /* Hero Image Section*/
+            .adImage {
 
-            /**
-            * @tab Columns
-            * @section left column text
-            * @tip Set the styling for your email's left column content text. Choose a size and color that is easy to read.
-            */
-            .leftColumnContent{
-                /*@editable*/ color:#505050;
-                /*@editable*/ font-family:Helvetica;
-                /*@editable*/ font-size:14px;
-                /*@editable*/ line-height:150%;
-                padding-top:0;
-                padding-right:0;
-                padding-bottom:20px;
-                padding-left:0;
-                /*@editable*/ text-align:left;
             }
-
-            /**
-            * @tab Columns
-            * @section left column link
-            * @tip Set the styling for your email's left column content links. Choose a color that helps them stand out from your text.
-            */
-            .leftColumnContent a:link, .leftColumnContent a:visited, /* Yahoo! Mail Override */ .leftColumnContent a .yshortcuts /* Yahoo! Mail Override */{
-                /*@editable*/ color:#EB4102;
-                /*@editable*/ font-weight:normal;
-                /*@editable*/ text-decoration:underline;
-            }
-
-            /**
-            * @tab Columns
-            * @section right column text
-            * @tip Set the styling for your email's right column content text. Choose a size and color that is easy to read.
-            */
-            .rightColumnContent{
-                /*@editable*/ color:#505050;
-                /*@editable*/ font-family:Helvetica;
-                /*@editable*/ font-size:14px;
-                /*@editable*/ line-height:150%;
-                padding-top:0;
-                padding-right:0;
-                padding-bottom:20px;
-                padding-left:0;
-                /*@editable*/ text-align:left;
-            }
-
-            /**
-            * @tab Columns
-            * @section right column link
-            * @tip Set the styling for your email's right column content links. Choose a color that helps them stand out from your text.
-            */
-            .rightColumnContent a:link, .rightColumnContent a:visited, /* Yahoo! Mail Override */ .rightColumnContent a .yshortcuts /* Yahoo! Mail Override */{
-                /*@editable*/ color:#EB4102;
-                /*@editable*/ font-weight:normal;
-                /*@editable*/ text-decoration:underline;
-            }
-
-            .leftColumnContent img, .rightColumnContent img{
-                display:inline;
+            /* Ad Section*/
+            .adImage {
+                max-width:600px;
                 height:auto;
-                max-width:260px;
             }
+
 
             /* ========== Footer Styles ========== */
 
@@ -596,7 +535,7 @@
                                     <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateHeader">
                                         <tr>
                                             <td valign="top" class="headerContent">
-                                                <img src="https://dummyimage.com/600x200/ccc/fff.png" style="max-width:600px;" id="headerImage" mc:label="header_image" mc:edit="header_image" mc:allowdesigner mc:allowtext />
+                                                <img src="https://dummyimage.com/600x200/ccc/fff.png" style="max-width:600px;" id="headerImage" mc:label="header_image" mc:edit="header_image" mc:allowdesigner mc:allowtext mc:hideable />
                                             </td>
                                         </tr>
                                     </table>
@@ -613,24 +552,33 @@
                                                 <!-- // Begin Module: Text Section \\ -->
                                                 <table border="0" cellpadding="20" cellspacing="0" width="100%" mc:repeatable="block_section" mc:variant="text section">
                                                     <tr>
-                                                        <td valign="top" class="bodyContent" mc:edit="body_content">
+                                                        <td valign="top" class="bodyContent" mc:edit="text_section_content">
                                                             <h1>Title</h1>
                                                             <h3>Subtitle</h3>
-                                                            Add content here. Set your fonts, colors, and styles in the editor above.<br>
+                                                            Click here to edit your content. Set your fonts, colors, and styles in the text editor.<br><br>
                                                             <em>This section can be changed to any option listed in the repeatable dropdown section.</em>
                                                         </td>
                                                     </tr>
                                                 </table>
                                                 <!-- // End Module: Text Section \\ -->
                                                 <!-- // Begin Module: Hero Image \\ -->
-                                                <table border="0" cellpadding="20" cellspacing="0" width="100%" mc:repeatable="block_section" mc:variant="hero image">
+                                                <table border="0" cellpadding="20" cellspacing="0" width="100%" mc:repeatable="block_section" mc:variant="hero image section">
                                                     <tr>
                                                         <td class="bodyImg" style="padding-top:0; padding-bottom:0;">
-                                                            <img src="https://dummyimage.com/600x400/ccc/fff.png" style="max-width:600px;" id="bodyImage" mc:label="body_image" mc:edit="body_image" mc:allowtext />
+                                                            <img src="https://dummyimage.com/600x400/ccc/fff.png" style="max-width:600px;" id="bodyImage" mc:label="body_image" mc:edit="body_image" />
                                                         </td>
                                                     </tr>
                                                 </table>
                                                 <!-- // End Module: Hero Image \\ -->
+                                                <!-- // Begin Module: Ad Section \\ -->
+                                                <table border="0" cellpadding="20" cellspacing="0" width="100%" mc:repeatable="block_section" mc:variant="Ad section">
+                                                    <tr>
+                                                        <td valign="top" class="adImage">
+                                                            <img src="https://dummyimage.com/600x200/ccc/fff.png" style="max-width:600px;" id="adImage" mc:label="ad_image" />
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!-- // End Module: Ad Section \\ -->
                                             </td>
                                         </tr>
                                     </table>
