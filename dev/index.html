@@ -260,13 +260,6 @@
                 /*@editable*/ text-align:left;
             }
 
-            .bodyImg {
-                padding-top: 0px;
-                padding-right: 0px;
-                padding-bottom: 0px;
-                padding-left: 0px;
-            }
-
             /**
             * @tab Body
             * @section body link
@@ -285,17 +278,24 @@
 
             /* ========== Repeatable Section Styles ========== */
             /* Text Section*/
-            .adImage {
+            .textSection {
 
             }
             /* Hero Image Section*/
-            .adImage {
-
+            .heroImage {
+                max-width:600px;
+                height:auto;
+                padding-top: 0px;
+                padding-right: 0px;
+                padding-bottom: 0px;
+                padding-left: 0px;
             }
             /* Ad Section*/
             .adImage {
-                max-width:600px;
-                height:auto;
+                padding-top:0px;
+                padding-right:0px;
+                padding-bottom:0px;
+                padding-left:0px;
             }
 
 
@@ -564,8 +564,8 @@
                                                 <!-- // Begin Module: Hero Image \\ -->
                                                 <table border="0" cellpadding="20" cellspacing="0" width="100%" mc:repeatable="block_section" mc:variant="hero image section">
                                                     <tr>
-                                                        <td class="bodyImg" style="padding-top:0; padding-bottom:0;">
-                                                            <img src="https://dummyimage.com/600x400/ccc/fff.png" style="max-width:600px;" id="bodyImage" mc:label="body_image" mc:edit="body_image" />
+                                                        <td class="heroImage" style="padding-top:0; padding-bottom:0;">
+                                                            <img src="https://dummyimage.com/600x400/ccc/fff.png" style="max-width:600px;" id="bodyImage" mc:label="hero_image" mc:edit="hero_image" />
                                                         </td>
                                                     </tr>
                                                 </table>
@@ -573,8 +573,8 @@
                                                 <!-- // Begin Module: Ad Section \\ -->
                                                 <table border="0" cellpadding="20" cellspacing="0" width="100%" mc:repeatable="block_section" mc:variant="Ad section">
                                                     <tr>
-                                                        <td valign="top" class="adImage">
-                                                            <img src="https://dummyimage.com/600x200/ccc/fff.png" style="max-width:600px;" id="adImage" mc:label="ad_image" />
+                                                        <td valign="top" class="headerContent">
+                                                            <img src="https://dummyimage.com/600x200/ccc/fff.png" style="max-width:600px;" id="headerImage" mc:label="ad_image" mc:edit="ad_image" />
                                                         </td>
                                                     </tr>
                                                 </table>
