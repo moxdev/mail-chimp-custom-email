@@ -3,7 +3,7 @@
 - Orange
     + #f57b20
 - Blue
-    + #1fc2de
++ #1fc2de
 
 # Specs
 - Pre-header
