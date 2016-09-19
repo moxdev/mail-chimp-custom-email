@@ -279,7 +279,16 @@
             /* REPEATABLE SECTIONS*/
 
             /**
-            * @tab Left Image Right Text Section
+            * @tab REPEATBLE: Text Section
+            * @section section style
+            * @tip Set the background color of the section.
+            */
+            .textSection {
+                /*@editable*/ background-color:#E5E5E5;
+            }
+
+            /**
+            * @tab REPEATBLE: Left Image Right Text Section
             * @section section style
             * @tip Set the background color, padding, and top and bottom border styles.
             */
@@ -289,17 +298,30 @@
                 /*@editable*/ padding-left:20px;
                 /*@editable*/ padding-bottom:20px;
                 /*@editable*/ background-color:#E5E5E5;
-                /*@editable*/ border-top:1px 0 solid #CCCCCC;
-                /*@editable*/ border-bottom:1px 0 solid #CCCCCC;
+                /*@editable*/ border-top:1px solid #ccc;
+                /*@editable*/ border-bottom:1px solid #ccc;
+            }
+            /**
+            * @tab REPEATBLE: Right Image Left Text Section
+            * @section section style
+            * @tip Set the background color, padding, and top and bottom border styles.
+            */
+            .flexContainerRight{
+                /*@editable*/ padding-top:20px;
+                /*@editable*/ padding-right:20px;
+                /*@editable*/ padding-left:20px;
+                /*@editable*/ padding-bottom:20px;
+                /*@editable*/ background-color:#E5E5E5;
+                /*@editable*/ border-top:1px solid #ccc;
+                /*@editable*/ border-bottom:1px solid #ccc;
             }
 
             .flexibleImage{
                 height:auto;
             }
+            /*.textContent, .textContentLast{color:#404040; font-family:Helvetica; font-size:16px; line-height:125%; text-align:Left; padding-bottom:20px;}
+            .textContent a, .textContentLast a{color:#2C9AB7; text-decoration:underline;}*/
 
-            .textSection {
-
-            }
             /* Hero Image Section*/
             .heroImage {
                 max-width:600px;
@@ -405,7 +427,7 @@
                                                 </table>
                                                 <!-- // End Module: Header -->
                                                 <!-- // Begin Module: Text Section \\ -->
-                                                <table border="0" cellpadding="0" cellspacing="0" width="100%" mc:repeatable="block_section" mc:variant="Text Section">
+                                                <table border="0" cellpadding="0" cellspacing="0" width="100%" mc:repeatable="block_section" mc:variant="Text Section" class="textSection">
                                                     <tr>
                                                         <td valign="top" class="bodyContent" mc:edit="text_section_content">
                                                             <h1>Title</h1>
@@ -442,26 +464,22 @@
                                                             <table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
                                                                 <tr>
                                                                     <td valign="top" width="600" class="flexContainerLeft">
-
-
-                                                                        <!-- CONTENT TABLE // -->
+                                                                        <!-- IMAGE TABLE // -->
                                                                         <table align="Left" border="0" cellpadding="0" cellspacing="0" width="200" class="flexibleContainer">
                                                                             <tr>
                                                                                 <td align="Left" valign="top" class="imageContent">
-                                                                                    <img src="http://placekitten.com/g/400/400" width="200" class="flexibleImage" style="max-width:200px;" />
+                                                                                    <img src="http://dummyimage.com/200x200/ccc/fff.png" width="200" class="flexibleImage" style="max-width:200px;" />
                                                                                 </td>
                                                                             </tr>
                                                                         </table>
-                                                                        <!-- // CONTENT TABLE -->
-
-
+                                                                        <!-- // IMAGE TABLE -->
                                                                         <!-- CONTENT TABLE // -->
                                                                         <table align="Right" border="0" cellpadding="0" cellspacing="0" width="340" class="flexibleContainer">
                                                                             <tr>
                                                                                 <td valign="top" class="textContent">
                                                                                     <h3>Right Column</h3>
                                                                                     <br />
-                                                                                    A kitten or kitty is a juvenile domesticated cat. Kittens are highly social animals and spend most of their waking hours playing and interacting with available companions.
+                                                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe est possimus aliquam vel natus tempora incidunt, fugiat quidem. Nemo, optio id reprehenderit cum quasi ut, error aut commodi quod sit.
                                                                                 </td>
                                                                             </tr>
                                                                         </table>
@@ -475,9 +493,67 @@
                                                         </td>
                                                     </tr>
                                                 </table>
-                                                <!-- Begin Module: Left Image Right Text -->
+                                                <!-- End Module: Left Image Right Text -->
+                                                <!-- Begin Module: Right Image Left Text-->
+                                                <table border="0" cellpadding="0" cellspacing="0" width="100%" mc:repeatable="block_section" mc:variant="Right Image Left Text Section">
+                                                    <tr>
+                                                        <td align="center" valign="top">
+                                                            <!-- CENTERING TABLE // -->
+                                                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                                <tr>
+                                                                    <td align="center" valign="top">
+                                                                        <!-- FLEXIBLE CONTAINER // -->
+                                                                        <table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+                                                                            <tr>
+                                                                                <td valign="top" width="600" class="flexContainerRight">
+
+
+                                                                                    <!-- CONTENT TABLE // -->
+                                                                                    <!--
+                                                                                        Keeping the table markup in its original
+                                                                                        order and swapping the align attribute values
+                                                                                        allows the tables to wrap in the correct order
+                                                                                        on small displays.
+                                                                                    -->
+                                                                                    <table align="Right" border="0" cellpadding="0" cellspacing="0" width="200" class="flexibleContainer">
+                                                                                        <tr>
+                                                                                            <td align="Left" valign="top" class="imageContent">
+                                                                                                <img src="http://dummyimage.com/200x200/ccc/fff.png" width="200" class="flexibleImage" style="max-width:200px;" />
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </table>
+                                                                                    <!-- // CONTENT TABLE -->
+
+
+                                                                                    <!-- CONTENT TABLE // -->
+                                                                                    <table align="Left" border="0" cellpadding="0" cellspacing="0" width="340" class="flexibleContainer">
+                                                                                        <tr>
+                                                                                            <td valign="top" class="textContent">
+                                                                                                <h3>Left Column</h3>
+                                                                                                <br />
+                                                                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. In quia possimus facere architecto. Quis adipisci, deserunt aspernatur, laboriosam repellat, distinctio ducimus voluptate porro amet quibusdam fugiat ipsam, explicabo repudiandae et.
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </table>
+                                                                                    <!-- // CONTENT TABLE -->
+
+
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table>
+                                                                        <!-- // FLEXIBLE CONTAINER -->
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                            <!-- // CENTERING TABLE -->
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!-- End Module: Right Image Left Text-->
                                             </td>
+                                            <!-- end main TD -->
                                         </tr>
+                                        <!-- end main TR -->
                                     </table>
                                     <!-- // END MAIN BODY TABLE-->
                                 </td>
