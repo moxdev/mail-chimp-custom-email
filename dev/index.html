@@ -531,26 +531,21 @@
                             </tr>
                             <tr>
                                 <td align="center" valign="top">
-                                    <!-- BEGIN HEADER // -->
-                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateHeader">
-                                        <tr>
-                                            <td valign="top" class="headerContent">
-                                                <img src="https://dummyimage.com/600x200/ccc/fff.png" style="max-width:600px;" id="headerImage" mc:label="header_image" mc:edit="header_image" mc:allowdesigner mc:allowtext mc:hideable />
-                                            </td>
-                                        </tr>
-                                    </table>
-                                    <!-- // END HEADER -->
-                                </td>
-                            </tr>
-                            <!-- // BEGIN Body Table Row-->
-                            <tr>
-                                <td align="center" valign="top">
                                     <!-- // BEGIN MAIN BODY TABLE// -->
                                     <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateBody">
                                         <tr>
                                             <td valign="top">
+                                                <!-- Begin Module: Header // -->
+                                                <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateHeader" mc:repeatable="block_section" mc:variant="Header Section">
+                                                    <tr>
+                                                        <td valign="top" class="headerContent">
+                                                            <img src="https://dummyimage.com/600x200/ccc/fff.png" style="max-width:600px;" id="headerImage" mc:label="header_image" mc:edit="header_image" mc:allowdesigner mc:allowtext mc:hideable />
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!-- // End Module: Header -->
                                                 <!-- // Begin Module: Text Section \\ -->
-                                                <table border="0" cellpadding="20" cellspacing="0" width="100%" mc:repeatable="block_section" mc:variant="text section">
+                                                <table border="0" cellpadding="0" cellspacing="0" width="100%" mc:repeatable="block_section" mc:variant="Text Section">
                                                     <tr>
                                                         <td valign="top" class="bodyContent" mc:edit="text_section_content">
                                                             <h1>Title</h1>
@@ -562,7 +557,7 @@
                                                 </table>
                                                 <!-- // End Module: Text Section \\ -->
                                                 <!-- // Begin Module: Hero Image \\ -->
-                                                <table border="0" cellpadding="20" cellspacing="0" width="100%" mc:repeatable="block_section" mc:variant="hero image section">
+                                                <table border="0" cellpadding="0" cellspacing="0" width="100%" mc:repeatable="block_section" mc:variant="Hero Image Section">
                                                     <tr>
                                                         <td class="heroImage" style="padding-top:0; padding-bottom:0;">
                                                             <img src="https://dummyimage.com/600x400/ccc/fff.png" style="max-width:600px;" id="bodyImage" mc:label="hero_image" mc:edit="hero_image" />
@@ -571,7 +566,7 @@
                                                 </table>
                                                 <!-- // End Module: Hero Image \\ -->
                                                 <!-- // Begin Module: Ad Section \\ -->
-                                                <table border="0" cellpadding="20" cellspacing="0" width="100%" mc:repeatable="block_section" mc:variant="Ad section">
+                                                <table border="0" cellpadding="0" cellspacing="0" width="100%" mc:repeatable="block_section" mc:variant="Ad Section">
                                                     <tr>
                                                         <td valign="top" class="headerContent">
                                                             <img src="https://dummyimage.com/600x200/ccc/fff.png" style="max-width:600px;" id="headerImage" mc:label="ad_image" mc:edit="ad_image" />
@@ -579,6 +574,48 @@
                                                     </tr>
                                                 </table>
                                                 <!-- // End Module: Ad Section \\ -->
+                                                <!-- Begin Module: Left Image Right Text -->
+                                                <table border="0" cellpadding="0" cellspacing="0" width="100%" mc:repeatable="block_section" mc:variant="Left Image Right Text Section">
+                                                    <tr>
+                                                        <td align="center" valign="top">
+                                                            <!-- FLEXIBLE CONTAINER // -->
+                                                            <table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+                                                                <tr>
+                                                                    <td valign="top" width="600" class="flexibleContainerCell">
+
+
+                                                                        <!-- CONTENT TABLE // -->
+                                                                        <table align="Left" border="0" cellpadding="0" cellspacing="0" width="200" class="flexibleContainer">
+                                                                            <tr>
+                                                                                <td align="Left" valign="top" class="imageContent">
+                                                                                    <img src="http://placekitten.com/g/400/400" width="200" class="flexibleImage" style="max-width:200px;" />
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table>
+                                                                        <!-- // CONTENT TABLE -->
+
+
+                                                                        <!-- CONTENT TABLE // -->
+                                                                        <table align="Right" border="0" cellpadding="0" cellspacing="0" width="340" class="flexibleContainer">
+                                                                            <tr>
+                                                                                <td valign="top" class="textContent">
+                                                                                    <h3>Right Column</h3>
+                                                                                    <br />
+                                                                                    A kitten or kitty is a juvenile domesticated cat. Kittens are highly social animals and spend most of their waking hours playing and interacting with available companions.
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table>
+                                                                        <!-- // CONTENT TABLE -->
+
+
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                            <!-- // FLEXIBLE CONTAINER -->
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!-- Begin Module: Left Image Right Text -->
                                             </td>
                                         </tr>
                                     </table>
