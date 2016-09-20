@@ -424,9 +424,29 @@
 
             /* ========== Repeatable Section: Two Columns Image and Text Styles ========== */
 
+            /*
+             222222222222222                 CCCCCCCCCCCCC     OOOOOOOOO     LLLLLLLLLLL
+            2:::::::::::::::22            CCC::::::::::::C   OO:::::::::OO   L:::::::::L
+            2::::::222222:::::2         CC:::::::::::::::C OO:::::::::::::OO L:::::::::L
+            2222222     2:::::2        C:::::CCCCCCCC::::CO:::::::OOO:::::::OLL:::::::LL
+                        2:::::2       C:::::C       CCCCCCO::::::O   O::::::O  L:::::L
+                        2:::::2      C:::::C              O:::::O     O:::::O  L:::::L
+                     2222::::2       C:::::C              O:::::O     O:::::O  L:::::L
+                22222::::::22        C:::::C              O:::::O     O:::::O  L:::::L
+              22::::::::222          C:::::C              O:::::O     O:::::O  L:::::L
+             2:::::22222             C:::::C              O:::::O     O:::::O  L:::::L
+            2:::::2                  C:::::C              O:::::O     O:::::O  L:::::L
+            2:::::2                   C:::::C       CCCCCCO::::::O   O::::::O  L:::::L         LLLLLL
+            2:::::2       222222       C:::::CCCCCCCC::::CO:::::::OOO:::::::OLL:::::::LLLLLLLLL:::::L
+            2::::::2222222:::::2        CC:::::::::::::::C OO:::::::::::::OO L::::::::::::::::::::::L
+            2::::::::::::::::::2          CCC::::::::::::C   OO:::::::::OO   L::::::::::::::::::::::L
+            22222222222222222222             CCCCCCCCCCCCC     OOOOOOOOO     LLLLLLLLLLLLLLLLLLLLLLLL0000
+             */
+
+
             /**
             * @tab REPEATABLE - 2 Column Image with Text Section
-            * @section background color and top and bottom border for separation
+            * @section set background color, top border, bottom border for separation
             * @tip Set the background color and borders for your email's footer area.
             */
             .twoCol{
@@ -434,6 +454,7 @@
                 /*@editable*/ border-top:1px;
                 /*@editable*/ border-bottom:1px;
             }
+
             .twoColContent{
                 padding-top:20px;
                 padding-right:20px;
@@ -445,6 +466,28 @@
                 max-width: 260px;
                 height: auto;
             }
+
+            /*
+
+                    CCCCCCCCCCCCC               AAA               LLLLLLLLLLL
+                 CCC::::::::::::C              A:::A              L:::::::::L
+               CC:::::::::::::::C             A:::::A             L:::::::::L
+              C:::::CCCCCCCC::::C            A:::::::A            LL:::::::LL
+             C:::::C       CCCCCC           A:::::::::A             L:::::L
+            C:::::C                        A:::::A:::::A            L:::::L
+            C:::::C                       A:::::A A:::::A           L:::::L
+            C:::::C                      A:::::A   A:::::A          L:::::L
+            C:::::C                     A:::::A     A:::::A         L:::::L
+            C:::::C                    A:::::AAAAAAAAA:::::A        L:::::L
+            C:::::C                   A:::::::::::::::::::::A       L:::::L
+             C:::::C       CCCCCC    A:::::AAAAAAAAAAAAA:::::A      L:::::L         LLLLLL
+              C:::::CCCCCCCC::::C   A:::::A             A:::::A   LL:::::::LLLLLLLLL:::::L
+               CC:::::::::::::::C  A:::::A               A:::::A  L::::::::::::::::::::::L
+                 CCC::::::::::::C A:::::A                 A:::::A L::::::::::::::::::::::L
+                    CCCCCCCCCCCCCAAAAAAA                   AAAAAAALLLLLLLLLLLLLLLLLLLLLLLL
+ /
+
+            /* ========== Repeatable Section: Calendar Styles ========== */
 
             /* ========== Footer Styles ========== */
 
@@ -675,6 +718,46 @@
                                                     </tr>
                                                 </table>
                                                 <!--  End Module: Callout Button -->
+                                                <!--  Begin Module: 2 Column Image and Text -->
+                                                <table border="0" cellpadding="0" cellspacing="0" width="100%" mc:repeatable="block_section" mc:variant="Two Columns Image and Text" class="twoCol">
+                                                    <tr>
+                                                        <td align="center" valign="top">
+                                                            <!--  Begin Module: Left 2 Column Image and Text -->
+                                                            <table align="left" border="0" cellpadding="0" cellspacing="0" width="260" class="leftColPad">
+                                                                <tr>
+                                                                    <td valign="top" class="twoColContent">
+                                                                        <img src="http://dummyimage.com/400x400/ccc/fff.png&text=260+x+260" width="260" class="flexImgTwoCol" style="max-width:260px;" mc:edit="two_col_image_00"/>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td valign="top" class="twoColContent" mc:edit="two_col_content_00">
+                                                                        <h3>Left Column</h3>
+                                                                        <br />
+                                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit consectetur, tempore, in, laudantium quasi optio officia, saepe molestiae perspiciatis ipsam assumenda asperiores natus magni facere voluptate numquam. Voluptates, architecto, mollitia.
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                            <!--  End Module: Left 2 Column Image and Text -->
+                                                            <!--  Begin Module: Right 2 Column Image and Text -->
+                                                            <table align="right" border="0" cellpadding="0" cellspacing="0" width="260" class="rightColPad">
+                                                                <tr>
+                                                                    <td valign="top" class="twoColContent">
+                                                                        <img src="http://dummyimage.com/400x400/ccc/fff.png&text=260+x+260" width="260" class="flexImgTwoCol" style="max-width:260px;" mc:edit="two_col_image_01" />
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td valign="top" class="twoColContent" mc:edit="two_col_content_01">
+                                                                        <h3>Right Column</h3>
+                                                                        <br />
+                                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam vel sequi, quasi voluptatum possimus unde alias molestias delectus, nesciunt, recusandae exercitationem dignissimos officia minus. Vero recusandae natus beatae nihil, quia!
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                            <!--  End Module: Right 2 Column Image and Text -->
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!--  End Module: 2 Column Image and Text -->
 
                                                 <!--
                                                 HHHHHHHHH     HHHHHHHHHEEEEEEEEEEEEEEEEEEEEEERRRRRRRRRRRRRRRRR   EEEEEEEEEEEEEEEEEEEEEE
@@ -695,46 +778,8 @@
                                                 HHHHHHHHH     HHHHHHHHHEEEEEEEEEEEEEEEEEEEEEERRRRRRRR     RRRRRRREEEEEEEEEEEEEEEEEEEEEE
                                                 -->
 
-                                                <!--  Begin Module: 2 Column Image and Text -->
-                                                <table align="Left" border="0" cellpadding="0" cellspacing="0" width="100%" mc:repeatable="block_section" mc:variant="Two Columns Image and Text" class="twoCol">
-                                                    <tr>
-                                                        <td align="center" valign="top">
-                                                            <!--  Begin Module: Left 2 Column Image and Text -->
-                                                            <table align="Left" border="0" cellpadding="0" cellspacing="0" width="300" class="">
-                                                                <tr>
-                                                                    <td valign="top" class="twoColContent">
-                                                                        <img src="http://dummyimage.com/400x400/ccc/fff.png&text=260+x+260" width="300" class="flexImgTwoCol" style="max-width:260px;" mc:edit="two_col_image_00"/>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td valign="top" class="twoColContent" mc:edit="two_col_content_00">
-                                                                        <h3>Left Column</h3>
-                                                                        <br />
-                                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit consectetur, tempore, in, laudantium quasi optio officia, saepe molestiae perspiciatis ipsam assumenda asperiores natus magni facere voluptate numquam. Voluptates, architecto, mollitia.
-                                                                    </td>
-                                                                </tr>
-                                                            </table>
-                                                            <!--  End Module: Left 2 Column Image and Text -->
-                                                            <!--  Begin Module: Right 2 Column Image and Text -->
-                                                            <table align="Right" border="0" cellpadding="0" cellspacing="0" width="300" class="">
-                                                                <tr>
-                                                                    <td valign="top" class="twoColContent">
-                                                                        <img src="http://dummyimage.com/400x400/ccc/fff.png&text=260+x+260" width="300" class="flexImgTwoCol" style="max-width:260px;" mc:edit="two_col_image_01" />
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td valign="top" class="twoColContent" mc:edit="two_col_content_01">
-                                                                        <h3>Right Column</h3>
-                                                                        <br />
-                                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam vel sequi, quasi voluptatum possimus unde alias molestias delectus, nesciunt, recusandae exercitationem dignissimos officia minus. Vero recusandae natus beatae nihil, quia!
-                                                                    </td>
-                                                                </tr>
-                                                            </table>
-                                                            <!--  End Module: Right 2 Column Image and Text -->
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                                <!--  End Module: 2 Column Image and Text -->
+
+
                                             </td>
                                             <!-- end main TD -->
                                         </tr>
