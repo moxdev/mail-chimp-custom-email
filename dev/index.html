@@ -186,8 +186,8 @@
             */
             #templateHeader{
                 /*@editable*/ background-color:#F4F4F4;
-                /*@editable*/ border-top:1px solid #FFFFFF;
-                /*@editable*/ border-bottom:1px solid #CCCCCC;
+                /*@editable*/ border-top:1px;
+                /*@editable*/ border-bottom:1px;
             }
 
             /**
@@ -234,10 +234,8 @@
             */
             #templateBody{
                 /*@editable*/ background-color:#F4F4F4;
-                /*@editable*/ border-top:none;
-                /*@editable*/ border-bottom:none;
-                /*@editable*/ /*border-top:1px solid #FFFFFF;*/
-                /*@editable*/ /*border-bottom:1px solid #CCCCCC;*/
+                /*@editable*/ border-top:1px;
+                /*@editable*/ border-bottom:1px;
             }
 
             /**
@@ -247,14 +245,11 @@
             * @theme main
             */
             .bodyContent{
-                /*@editable*/ color:#505050;
+                /*@editable*/ color:#404040;
                 /*@editable*/ font-family:Helvetica;
                 /*@editable*/ font-size:16px;
                 /*@editable*/ line-height:150%;
-                /*@editable*/ padding-top:20px;
-                /*@editable*/ padding-right:20px;
-                /*@editable*/ padding-bottom:20px;
-                /*@editable*/ padding-left:20px;
+                /*@editable*/ padding:20px;
                 /*@editable*/ text-align:left;
             }
 
@@ -274,20 +269,21 @@
                 height:auto;
             }
 
-            /* REPEATABLE SECTIONS*/
+            /* ========== Repeatable Section: Header ========== */
 
             /**
-            * @tab REPEATABLE - Header Section
-            * @section header section style
+            * @tab REPEATABLE - Header
+            * @section set optional top-border bottom-border for separation
             * @tip Set the background color of the section.
             */
             .headerSection {
-                /*@editable*/ border-top:1px solid #333;
-                /*@editable*/ border-bottom:1px solid #333;
+                /*@editable*/ border-top:1px;
+                /*@editable*/ border-bottom:1px;
             }
 
+            /* ========== Repeatable Section: Hero Image ========== */
             /**
-            * @tab REPEATABLE - Hero Image Section
+            * @tab REPEATABLE - Hero Image
             * @section hero image section style
             * @tip Set the background color of the section.
             */
@@ -295,11 +291,11 @@
                 max-width:600px;
                 height:auto;
                 /*@editable*/ padding-top: 0px;
-                /*@editable*/ padding-right: 0px;
                 /*@editable*/ padding-bottom: 0px;
+                /*@editable*/ padding-right: 0px;
                 /*@editable*/ padding-left: 0px;
-                /*@editable*/ border-top:1px solid #333;
-                /*@editable*/ border-bottom:1px solid #333;
+                /*@editable*/ border-top:1px;
+                /*@editable*/ border-bottom:1px;
             }
 
             /**
@@ -316,8 +312,29 @@
                 /*@editable*/ border-bottom:1px solid #333;
             }
 
+            /*
+            TTTTTTTTTTTTTTTTTTTTTTTXXXXXXX       XXXXXXXTTTTTTTTTTTTTTTTTTTTTTT
+            T:::::::::::::::::::::TX:::::X       X:::::XT:::::::::::::::::::::T
+            T:::::::::::::::::::::TX:::::X       X:::::XT:::::::::::::::::::::T
+            T:::::TT:::::::TT:::::TX::::::X     X::::::XT:::::TT:::::::TT:::::T
+            TTTTTT  T:::::T  TTTTTTXXX:::::X   X:::::XXXTTTTTT  T:::::T  TTTTTT
+                    T:::::T           X:::::X X:::::X           T:::::T
+                    T:::::T            X:::::X:::::X            T:::::T
+                    T:::::T             X:::::::::X             T:::::T
+                    T:::::T             X:::::::::X             T:::::T
+                    T:::::T            X:::::X:::::X            T:::::T
+                    T:::::T           X:::::X X:::::X           T:::::T
+                    T:::::T        XXX:::::X   X:::::XXX        T:::::T
+                  TT:::::::TT      X::::::X     X::::::X      TT:::::::TT
+                  T:::::::::T      X:::::X       X:::::X      T:::::::::T
+                  T:::::::::T      X:::::X       X:::::X      T:::::::::T
+                  TTTTTTTTTTT      XXXXXXX       XXXXXXX      TTTTTTTTTTT
+
+            ========== Repeatable Section: Text Area ==========
+            */
+
             /**
-            * @tab REPEATABLE - Text Section
+            * @tab REPEATABLE - Text Area
             * @section text section style
             * @tip Set the background color and top and bottom border of the section.
             */
@@ -468,7 +485,6 @@
             }
 
             /*
-
                     CCCCCCCCCCCCC               AAA               LLLLLLLLLLL
                  CCC::::::::::::C              A:::A              L:::::::::L
                CC:::::::::::::::C             A:::::A             L:::::::::L
@@ -485,9 +501,66 @@
                CC:::::::::::::::C  A:::::A               A:::::A  L::::::::::::::::::::::L
                  CCC::::::::::::C A:::::A                 A:::::A L::::::::::::::::::::::L
                     CCCCCCCCCCCCCAAAAAAA                   AAAAAAALLLLLLLLLLLLLLLLLLLLLLLL
- /
+            */
 
             /* ========== Repeatable Section: Calendar Styles ========== */
+
+            /**
+            * @tab REPEATABLE - Left and Right Calendar
+            * @section set background color and border of calendar section
+            * @tip Set the background color and borders for your email's footer area.
+            */
+            .calSection{
+                /*@editable*/ background-color:#F1F1F1;
+                /*@editable*/ border-top:1px;
+                /*@editable*/ border-bottom:1px;
+            }
+            /**
+            * @tab REPEATABLE - Left and Right Calendar
+            * @section set background color and border of calendar icon
+            * @tip Set the background color and borders for your email's footer area.
+            */
+            .emailCalendar{
+                /*@editable*/ background-color:#FFFFFF;
+                /*@editable*/ border:1px solid #CCCCCC;
+            }
+            /**
+            * @tab REPEATABLE - Left and Right Calendar
+            * @section set background color, text color, and font for calendar month
+            * @tip Set the background color and borders for your email's footer area.
+            */
+            .emailCalendarMonth{
+                /*@editable*/ background-color:#0073AE;
+                /*@editable*/ color:#FFFFFF;
+                /*@editable*/ font-family:Helvetica;
+                font-size:16px;
+                font-weight:bold;
+                padding-top:10px;
+                padding-bottom:10px;
+                text-align:center;
+            }
+            /**
+            * @tab REPEATABLE - Left and Right Calendar
+            * @section set color and font for calendar day
+            * @tip Set the background color and borders for your email's footer area.
+            */
+            .emailCalendarDay{
+                /*@editable*/ color:#0073AE;
+                /*@editable*/ font-family:Helvetica;
+                font-size:60px;
+                font-weight:bold;
+                line-height:100%;
+                padding-top:20px;
+                padding-bottom:20px;
+                text-align:center;
+            }
+
+            .fullPad{
+                padding-top:20px;
+                padding-right:20px;
+                padding-bottom:20px;
+                padding-left:20px;
+            }
 
             /* ========== Footer Styles ========== */
 
@@ -573,6 +646,24 @@
                                                     </tr>
                                                 </table>
                                                 <!-- // End Module: Header -->
+                                                <!--
+                                                TTTTTTTTTTTTTTTTTTTTTTTXXXXXXX       XXXXXXXTTTTTTTTTTTTTTTTTTTTTTT
+                                                T:::::::::::::::::::::TX:::::X       X:::::XT:::::::::::::::::::::T
+                                                T:::::::::::::::::::::TX:::::X       X:::::XT:::::::::::::::::::::T
+                                                T:::::TT:::::::TT:::::TX::::::X     X::::::XT:::::TT:::::::TT:::::T
+                                                TTTTTT  T:::::T  TTTTTTXXX:::::X   X:::::XXXTTTTTT  T:::::T  TTTTTT
+                                                        T:::::T           X:::::X X:::::X           T:::::T
+                                                        T:::::T            X:::::X:::::X            T:::::T
+                                                        T:::::T             X:::::::::X             T:::::T
+                                                        T:::::T             X:::::::::X             T:::::T
+                                                        T:::::T            X:::::X:::::X            T:::::T
+                                                        T:::::T           X:::::X X:::::X           T:::::T
+                                                        T:::::T        XXX:::::X   X:::::XXX        T:::::T
+                                                      TT:::::::TT      X::::::X     X::::::X      TT:::::::TT
+                                                      T:::::::::T      X:::::X       X:::::X      T:::::::::T
+                                                      T:::::::::T      X:::::X       X:::::X      T:::::::::T
+                                                      TTTTTTTTTTT      XXXXXXX       XXXXXXX      TTTTTTTTTTT
+                                                -->
                                                 <!-- // Begin Module: Text Section \\ -->
                                                 <table border="0" cellpadding="0" cellspacing="0" width="100%" mc:repeatable="block_section" mc:variant="Text Section" class="textSection">
                                                     <tr>
@@ -608,11 +699,11 @@
                                                     <tr>
                                                         <td align="center" valign="top">
                                                             <!-- FLEXIBLE CONTAINER // -->
-                                                            <table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+                                                            <table border="0" cellpadding="0" cellspacing="0" width="600">
                                                                 <tr>
                                                                     <td valign="top" width="600" class="flexContainerLeft">
                                                                         <!-- IMAGE TABLE // -->
-                                                                        <table align="Left" border="0" cellpadding="0" cellspacing="0" width="200" class="flexibleContainer">
+                                                                        <table align="Left" border="0" cellpadding="0" cellspacing="0" width="200">
                                                                             <tr>
                                                                                 <td align="Left" valign="top" class="imageContent">
                                                                                     <img src="http://dummyimage.com/200x200/ccc/fff.png" width="200" class="flexibleImage" style="max-width:200px;" mc:edit="flex_left_image" />
@@ -621,7 +712,7 @@
                                                                         </table>
                                                                         <!-- // IMAGE TABLE -->
                                                                         <!-- CONTENT TABLE // -->
-                                                                        <table align="Right" border="0" cellpadding="0" cellspacing="0" width="340" class="flexibleContainer">
+                                                                        <table align="Right" border="0" cellpadding="0" cellspacing="0" width="340">
                                                                             <tr>
                                                                                 <td valign="top" class="textContent" mc:edit="flex_left_content">
                                                                                     <h3>Right Column</h3>
@@ -650,7 +741,7 @@
                                                                 <tr>
                                                                     <td align="center" valign="top">
                                                                         <!-- FLEXIBLE CONTAINER // -->
-                                                                        <table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+                                                                        <table border="0" cellpadding="0" cellspacing="0" width="600">
                                                                             <tr>
                                                                                 <td valign="top" width="600" class="flexContainerRight">
 
@@ -662,7 +753,7 @@
                                                                                         allows the tables to wrap in the correct order
                                                                                         on small displays.
                                                                                     -->
-                                                                                    <table align="Right" border="0" cellpadding="0" cellspacing="0" width="200" class="flexibleContainer">
+                                                                                    <table align="Right" border="0" cellpadding="0" cellspacing="0" width="200">
                                                                                         <tr>
                                                                                             <td align="Left" valign="top" class="imageContent">
                                                                                                 <img src="http://dummyimage.com/200x200/ccc/fff.png" width="200" class="flexibleImage" style="max-width:200px;" />
@@ -673,7 +764,7 @@
 
 
                                                                                     <!-- CONTENT TABLE // -->
-                                                                                    <table align="Left" border="0" cellpadding="0" cellspacing="0" width="340" class="flexibleContainer">
+                                                                                    <table align="Left" border="0" cellpadding="0" cellspacing="0" width="340">
                                                                                         <tr>
                                                                                             <td valign="top" class="textContent" mc:edit="left_column_content">
                                                                                                 <h3>Left Column</h3>
@@ -777,6 +868,90 @@
                                                 H:::::::H     H:::::::HE::::::::::::::::::::ER::::::R     R:::::RE::::::::::::::::::::E
                                                 HHHHHHHHH     HHHHHHHHHEEEEEEEEEEEEEEEEEEEEEERRRRRRRR     RRRRRRREEEEEEEEEEEEEEEEEEEEEE
                                                 -->
+
+                                                <!--  Begin Module: Left Calendar Event  -->
+                                                <table border="0" cellpadding="0" cellspacing="0" width="100%" mc:repeatable="block_section" mc:variant="Left Calendar Event" class="calSection">
+                                                    <tr>
+                                                        <td align="center" valign="top">
+                                                            <table align="left" border="0" cellpadding="0" cellspacing="0" width="160">
+                                                                <tr>
+                                                                    <td align="center" valign="top" class="fullPad">
+                                                                        <table border="0" cellpadding="0" cellspacing="0" width="160" class="emailCalendar">
+                                                                            <tr>
+                                                                                <td align="center" valign="top">
+                                                                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                                                        <tr>
+                                                                                            <td align="center" valign="top" class="emailCalendarMonth" mc:edit="month_00">
+                                                                                                September
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td align="center" valign="top" class="emailCalendarDay" mc:edit="day_00">
+                                                                                                16
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </table>
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                            <table align="right" border="0" cellpadding="0" cellspacing="0" width="400">
+                                                                <tr>
+                                                                    <td valign="top" class="textContent fullPad" mc:edit="calendar_content_00">
+                                                                        <h1>Event Title</h1>
+                                                                        <br />
+                                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum fuga corporis magni, quia tempora et quisquam minus non ducimus laudantium esse amet error excepturi ipsum at, rerum ad sit dolorem.
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!--  End Module: Left Calendar Event -->
+                                                <!--  Begin Module: Right Calendar Event  -->
+                                                <table border="0" cellpadding="0" cellspacing="0" width="100%" mc:repeatable="block_section" mc:variant="Right Calendar Event" class="calSection">
+                                                    <tr>
+                                                        <td align="center" valign="top">
+                                                            <table align="left" border="0" cellpadding="0" cellspacing="0" width="400">
+                                                                <tr>
+                                                                    <td valign="top" class="textContent fullPad" mc:edit="calendar_content_01">
+                                                                        <h1>Event Title</h1>
+                                                                        <br />
+                                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur ut obcaecati exercitationem, commodi ratione, vitae magnam qui nemo quae numquam amet. Ipsa atque vero quidem voluptatum voluptates libero, eaque voluptate.
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                            <table align="right" border="0" cellpadding="0" cellspacing="0" width="160">
+                                                                <tr>
+                                                                    <td align="center" valign="top" class="fullPad">
+                                                                        <table border="0" cellpadding="0" cellspacing="0" width="160" class="emailCalendar">
+                                                                            <tr>
+                                                                                <td align="center" valign="top">
+                                                                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                                                        <tr>
+                                                                                            <td align="center" valign="top" class="emailCalendarMonth" mc:edit="month_01">
+                                                                                                September
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td align="center" valign="top" class="emailCalendarDay" mc:edit="day_01">
+                                                                                                16
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </table>
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table>
+
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!--  End Module: Right Calendar Event -->
 
 
 
