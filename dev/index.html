@@ -22,7 +22,7 @@
 
             /* ========== Page Styles ========== */
 
-            /*#bodyCell{padding:20px;}*/
+            #bodyCell{padding:20px;}
             #templateContainer{
                 width:600px;
             }
@@ -222,7 +222,7 @@
 
             /**
             * @tab Section - Header Image
-            * @section set optional top-border bottom-border for separation
+            * @section set optional top-border bottom-border for section separation
             */
             .headerSection {
                 /*@editable*/ border-top:1px;
@@ -230,6 +230,7 @@
             }
 
             #headerImage{
+                display: block;
                 max-width:600px;
                 height:auto;
             }
@@ -256,17 +257,24 @@
 
             /**
             * @tab Section - Hero Image
-            * @section set padding and top-border bottom-border for image
+            * @section set top-border and bottom-border for section separation
             */
             .heroImageSection {
                 max-width:600px;
                 height:auto;
-                /*@editable*/ padding-top: 0px;
-                /*@editable*/ padding-bottom: 0px;
-                /*@editable*/ padding-right: 0px;
-                /*@editable*/ padding-left: 0px;
                 /*@editable*/ border-top:1px;
                 /*@editable*/ border-bottom:1px;
+            }
+
+            /**
+            * @tab Section - Hero Image
+            * @section set padding for image, default is 0px
+            */
+            .heroImageSection {
+                /*@editable*/ padding-top:0px;
+                /*@editable*/ padding-bottom:0px;
+                /*@editable*/ padding-right:0px;
+                /*@editable*/ padding-left:0px;
             }
 
             /*
@@ -291,15 +299,21 @@
 
             /**
             * @tab Section - Ad Image
-            * @section set padding and top-border bottom-border for image
+            * @section set optional top-border bottom-border for separation
             */
             .adImage {
+                /*@editable*/ border-top:1px;
+                /*@editable*/ border-bottom:1px;
+            }
+            /**
+            * @tab Section - Ad Image
+            * @section set padding for image, default is 0px
+            */
+            .adSection {
                 /*@editable*/ padding-top:0px;
                 /*@editable*/ padding-right:0px;
                 /*@editable*/ padding-bottom:0px;
                 /*@editable*/ padding-left:0px;
-                /*@editable*/ border-top:1px;
-                /*@editable*/ border-bottom:1px;
             }
 
             /*
@@ -353,12 +367,24 @@
 
             /**
             * @tab Section - Left Image Right Text
-            * @section Set the background color, padding, and top and bottom border styles.
+            * @section Set the background color of the section.
             */
             .flexContainerLeft{
                 /*@editable*/ background-color:#ffffff;
+            }
+            /**
+            * @tab Section - Left Image Right Text
+            * @section set optional top-border bottom-border for separation
+            */
+            .flexContainerLeft{
                 /*@editable*/ border-top:1px;
                 /*@editable*/ border-bottom:1px;
+            }
+            /**
+            * @tab Section - Left Image Right Text
+            * @section set the padding of the section
+            */
+            .flexContainerLeft{
                 /*@editable*/ padding-top:20px;
                 /*@editable*/ padding-bottom:20px;
                 /*@editable*/ padding-right:20px;
@@ -369,12 +395,24 @@
 
             /**
             * @tab Section - Right Image Left Text
-            * @section Set the background color, padding, and top and bottom border styles.
+            * @section Set the background color of the section.
             */
             .flexContainerRight{
                 /*@editable*/ background-color:#ffffff;
+            }
+            /**
+            * @tab Section - Right Image Right Text
+            * @section set optional top-border bottom-border for separation
+            */
+            .flexContainerRight{
                 /*@editable*/ border-top:1px;
                 /*@editable*/ border-bottom:1px;
+            }
+            /**
+            * @tab Section - Right Image Right Text
+            * @section set the padding of the section
+            */
+            .flexContainerRight{
                 /*@editable*/ padding-top:20px;
                 /*@editable*/ padding-bottom:20px;
                 /*@editable*/ padding-right:20px;
@@ -668,15 +706,35 @@
                                     <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateBody">
                                         <tr>
                                             <td valign="top">
+                                                <!--
+                                                HHHHHHHHH     HHHHHHHHHEEEEEEEEEEEEEEEEEEEEEE               AAA               DDDDDDDDDDDDD
+                                                H:::::::H     H:::::::HE::::::::::::::::::::E              A:::A              D::::::::::::DDD
+                                                H:::::::H     H:::::::HE::::::::::::::::::::E             A:::::A             D:::::::::::::::DD
+                                                HH::::::H     H::::::HHEE::::::EEEEEEEEE::::E            A:::::::A            DDD:::::DDDDD:::::D
+                                                  H:::::H     H:::::H    E:::::E       EEEEEE           A:::::::::A             D:::::D    D:::::D
+                                                  H:::::H     H:::::H    E:::::E                       A:::::A:::::A            D:::::D     D:::::D
+                                                  H::::::HHHHH::::::H    E::::::EEEEEEEEEE            A:::::A A:::::A           D:::::D     D:::::D
+                                                  H:::::::::::::::::H    E:::::::::::::::E           A:::::A   A:::::A          D:::::D     D:::::D
+                                                  H:::::::::::::::::H    E:::::::::::::::E          A:::::A     A:::::A         D:::::D     D:::::D
+                                                  H::::::HHHHH::::::H    E::::::EEEEEEEEEE         A:::::AAAAAAAAA:::::A        D:::::D     D:::::D
+                                                  H:::::H     H:::::H    E:::::E                  A:::::::::::::::::::::A       D:::::D     D:::::D
+                                                  H:::::H     H:::::H    E:::::E       EEEEEE    A:::::AAAAAAAAAAAAA:::::A      D:::::D    D:::::D
+                                                HH::::::H     H::::::HHEE::::::EEEEEEEE:::::E   A:::::A             A:::::A   DDD:::::DDDDD:::::D
+                                                H:::::::H     H:::::::HE::::::::::::::::::::E  A:::::A               A:::::A  D:::::::::::::::DD
+                                                H:::::::H     H:::::::HE::::::::::::::::::::E A:::::A                 A:::::A D::::::::::::DDD
+                                                HHHHHHHHH     HHHHHHHHHEEEEEEEEEEEEEEEEEEEEEEAAAAAAA                   AAAAAAADDDDDDDDDD -->
+
                                                 <!-- Begin Module: Header // -->
-                                                <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateHeader" class="headerSection" mc:repeatable="block_section" mc:variant="Header Section">
+
+                                                <table border="0" cellpadding="0" cellspacing="0" width="100%" class="headerSection" mc:repeatable="block_section" mc:variant="Header Image">
                                                     <tr>
-                                                        <td valign="top" class="headerContent">
-                                                            <img src="https://dummyimage.com/600x200/ccc/fff.png" style="max-width:600px;" id="headerImage" mc:label="header_image" mc:edit="header_image" mc:allowdesigner mc:allowtext />
+                                                        <td valign="top">
+                                                            <img src="https://dummyimage.com/600x200/333/fff.png" style="max-width:600px;" id="headerImage" mc:label="header_image" mc:edit="header_image" />
                                                         </td>
                                                     </tr>
                                                 </table>
                                                 <!-- // End Module: Header -->
+
                                                 <!--
                                                 TTTTTTTTTTTTTTTTTTTTTTTXXXXXXX       XXXXXXXTTTTTTTTTTTTTTTTTTTTTTT
                                                 T:::::::::::::::::::::TX:::::X       X:::::XT:::::::::::::::::::::T
@@ -696,37 +754,93 @@
                                                       TTTTTTTTTTT      XXXXXXX       XXXXXXX      TTTTTTTTTTT
                                                 -->
                                                 <!-- // Begin Module: Text Section \\ -->
-                                                <table border="0" cellpadding="0" cellspacing="0" width="100%" mc:repeatable="block_section" mc:variant="Text Section" class="textSection">
+                                                <table border="0" cellpadding="0" cellspacing="0" width="100%" mc:repeatable="block_section" mc:variant="Text Area" class="textSection">
                                                     <tr>
                                                         <td valign="top" class="bodyContent" mc:edit="text_section_content">
                                                             <h1>Title</h1>
                                                             <h3>Subtitle</h3>
-                                                            Click here to edit your content. Set your fonts, colors, and styles in the text editor.<br><br>
-                                                            <em>This section can be changed to any option listed in the repeatable dropdown section.</em>
+                                                            Click here to edit your content. Set your fonts, colors, and styles in the text editor.
                                                         </td>
                                                     </tr>
                                                 </table>
                                                 <!-- // End Module: Text Section \\ -->
-                                                <!-- // Begin Module: Hero Image \\ -->
-                                                <table border="0" cellpadding="0" cellspacing="0" width="100%" mc:repeatable="block_section" mc:variant="Hero Image Section">
+
+                                                <!--
+                                                HHHHHHHHH     HHHHHHHHHEEEEEEEEEEEEEEEEEEEEEERRRRRRRRRRRRRRRRR        OOOOOOOOO
+                                                H:::::::H     H:::::::HE::::::::::::::::::::ER::::::::::::::::R     OO:::::::::OO
+                                                H:::::::H     H:::::::HE::::::::::::::::::::ER::::::RRRRRR:::::R  OO:::::::::::::OO
+                                                HH::::::H     H::::::HHEE::::::EEEEEEEEE::::ERR:::::R     R:::::RO:::::::OOO:::::::O
+                                                  H:::::H     H:::::H    E:::::E       EEEEEE  R::::R     R:::::RO::::::O   O::::::O
+                                                  H:::::H     H:::::H    E:::::E               R::::R     R:::::RO:::::O     O:::::O
+                                                  H::::::HHHHH::::::H    E::::::EEEEEEEEEE     R::::RRRRRR:::::R O:::::O     O:::::O
+                                                  H:::::::::::::::::H    E:::::::::::::::E     R:::::::::::::RR  O:::::O     O:::::O
+                                                  H:::::::::::::::::H    E:::::::::::::::E     R::::RRRRRR:::::R O:::::O     O:::::O
+                                                  H::::::HHHHH::::::H    E::::::EEEEEEEEEE     R::::R     R:::::RO:::::O     O:::::O
+                                                  H:::::H     H:::::H    E:::::E               R::::R     R:::::RO:::::O     O:::::O
+                                                  H:::::H     H:::::H    E:::::E       EEEEEE  R::::R     R:::::RO::::::O   O::::::O
+                                                HH::::::H     H::::::HHEE::::::EEEEEEEE:::::ERR:::::R     R:::::RO:::::::OOO:::::::O
+                                                H:::::::H     H:::::::HE::::::::::::::::::::ER::::::R     R:::::R OO:::::::::::::OO
+                                                H:::::::H     H:::::::HE::::::::::::::::::::ER::::::R     R:::::R   OO:::::::::OO
+                                                HHHHHHHHH     HHHHHHHHHEEEEEEEEEEEEEEEEEEEEEERRRRRRRR     RRRRRRR     OOOOOOOOO -->
+
+                                                <!-- // Begin Module: Hero Image -->
+                                                <table border="0" cellpadding="0" cellspacing="0" width="100%" mc:repeatable="block_section" mc:variant="Hero Image">
                                                     <tr>
-                                                        <td class="heroImageSection" style="padding-top:0; padding-bottom:0;">
-                                                            <img src="https://dummyimage.com/600x400/ccc/fff.png" style="max-width:600px;" id="bodyImage" mc:label="hero_image" mc:edit="hero_image" />
+                                                        <td class="heroImageSection" style="padding-top:0; padding-right:0; padding-bottom:0; padding-left:0;">
+                                                            <img src="https://dummyimage.com/600x400/333/fff.png" style="max-width:600px;" mc:label="hero_image" mc:edit="hero_image" />
                                                         </td>
                                                     </tr>
                                                 </table>
                                                 <!-- // End Module: Hero Image \\ -->
+
+                                                <!--
+                                                               AAA               DDDDDDDDDDDDD
+                                                              A:::A              D::::::::::::DDD
+                                                             A:::::A             D:::::::::::::::DD
+                                                            A:::::::A            DDD:::::DDDDD:::::D
+                                                           A:::::::::A             D:::::D    D:::::D
+                                                          A:::::A:::::A            D:::::D     D:::::D
+                                                         A:::::A A:::::A           D:::::D     D:::::D
+                                                        A:::::A   A:::::A          D:::::D     D:::::D
+                                                       A:::::A     A:::::A         D:::::D     D:::::D
+                                                      A:::::AAAAAAAAA:::::A        D:::::D     D:::::D
+                                                     A:::::::::::::::::::::A       D:::::D     D:::::D
+                                                    A:::::AAAAAAAAAAAAA:::::A      D:::::D    D:::::D
+                                                   A:::::A             A:::::A   DDD:::::DDDDD:::::D
+                                                  A:::::A               A:::::A  D:::::::::::::::DD
+                                                 A:::::A                 A:::::A D::::::::::::DDD
+                                                AAAAAAA                   AAAAAAADDDDDDDDDDDDD -->
+
                                                 <!-- // Begin Module: Ad Section \\ -->
-                                                <table border="0" cellpadding="0" cellspacing="0" width="100%" mc:repeatable="block_section" mc:variant="Ad Section">
+                                                <table border="0" cellpadding="0" cellspacing="0" width="100%" mc:repeatable="block_section" mc:variant="Ad Image">
                                                     <tr>
-                                                        <td valign="top" class="headerContent">
-                                                            <img src="https://dummyimage.com/600x200/ccc/fff.png" style="max-width:600px;" id="headerImage" mc:label="ad_image" mc:edit="ad_image" />
+                                                        <td valign="top" class="adSection" style="padding-top:0; padding-right:0; padding-bottom:0; padding-left:0;">
+                                                            <img src="https://dummyimage.com/600x200/333/fff.png" style="max-width:600px;" id="adImage" mc:label="ad_image" mc:edit="ad_image" />
                                                         </td>
                                                     </tr>
                                                 </table>
                                                 <!-- // End Module: Ad Section \\ -->
+
+                                                <!--
+                                                      <<<<<<<                 I::::::::IM:::::::M             M:::::::M     GGG::::::::::::G
+                                                     <:::::<                  I::::::::IM::::::::M           M::::::::M   GG:::::::::::::::G
+                                                    <:::::<                   II::::::IIM:::::::::M         M:::::::::M  G:::::GGGGGGGG::::G
+                                                   <:::::<                      I::::I  M::::::::::M       M::::::::::M G:::::G       GGGGGG
+                                                  <:::::<                       I::::I  M:::::::::::M     M:::::::::::MG:::::G
+                                                 <:::::<                        I::::I  M:::::::M::::M   M::::M:::::::MG:::::G
+                                                <:::::<       ---------------   I::::I  M::::::M M::::M M::::M M::::::MG:::::G    GGGGGGGGGG
+                                                 <:::::<      -:::::::::::::-   I::::I  M::::::M  M::::M::::M  M::::::MG:::::G    G::::::::G
+                                                  <:::::<     ---------------   I::::I  M::::::M   M:::::::M   M::::::MG:::::G    GGGGG::::G
+                                                   <:::::<                      I::::I  M::::::M    M:::::M    M::::::MG:::::G        G::::G
+                                                    <:::::<                     I::::I  M::::::M     MMMMM     M::::::M G:::::G       G::::G
+                                                     <:::::<                  II::::::IIM::::::M               M::::::M  G:::::GGGGGGGG::::G
+                                                      <<<<<<<                 I::::::::IM::::::M               M::::::M   GG:::::::::::::::G
+                                                                              I::::::::IM::::::M               M::::::M     GGG::::::GGG:::G
+                                                                              IIIIIIIIIIMMMMMMMM               MMMMMMMM        GGGGGG   GGGG -->
+
                                                 <!-- Begin Module: Left Image Right Text -->
-                                                <table border="0" cellpadding="0" cellspacing="0" width="100%" mc:repeatable="block_section" mc:variant="Left Image Right Text Section">
+
+                                                <table border="0" cellpadding="0" cellspacing="0" width="100%" mc:repeatable="block_section" mc:variant="Left Image Right Text">
                                                     <tr>
                                                         <td align="center" valign="top">
                                                             <!-- FLEXIBLE CONTAINER // -->
@@ -737,7 +851,7 @@
                                                                         <table align="Left" border="0" cellpadding="0" cellspacing="0" width="200">
                                                                             <tr>
                                                                                 <td align="Left" valign="top" class="imageContent">
-                                                                                    <img src="http://dummyimage.com/200x200/ccc/fff.png" width="200" class="flexibleImage" style="max-width:200px;" mc:edit="flex_left_image" />
+                                                                                    <img src="http://dummyimage.com/200x200/333/fff.png" width="200" class="flexibleImage" style="max-width:200px;" mc:edit="flex_left_image" />
                                                                                 </td>
                                                                             </tr>
                                                                         </table>
@@ -787,7 +901,7 @@
                                                                                     <table align="Right" border="0" cellpadding="0" cellspacing="0" width="200">
                                                                                         <tr>
                                                                                             <td align="Left" valign="top" class="imageContent">
-                                                                                                <img src="http://dummyimage.com/200x200/ccc/fff.png" width="200" class="flexibleImage" style="max-width:200px;" />
+                                                                                                <img src="http://dummyimage.com/200x200/333/fff.png" width="200" class="flexibleImage" style="max-width:200px;" />
                                                                                             </td>
                                                                                         </tr>
                                                                                     </table>
@@ -848,7 +962,7 @@
                                                             <table align="left" border="0" cellpadding="0" cellspacing="0" width="260" class="leftColPad">
                                                                 <tr>
                                                                     <td valign="top" class="twoColContent">
-                                                                        <img src="http://dummyimage.com/400x400/ccc/fff.png&text=260+x+260" width="260" class="flexImgTwoCol" style="max-width:260px;" mc:edit="two_col_image_00"/>
+                                                                        <img src="http://dummyimage.com/400x400/333/fff.png&text=260+x+260" width="260" class="flexImgTwoCol" style="max-width:260px;" mc:edit="two_col_image_00"/>
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
@@ -864,7 +978,7 @@
                                                             <table align="right" border="0" cellpadding="0" cellspacing="0" width="260" class="rightColPad">
                                                                 <tr>
                                                                     <td valign="top" class="twoColContent">
-                                                                        <img src="http://dummyimage.com/400x400/ccc/fff.png&text=260+x+260" width="260" class="flexImgTwoCol" style="max-width:260px;" mc:edit="two_col_image_01" />
+                                                                        <img src="http://dummyimage.com/400x400/333/fff.png&text=260+x+260" width="260" class="flexImgTwoCol" style="max-width:260px;" mc:edit="two_col_image_01" />
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
