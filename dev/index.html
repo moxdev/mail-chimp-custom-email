@@ -53,6 +53,8 @@
 
             }
 
+            /* ========== Headings Styles ========== */
+
             /**
             * @tab Headings
             * @section H1
@@ -198,12 +200,29 @@
                 height:auto;
             }
 
-            /* ========== Repeatable Section: Header ========== */
+            /*
+            HHHHHHHHH     HHHHHHHHHEEEEEEEEEEEEEEEEEEEEEE               AAA               DDDDDDDDDDDDD
+            H:::::::H     H:::::::HE::::::::::::::::::::E              A:::A              D::::::::::::DDD
+            H:::::::H     H:::::::HE::::::::::::::::::::E             A:::::A             D:::::::::::::::DD
+            HH::::::H     H::::::HHEE::::::EEEEEEEEE::::E            A:::::::A            DDD:::::DDDDD:::::D
+              H:::::H     H:::::H    E:::::E       EEEEEE           A:::::::::A             D:::::D    D:::::D
+              H:::::H     H:::::H    E:::::E                       A:::::A:::::A            D:::::D     D:::::D
+              H::::::HHHHH::::::H    E::::::EEEEEEEEEE            A:::::A A:::::A           D:::::D     D:::::D
+              H:::::::::::::::::H    E:::::::::::::::E           A:::::A   A:::::A          D:::::D     D:::::D
+              H:::::::::::::::::H    E:::::::::::::::E          A:::::A     A:::::A         D:::::D     D:::::D
+              H::::::HHHHH::::::H    E::::::EEEEEEEEEE         A:::::AAAAAAAAA:::::A        D:::::D     D:::::D
+              H:::::H     H:::::H    E:::::E                  A:::::::::::::::::::::A       D:::::D     D:::::D
+              H:::::H     H:::::H    E:::::E       EEEEEE    A:::::AAAAAAAAAAAAA:::::A      D:::::D    D:::::D
+            HH::::::H     H::::::HHEE::::::EEEEEEEE:::::E   A:::::A             A:::::A   DDD:::::DDDDD:::::D
+            H:::::::H     H:::::::HE::::::::::::::::::::E  A:::::A               A:::::A  D:::::::::::::::DD
+            H:::::::H     H:::::::HE::::::::::::::::::::E A:::::A                 A:::::A D::::::::::::DDD
+            HHHHHHHHH     HHHHHHHHHEEEEEEEEEEEEEEEEEEEEEEAAAAAAA                   AAAAAAADDDDDDDDDDDDD
+
+            ========== Repeatable Section: Header ========== */
 
             /**
-            * @tab REPEATABLE - Header
+            * @tab Section - Header Image
             * @section set optional top-border bottom-border for separation
-            * @tip Set the background color of the section.
             */
             .headerSection {
                 /*@editable*/ border-top:1px;
@@ -215,11 +234,29 @@
                 height:auto;
             }
 
-            /* ========== Repeatable Section: Hero Image ========== */
+            /*
+            HHHHHHHHH     HHHHHHHHHEEEEEEEEEEEEEEEEEEEEEERRRRRRRRRRRRRRRRR        OOOOOOOOO
+            H:::::::H     H:::::::HE::::::::::::::::::::ER::::::::::::::::R     OO:::::::::OO
+            H:::::::H     H:::::::HE::::::::::::::::::::ER::::::RRRRRR:::::R  OO:::::::::::::OO
+            HH::::::H     H::::::HHEE::::::EEEEEEEEE::::ERR:::::R     R:::::RO:::::::OOO:::::::O
+              H:::::H     H:::::H    E:::::E       EEEEEE  R::::R     R:::::RO::::::O   O::::::O
+              H:::::H     H:::::H    E:::::E               R::::R     R:::::RO:::::O     O:::::O
+              H::::::HHHHH::::::H    E::::::EEEEEEEEEE     R::::RRRRRR:::::R O:::::O     O:::::O
+              H:::::::::::::::::H    E:::::::::::::::E     R:::::::::::::RR  O:::::O     O:::::O
+              H:::::::::::::::::H    E:::::::::::::::E     R::::RRRRRR:::::R O:::::O     O:::::O
+              H::::::HHHHH::::::H    E::::::EEEEEEEEEE     R::::R     R:::::RO:::::O     O:::::O
+              H:::::H     H:::::H    E:::::E               R::::R     R:::::RO:::::O     O:::::O
+              H:::::H     H:::::H    E:::::E       EEEEEE  R::::R     R:::::RO::::::O   O::::::O
+            HH::::::H     H::::::HHEE::::::EEEEEEEE:::::ERR:::::R     R:::::RO:::::::OOO:::::::O
+            H:::::::H     H:::::::HE::::::::::::::::::::ER::::::R     R:::::R OO:::::::::::::OO
+            H:::::::H     H:::::::HE::::::::::::::::::::ER::::::R     R:::::R   OO:::::::::OO
+            HHHHHHHHH     HHHHHHHHHEEEEEEEEEEEEEEEEEEEEEERRRRRRRR     RRRRRRR     OOOOOOOOO
+
+            ========== Repeatable Section: Hero Image ========== */
+
             /**
-            * @tab REPEATABLE - Hero Image
-            * @section hero image section style
-            * @tip Set the background color of the section.
+            * @tab Section - Hero Image
+            * @section set padding and top-border bottom-border for image
             */
             .heroImageSection {
                 max-width:600px;
@@ -250,20 +287,19 @@
              A:::::A                 A:::::A D::::::::::::DDD
             AAAAAAA                   AAAAAAADDDDDDDDDDDDD
 
-            ========== Repeatable Section: AD Section ==========
-            */
+            ========== Repeatable Section: AD Section ========== */
+
             /**
-            * @tab REPEATABLE - Ad Section
-            * @section AD section style
-            * @tip Set the padding around the image, default is no padding.
+            * @tab Section - Ad Image
+            * @section set padding and top-border bottom-border for image
             */
             .adImage {
                 /*@editable*/ padding-top:0px;
                 /*@editable*/ padding-right:0px;
                 /*@editable*/ padding-bottom:0px;
                 /*@editable*/ padding-left:0px;
-                /*@editable*/ border-top:1px solid #333;
-                /*@editable*/ border-bottom:1px solid #333;
+                /*@editable*/ border-top:1px;
+                /*@editable*/ border-bottom:1px;
             }
 
             /*
@@ -284,50 +320,65 @@
                   T:::::::::T      X:::::X       X:::::X      T:::::::::T
                   TTTTTTTTTTT      XXXXXXX       XXXXXXX      TTTTTTTTTTT
 
-            ========== Repeatable Section: Text Area ==========
-            */
+            ========== Repeatable Section: Text Area ========== */
 
             /**
-            * @tab REPEATABLE - Text Area
-            * @section text section style
-            * @tip Set the background color and top and bottom border of the section.
+            * @tab Section - Text Area
+            * @section Set the background color and top and bottom border of the section.
             */
             .textSection {
-                /*@editable*/ background-color:#E5E5E5;
-                /*@editable*/ border-top:1px solid #333;
-                /*@editable*/ border-bottom:1px solid #333;
+                /*@editable*/ background-color:#ffffff;
+                /*@editable*/ border-top:1px;
+                /*@editable*/ border-bottom:1px;
             }
 
-            /* ========== Repeatable Section: Left Image Right Text Styles ========== */
+            /*
+                  <<<<<<<                 I::::::::IM:::::::M             M:::::::M     GGG::::::::::::G
+                 <:::::<                  I::::::::IM::::::::M           M::::::::M   GG:::::::::::::::G
+                <:::::<                   II::::::IIM:::::::::M         M:::::::::M  G:::::GGGGGGGG::::G
+               <:::::<                      I::::I  M::::::::::M       M::::::::::M G:::::G       GGGGGG
+              <:::::<                       I::::I  M:::::::::::M     M:::::::::::MG:::::G
+             <:::::<                        I::::I  M:::::::M::::M   M::::M:::::::MG:::::G
+            <:::::<       ---------------   I::::I  M::::::M M::::M M::::M M::::::MG:::::G    GGGGGGGGGG
+             <:::::<      -:::::::::::::-   I::::I  M::::::M  M::::M::::M  M::::::MG:::::G    G::::::::G
+              <:::::<     ---------------   I::::I  M::::::M   M:::::::M   M::::::MG:::::G    GGGGG::::G
+               <:::::<                      I::::I  M::::::M    M:::::M    M::::::MG:::::G        G::::G
+                <:::::<                     I::::I  M::::::M     MMMMM     M::::::M G:::::G       G::::G
+                 <:::::<                  II::::::IIM::::::M               M::::::M  G:::::GGGGGGGG::::G
+                  <<<<<<<                 I::::::::IM::::::M               M::::::M   GG:::::::::::::::G
+                                          I::::::::IM::::::M               M::::::M     GGG::::::GGG:::G
+                                          IIIIIIIIIIMMMMMMMM               MMMMMMMM        GGGGGG   GGGG
+
+            ========== Repeatable Section: Left Image Right Text Styles ========== */
+
             /**
-            * @tab REPEATABLE - Left Image Right Text Section
-            * @section section style
-            * @tip Set the background color, padding, and top and bottom border styles.
+            * @tab Section - Left Image Right Text
+            * @section Set the background color, padding, and top and bottom border styles.
             */
             .flexContainerLeft{
+                /*@editable*/ background-color:#ffffff;
+                /*@editable*/ border-top:1px;
+                /*@editable*/ border-bottom:1px;
                 /*@editable*/ padding-top:20px;
+                /*@editable*/ padding-bottom:20px;
                 /*@editable*/ padding-right:20px;
                 /*@editable*/ padding-left:20px;
-                /*@editable*/ padding-bottom:20px;
-                /*@editable*/ background-color:#E5E5E5;
-                /*@editable*/ border-top:1px solid #333;
-                /*@editable*/ border-bottom:1px solid #333;
             }
 
-            /* ========== Repeatable Section: Right Image Right Text Styles ========== */
+            /* ========== Repeatable Section: Right Image Left Text Styles ========== */
+
             /**
-            * @tab REPEATABLE - Right Image Left Text Section
-            * @section section style
-            * @tip Set the background color, padding, and top and bottom border styles.
+            * @tab Section - Right Image Left Text
+            * @section Set the background color, padding, and top and bottom border styles.
             */
             .flexContainerRight{
+                /*@editable*/ background-color:#ffffff;
+                /*@editable*/ border-top:1px;
+                /*@editable*/ border-bottom:1px;
                 /*@editable*/ padding-top:20px;
+                /*@editable*/ padding-bottom:20px;
                 /*@editable*/ padding-right:20px;
                 /*@editable*/ padding-left:20px;
-                /*@editable*/ padding-bottom:20px;
-                /*@editable*/ background-color:#E5E5E5;
-                /*@editable*/ border-top:1px solid #333;
-                /*@editable*/ border-bottom:1px solid #333;
             }
 
             .flexibleImage{
@@ -335,44 +386,60 @@
                 height:auto;
             }
 
-            /* ========== Repeatable Section: Callout Button Styles ========== */
+            /*
+            BBBBBBBBBBBBBBBBB   UUUUUUUU     UUUUUUUUTTTTTTTTTTTTTTTTTTTTTTT
+            B::::::::::::::::B  U::::::U     U::::::UT:::::::::::::::::::::T
+            B::::::BBBBBB:::::B U::::::U     U::::::UT:::::::::::::::::::::T
+            BB:::::B     B:::::BUU:::::U     U:::::UUT:::::TT:::::::TT:::::T
+              B::::B     B:::::B U:::::U     U:::::U TTTTTT  T:::::T  TTTTTT
+              B::::B     B:::::B U:::::D     D:::::U         T:::::T
+              B::::BBBBBB:::::B  U:::::D     D:::::U         T:::::T
+              B:::::::::::::BB   U:::::D     D:::::U         T:::::T
+              B::::BBBBBB:::::B  U:::::D     D:::::U         T:::::T
+              B::::B     B:::::B U:::::D     D:::::U         T:::::T
+              B::::B     B:::::B U:::::D     D:::::U         T:::::T
+              B::::B     B:::::B U::::::U   U::::::U         T:::::T
+            BB:::::BBBBBB::::::B U:::::::UUU:::::::U       TT:::::::TT
+            B:::::::::::::::::B   UU:::::::::::::UU        T:::::::::T
+            B::::::::::::::::B      UU:::::::::UU          T:::::::::T
+            BBBBBBBBBBBBBBBBB         UUUUUUUUU            TTTTTTTTTTT
+
+            ========== Repeatable Section: Callout Button Styles ========== */
+
             /**
-            * @tab REPEATABLE - Callout Button Section
-            * @section callout button section style
-            * @tip Set the background color and borders for your email's footer area.
+            * @tab Section - Callout Button Section
+            * @section Set the background color and top and bottom borders for the section
             */
             .calloutButtonSection{
-                /*@editable*/ background-color:#E5E5E5;
-                /*@editable*/ border-top:1px solid #333;
-                /*@editable*/ border-bottom:1px solid #333;
+                /*@editable*/ background-color:#ffffff;
+                /*@editable*/ border-top:1px;
+                /*@editable*/ border-bottom:1px;
             }
 
             /**
-            * @tab REPEATABLE - Callout Button Section
-            * @section callout section content style
-            * @tip Set the padding for the content area, default is 20px.
+            * @tab Section - Callout Button Section
+            * @section Set the padding for the content area, default is 20px
             */
             .calloutContent{
                 /*@editable*/ padding-top:20px;
-                /*@editable*/ padding-right:20px;
                 /*@editable*/ padding-bottom:20px;
+                /*@editable*/ padding-right:20px;
                 /*@editable*/ padding-left:20px;
             }
 
             /**
-            * @tab REPEATABLE - Callout Button Section
-            * @section button style
-            * @tip Set the background color and borders for your email's footer area.
+            * @tab Section - Callout Button Section
+            * @section Set the background color and border-radius of the button
             */
             .emailButton{
                 border-collapse:separate;
                 /*@editable*/ background-color:#0073AE;
                 /*@editable*/ border-radius:4px;
             }
+
             /**
-            * @tab REPEATABLE - Callout Button Section
-            * @section button content style
-            * @tip Set the background color and borders for your email's footer area.
+            * @tab Section - Callout Button Section
+            * @section Set the color, size, and fonts for the button content
             */
             .buttonContent{
                 line-height:100%;
@@ -393,8 +460,6 @@
                 padding-bottom:20px;
             }
 
-            /* ========== Repeatable Section: Two Columns Image and Text Styles ========== */
-
             /*
              222222222222222                 CCCCCCCCCCCCC     OOOOOOOOO     LLLLLLLLLLL
             2:::::::::::::::22            CCC::::::::::::C   OO:::::::::OO   L:::::::::L
@@ -412,16 +477,15 @@
             2::::::2222222:::::2        CC:::::::::::::::C OO:::::::::::::OO L::::::::::::::::::::::L
             2::::::::::::::::::2          CCC::::::::::::C   OO:::::::::OO   L::::::::::::::::::::::L
             22222222222222222222             CCCCCCCCCCCCC     OOOOOOOOO     LLLLLLLLLLLLLLLLLLLLLLLL0000
-             */
 
+            ========== Repeatable Section: Two Columns Image and Text Styles ========== */
 
             /**
-            * @tab REPEATABLE - 2 Column Image with Text Section
-            * @section set background color, top border, bottom border for separation
-            * @tip Set the background color and borders for your email's footer area.
+            * @tab Section - 2 Column Image with Text
+            * @section set background color, top and bottom border for separation
             */
             .twoCol{
-                /*@editable*/ background-color:#E5E5E5;
+                /*@editable*/ background-color:#ffffff;
                 /*@editable*/ border-top:1px;
                 /*@editable*/ border-bottom:1px;
             }
@@ -455,54 +519,49 @@
                CC:::::::::::::::C  A:::::A               A:::::A  L::::::::::::::::::::::L
                  CCC::::::::::::C A:::::A                 A:::::A L::::::::::::::::::::::L
                     CCCCCCCCCCCCCAAAAAAA                   AAAAAAALLLLLLLLLLLLLLLLLLLLLLLL
-            */
 
-            /* ========== Repeatable Section: Calendar Styles ========== */
+            ========== Repeatable Section: Calendar Styles ========== */
 
             /**
-            * @tab REPEATABLE - Left and Right Calendar
-            * @section set background color and border of calendar section
-            * @tip Set the background color and borders for your email's footer area.
+            * @tab Section - Left and Right Calendar
+            * @section set background color and top and bottom border of the entire section
             */
             .calSection{
-                /*@editable*/ background-color:#F1F1F1;
+                /*@editable*/ background-color:#FFFFFF;
                 /*@editable*/ border-top:1px;
                 /*@editable*/ border-bottom:1px;
             }
             /**
-            * @tab REPEATABLE - Left and Right Calendar
+            * @tab Section - Left and Right Calendar
             * @section set background color and border of calendar icon
-            * @tip Set the background color and borders for your email's footer area.
             */
             .emailCalendar{
-                /*@editable*/ background-color:#FFFFFF;
+                /*@editable*/ background-color:#F1F1F1;
                 /*@editable*/ border:1px solid #CCCCCC;
             }
             /**
-            * @tab REPEATABLE - Left and Right Calendar
+            * @tab Section - Left and Right Calendar
             * @section set background color, text color, and font for calendar month
-            * @tip Set the background color and borders for your email's footer area.
             */
             .emailCalendarMonth{
                 /*@editable*/ background-color:#0073AE;
                 /*@editable*/ color:#FFFFFF;
                 /*@editable*/ font-family:Helvetica;
-                font-size:16px;
-                font-weight:bold;
+                /*@editable*/ font-size:16px;
+                /*@editable*/ font-weight:bold;
                 padding-top:10px;
                 padding-bottom:10px;
                 text-align:center;
             }
             /**
-            * @tab REPEATABLE - Left and Right Calendar
-            * @section set color and font for calendar day
-            * @tip Set the background color and borders for your email's footer area.
+            * @tab Section - Left and Right Calendar
+            * @section set text color, size and font for calendar day
             */
             .emailCalendarDay{
                 /*@editable*/ color:#0073AE;
                 /*@editable*/ font-family:Helvetica;
-                font-size:60px;
-                font-weight:bold;
+                /*@editable*/ font-size:60px;
+                /*@editable*/ font-weight:bold;
                 line-height:100%;
                 padding-top:20px;
                 padding-bottom:20px;
@@ -516,7 +575,25 @@
                 padding-left:20px;
             }
 
-            /* ========== Footer Styles ========== */
+            /*
+            FFFFFFFFFFFFFFFFFFFFFF     OOOOOOOOO          OOOOOOOOO     TTTTTTTTTTTTTTTTTTTTTTT
+            F::::::::::::::::::::F   OO:::::::::OO      OO:::::::::OO   T:::::::::::::::::::::T
+            F::::::::::::::::::::F OO:::::::::::::OO  OO:::::::::::::OO T:::::::::::::::::::::T
+            FF::::::FFFFFFFFF::::FO:::::::OOO:::::::OO:::::::OOO:::::::OT:::::TT:::::::TT:::::T
+              F:::::F       FFFFFFO::::::O   O::::::OO::::::O   O::::::OTTTTTT  T:::::T  TTTTTT
+              F:::::F             O:::::O     O:::::OO:::::O     O:::::O        T:::::T
+              F::::::FFFFFFFFFF   O:::::O     O:::::OO:::::O     O:::::O        T:::::T
+              F:::::::::::::::F   O:::::O     O:::::OO:::::O     O:::::O        T:::::T
+              F:::::::::::::::F   O:::::O     O:::::OO:::::O     O:::::O        T:::::T
+              F::::::FFFFFFFFFF   O:::::O     O:::::OO:::::O     O:::::O        T:::::T
+              F:::::F             O:::::O     O:::::OO:::::O     O:::::O        T:::::T
+              F:::::F             O::::::O   O::::::OO::::::O   O::::::O        T:::::T
+            FF:::::::FF           O:::::::OOO:::::::OO:::::::OOO:::::::O      TT:::::::TT
+            F::::::::FF            OO:::::::::::::OO  OO:::::::::::::OO       T:::::::::T
+            F::::::::FF              OO:::::::::OO      OO:::::::::OO         T:::::::::T
+            FFFFFFFFFFF                OOOOOOOOO          OOOOOOOOO           TTTTTTTTTTT
+
+            ========== Footer Styles ========== */
 
             /**
             * @tab Footer
