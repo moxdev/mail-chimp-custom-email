@@ -446,17 +446,24 @@
 
             /**
             * @tab Section - Callout Button Section
-            * @section Set the background color and top and bottom borders for the section
+            * @section set the background color for the entire section
             */
             .calloutButtonSection{
                 /*@editable*/ background-color:#ffffff;
+            }
+
+            /**
+            * @tab Section - Callout Button Section
+            * @section set optional top-border bottom-border for separation
+            */
+            .calloutButtonSection{
                 /*@editable*/ border-top:1px;
                 /*@editable*/ border-bottom:1px;
             }
 
             /**
             * @tab Section - Callout Button Section
-            * @section Set the padding for the content area, default is 20px
+            * @section set the padding for the content area, default is 20px
             */
             .calloutContent{
                 /*@editable*/ padding-top:20px;
@@ -467,7 +474,7 @@
 
             /**
             * @tab Section - Callout Button Section
-            * @section Set the background color and border-radius of the button
+            * @section set the background color and border-radius of the button
             */
             .emailButton{
                 border-collapse:separate;
@@ -477,7 +484,7 @@
 
             /**
             * @tab Section - Callout Button Section
-            * @section Set the color, size, and fonts for the button content
+            * @section set the color, size, and fonts for the button content
             */
             .buttonContent{
                 line-height:100%;
@@ -756,7 +763,7 @@
                                                 <!-- // Begin Module: Text Section \\ -->
                                                 <table border="0" cellpadding="0" cellspacing="0" width="100%" mc:repeatable="block_section" mc:variant="Text Area" class="textSection">
                                                     <tr>
-                                                        <td valign="top" class="bodyContent" mc:edit="text_section_content">
+                                                        <td align="center" valign="top" class="bodyContent" mc:edit="text_section_content00">
                                                             <h1>Title</h1>
                                                             <h3>Subtitle</h3>
                                                             Click here to edit your content. Set your fonts, colors, and styles in the text editor.
@@ -786,8 +793,8 @@
                                                 <!-- // Begin Module: Hero Image -->
                                                 <table border="0" cellpadding="0" cellspacing="0" width="100%" mc:repeatable="block_section" mc:variant="Hero Image">
                                                     <tr>
-                                                        <td class="heroImageSection" style="padding-top:0; padding-right:0; padding-bottom:0; padding-left:0;">
-                                                            <img src="https://dummyimage.com/600x400/333/fff.png" style="max-width:600px;" mc:label="hero_image" mc:edit="hero_image" />
+                                                        <td class="heroImageSection">
+                                                            <img src="https://dummyimage.com/600x400/333/fff.png" style="max-width:600px;" mc:label="hero_image" mc:edit="hero_image00" />
                                                         </td>
                                                     </tr>
                                                 </table>
@@ -815,7 +822,7 @@
                                                 <table border="0" cellpadding="0" cellspacing="0" width="100%" mc:repeatable="block_section" mc:variant="Ad Image">
                                                     <tr>
                                                         <td valign="top" class="adSection" style="padding-top:0; padding-right:0; padding-bottom:0; padding-left:0;">
-                                                            <img src="https://dummyimage.com/600x200/333/fff.png" style="max-width:600px;" id="adImage" mc:label="ad_image" mc:edit="ad_image" />
+                                                            <img src="https://dummyimage.com/600x200/333/fff.png" style="max-width:600px;" id="adImage" mc:label="ad_image" mc:edit="ad_image00" />
                                                         </td>
                                                     </tr>
                                                 </table>
@@ -839,7 +846,6 @@
                                                                               IIIIIIIIIIMMMMMMMM               MMMMMMMM        GGGGGG   GGGG -->
 
                                                 <!-- Begin Module: Left Image Right Text -->
-
                                                 <table border="0" cellpadding="0" cellspacing="0" width="100%" mc:repeatable="block_section" mc:variant="Left Image Right Text">
                                                     <tr>
                                                         <td align="center" valign="top">
@@ -851,7 +857,7 @@
                                                                         <table align="Left" border="0" cellpadding="0" cellspacing="0" width="200">
                                                                             <tr>
                                                                                 <td align="Left" valign="top" class="imageContent">
-                                                                                    <img src="http://dummyimage.com/200x200/333/fff.png" width="200" class="flexibleImage" style="max-width:200px;" mc:edit="flex_left_image" />
+                                                                                    <img src="http://dummyimage.com/200x200/333/fff.png" width="200" class="flexibleImage" style="max-width:200px;" mc:edit="flex_left_image00" />
                                                                                 </td>
                                                                             </tr>
                                                                         </table>
@@ -859,16 +865,13 @@
                                                                         <!-- CONTENT TABLE // -->
                                                                         <table align="Right" border="0" cellpadding="0" cellspacing="0" width="340">
                                                                             <tr>
-                                                                                <td valign="top" class="textContent" mc:edit="flex_left_content">
+                                                                                <td valign="top" class="textContent" mc:edit="flex_left_content00">
                                                                                     <h3>Right Column</h3>
-                                                                                    <br />
                                                                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe est possimus aliquam vel natus tempora incidunt, fugiat quidem. Nemo, optio id reprehenderit cum quasi ut, error aut commodi quod sit.
                                                                                 </td>
                                                                             </tr>
                                                                         </table>
                                                                         <!-- // CONTENT TABLE -->
-
-
                                                                     </td>
                                                                 </tr>
                                                             </table>
@@ -877,67 +880,67 @@
                                                     </tr>
                                                 </table>
                                                 <!-- End Module: Left Image Right Text -->
+
                                                 <!-- Begin Module: Right Image Left Text-->
-                                                <table border="0" cellpadding="0" cellspacing="0" width="100%" mc:repeatable="block_section" mc:variant="Right Image Left Text Section">
+                                                <table border="0" cellpadding="0" cellspacing="0" width="100%" mc:repeatable="block_section" mc:variant="Right Image Left Text">
                                                     <tr>
                                                         <td align="center" valign="top">
-                                                            <!-- CENTERING TABLE // -->
-                                                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                            <!-- FLEXIBLE CONTAINER // -->
+                                                            <table border="0" cellpadding="0" cellspacing="0" width="600">
                                                                 <tr>
-                                                                    <td align="center" valign="top">
-                                                                        <!-- FLEXIBLE CONTAINER // -->
-                                                                        <table border="0" cellpadding="0" cellspacing="0" width="600">
+                                                                    <td valign="top" width="600" class="flexContainerRight">
+                                                                        <!-- IMAGE TABLE // -->
+                                                                        <table align="right" border="0" cellpadding="0" cellspacing="0" width="200">
                                                                             <tr>
-                                                                                <td valign="top" width="600" class="flexContainerRight">
-
-
-                                                                                    <!-- CONTENT TABLE // -->
-                                                                                    <!--
-                                                                                        Keeping the table markup in its original
-                                                                                        order and swapping the align attribute values
-                                                                                        allows the tables to wrap in the correct order
-                                                                                        on small displays.
-                                                                                    -->
-                                                                                    <table align="Right" border="0" cellpadding="0" cellspacing="0" width="200">
-                                                                                        <tr>
-                                                                                            <td align="Left" valign="top" class="imageContent">
-                                                                                                <img src="http://dummyimage.com/200x200/333/fff.png" width="200" class="flexibleImage" style="max-width:200px;" />
-                                                                                            </td>
-                                                                                        </tr>
-                                                                                    </table>
-                                                                                    <!-- // CONTENT TABLE -->
-
-
-                                                                                    <!-- CONTENT TABLE // -->
-                                                                                    <table align="Left" border="0" cellpadding="0" cellspacing="0" width="340">
-                                                                                        <tr>
-                                                                                            <td valign="top" class="textContent" mc:edit="left_column_content">
-                                                                                                <h3>Left Column</h3>
-                                                                                                <br />
-                                                                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. In quia possimus facere architecto. Quis adipisci, deserunt aspernatur, laboriosam repellat, distinctio ducimus voluptate porro amet quibusdam fugiat ipsam, explicabo repudiandae et.
-                                                                                            </td>
-                                                                                        </tr>
-                                                                                    </table>
-                                                                                    <!-- // CONTENT TABLE -->
-
+                                                                                <td align="left" valign="top" class="imageContent">
+                                                                                    <img src="http://dummyimage.com/200x200/333/fff.png" width="200" class="flexibleImage" style="max-width:200px;" mc:edit="flex_right_image00" />
                                                                                 </td>
                                                                             </tr>
                                                                         </table>
-                                                                        <!-- // FLEXIBLE CONTAINER -->
+                                                                        <!-- // IMAGE TABLE -->
+                                                                        <!-- CONTENT TABLE // -->
+                                                                        <table align="Left" border="0" cellpadding="0" cellspacing="0" width="340">
+                                                                            <tr>
+                                                                                <td valign="top" class="textContent" mc:edit="flex_right_content00">
+                                                                                    <h3>Left Column</h3>
+                                                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. In quia possimus facere architecto. Quis adipisci, deserunt aspernatur, laboriosam repellat, distinctio ducimus voluptate porro amet quibusdam fugiat ipsam, explicabo repudiandae et.
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table>
+                                                                        <!-- // CONTENT TABLE -->
                                                                     </td>
                                                                 </tr>
                                                             </table>
-                                                            <!-- // CENTERING TABLE -->
+                                                            <!-- // FLEXIBLE CONTAINER -->
                                                         </td>
                                                     </tr>
                                                 </table>
                                                 <!-- End Module: Right Image Left Text-->
+
+                                                <!--
+                                                BBBBBBBBBBBBBBBBB   UUUUUUUU     UUUUUUUUTTTTTTTTTTTTTTTTTTTTTTT
+                                                B::::::::::::::::B  U::::::U     U::::::UT:::::::::::::::::::::T
+                                                B::::::BBBBBB:::::B U::::::U     U::::::UT:::::::::::::::::::::T
+                                                BB:::::B     B:::::BUU:::::U     U:::::UUT:::::TT:::::::TT:::::T
+                                                  B::::B     B:::::B U:::::U     U:::::U TTTTTT  T:::::T  TTTTTT
+                                                  B::::B     B:::::B U:::::D     D:::::U         T:::::T
+                                                  B::::BBBBBB:::::B  U:::::D     D:::::U         T:::::T
+                                                  B:::::::::::::BB   U:::::D     D:::::U         T:::::T
+                                                  B::::BBBBBB:::::B  U:::::D     D:::::U         T:::::T
+                                                  B::::B     B:::::B U:::::D     D:::::U         T:::::T
+                                                  B::::B     B:::::B U:::::D     D:::::U         T:::::T
+                                                  B::::B     B:::::B U::::::U   U::::::U         T:::::T
+                                                BB:::::BBBBBB::::::B U:::::::UUU:::::::U       TT:::::::TT
+                                                B:::::::::::::::::B   UU:::::::::::::UU        T:::::::::T
+                                                B::::::::::::::::B      UU:::::::::UU          T:::::::::T
+                                                BBBBBBBBBBBBBBBBB         UUUUUUUUU            TTTTTTTTTTT
+                                                 -->
+
                                                 <!--  Begin Module: Callout Button -->
                                                 <table border="0" cellpadding="0" cellspacing="0" width="100%" mc:repeatable="block_section" mc:variant="Callout Button" class="calloutButtonSection">
                                                     <tr>
-                                                        <td valign="top" class="calloutContent" mc:edit="callout_button">
+                                                        <td valign="top" class="calloutContent" mc:edit="callout_content00">
                                                             <h3>Callout</h3>
-                                                            <br />
                                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, dolores quas quisquam molestiae quis eius voluptates, ad veritatis assumenda praesentium aut, a eos. Architecto hic eveniet cum magnam a, quaerat voluptatibus perferendis tempore doloremque, quas doloribus impedit, nisi vitae accusamus.
                                                         </td>
                                                     </tr>
@@ -945,7 +948,7 @@
                                                         <td align="center" valign="top" class="bottomShim">
                                                             <table border="0" cellpadding="0" cellspacing="0" width="260" class="emailButton">
                                                                 <tr>
-                                                                    <td align="center" valign="middle" class="buttonContent" mc:edit="button" mc:allowdesigner>
+                                                                    <td align="center" valign="middle" class="buttonContent" mc:edit="button00">
                                                                         <div>Purchase Now</div>
                                                                     </td>
                                                                 </tr>
@@ -954,6 +957,8 @@
                                                     </tr>
                                                 </table>
                                                 <!--  End Module: Callout Button -->
+
+
                                                 <!--  Begin Module: 2 Column Image and Text -->
                                                 <table border="0" cellpadding="0" cellspacing="0" width="100%" mc:repeatable="block_section" mc:variant="Two Columns Image and Text" class="twoCol">
                                                     <tr>
