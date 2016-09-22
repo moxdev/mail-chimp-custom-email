@@ -473,8 +473,10 @@
               <tr>
                   <td align="center" valign="top" id="bodyCell">
                       <!-- BEGIN TEMPLATE // -->
+
+                        <!-- #templateContainer -->
                         <table border="0" cellpadding="0" cellspacing="0" id="templateContainer">
-                            <tr>
+                            <tr><!-- PREHEADER ROW // -->
                                 <td align="center" valign="top">
                                     <!-- BEGIN PREHEADER // -->
                                     <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templatePreheader">
@@ -491,9 +493,44 @@
                                     </table>
                                     <!-- // END PREHEADER -->
                                 </td>
-                            </tr>
+                            </tr><!-- // PREHEADER ROW -->
+                            <tr><!-- HEADER ROW // -->
+                                <td align="center" valign="top">
+                                    <!-- BEGIN HEADER // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateHeader">
+                                        <tr>
+                                            <td valign="top" class="headerContent">
+                                                <img src="https://dummyimage.com/600x200/333/fff.png" style="max-width:600px;" id="headerImage" mc:label="header_image" mc:edit="header_image" mc:hideable mc:allowdesigner mc:allowtext />
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // END HEADER -->
+                                </td>
+                            </tr><!-- // HEADER ROW -->
+                            <tr><!-- #templateBody ROW // -->
+                                <td align="center" valign="top">
+                                    <!-- #templateBody // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateBody">
+                                        <tr>
+                                            <td valign="top">
+                                                <table border="0" cellpadding="0" cellspacing="0" width="100%" mc:repeatable="block_section" mc:variant="Text Area" class="bodyContent">
+                                                    <tr>
+                                                        <td align="center" valign="top" class="bodyContent" mc:edit="text_section_content00">
+                                                            <h1>Title</h1>
+                                                            <h3>Subtitle</h3>
+                                                            Click here to edit your content. Set your fonts, colors, and styles in the text editor.
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // #templateBody -->
+                                </td>
+                            </tr><!-- // #templateBody ROW -->
                         </table>
-                      <!-- #templateContainer -->
+                        <!-- #templateContainer -->
+
                       <!-- // END TEMPLATE -->
                     </td>
                     <!-- END #bodyCell-->
