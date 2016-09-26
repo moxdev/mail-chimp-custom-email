@@ -202,12 +202,20 @@
         /*@editable*/ font-size:20px;
         /*@editable*/ font-weight:bold;
         /*@editable*/ line-height:100%;
-        /*@editable*/ padding-top:0;
-        /*@editable*/ padding-right:0;
-        /*@editable*/ padding-bottom:0;
-        /*@editable*/ padding-left:0;
         /*@editable*/ text-align:left;
         /*@editable*/ vertical-align:middle;
+      }
+
+      /**
+      * @tab Header
+      * @section header padding
+      * @tip set the padding for the header, default is 0px
+      */
+      .headerPad {
+        /*@editable*/ padding-top:0px;
+        /*@editable*/ padding-bottom:0px;
+        /*@editable*/ padding-right:0px;
+        /*@editable*/ padding-left:0px;
       }
 
       /**
@@ -274,8 +282,19 @@
         max-width:560px;
       }
 
-      /* ========== Repeatable Section: Hero Image ========== */
 
+      /* ========== Repeatable Section: Text Area ========== */
+      /**
+      * @tab Section - Text Area
+      * @section Set the background color and top and bottom border of the section.
+      */
+      .textSection {
+          /*@editable*/ background-color:#ffffff;
+          /*@editable*/ border-top:1px;
+          /*@editable*/ border-bottom:1px;
+      }
+
+      /* ========== Repeatable Section: Hero Image ========== */
       /**
       * @tab Section - Hero Image
       * @section set top-border and bottom-border for section separation
@@ -300,6 +319,29 @@
         max-width:600px;
         height:auto;
       }
+
+      /* ========== Repeatable Section: AD Section ========== */
+      /**
+      * @tab Section - Ad Image
+      * @section set padding for the ad image, default is 0px
+      */
+      .adSection {
+        /*@editable*/ padding-top:0px;
+        /*@editable*/ padding-bottom:0px;
+        /*@editable*/ padding-right:0px;
+        /*@editable*/ padding-left:0px;
+      }
+
+      #adImage {
+        max-width:600px;
+        height:auto;
+      }
+
+      /* ========== Repeatable Section: Left Image Right Text Styles ========== */
+
+      .flexibleContainerCell{padding-top:20px; padding-Right:20px; padding-Left:20px;}
+      .flexibleImage{height:auto;}
+      .imageContent, .imageContentLast{padding-bottom:20px;}
 
 
       /* ========== Footer Styles ========== */
@@ -440,7 +482,7 @@
         * @section header image
         * @tip Make the main header image fluid for portrait or landscape view adaptability, and set the image's original width as the max-width. If a fluid setting doesn't work, set the image width to half its original size instead.
         */
-        #headerImage{
+        #headerImage, #adImage{
           height:auto !important;
           max-width:600px !important;
           width:100% !important;
@@ -468,17 +510,21 @@
           /*@editable*/ line-height:125% !important;
         }
 
+        /*
+         ######  ####### ######  #######    #    #######
+         #     # #       #     # #         # #      #
+         #     # #       #     # #        #   #     #
+         ######  #####   ######  #####   #     #    #
+         #   #   #       #       #       #######    #
+         #    #  #       #       #       #     #    #
+         #     # ####### #       ####### #     #    #
+         */
         /* REPEATABLE SECTIONS ================================= */
 
         /**
         * HERO SECTION
         * Make the main body image fluid for portrait or landscape view adaptability, and set the image's original width as the max-width. If a fluid setting doesn't work, set the image width to half its original size instead.
         */
-        #heroImage{
-          height:auto !important;
-          max-width:600px !important;
-          width:100% !important;
-        }
 
 
 
@@ -530,7 +576,7 @@
                                     <!-- BEGIN HEADER // -->
                                     <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateHeader">
                                         <tr>
-                                            <td valign="top" class="headerContent">
+                                            <td valign="top" class="headerContent headerPad">
                                                 <img src="https://dummyimage.com/600x200/333/fff.png" style="max-width:600px;" id="heroImage" mc:label="header_image" mc:edit="header_image" mc:hideable mc:allowdesigner mc:allowtext />
                                             </td>
                                         </tr>
@@ -559,12 +605,67 @@
                                                 <!-- // Begin Module: Hero Image -->
                                                 <table border="0" cellpadding="0" cellspacing="0" width="100%" mc:repeatable="block_section" mc:variant="Hero Image">
                                                     <tr>
-                                                        <td class="heroImageSection">
+                                                        <td td align="center" valign="top" class="heroImageSection">
                                                             <img src="https://dummyimage.com/600x400/333/fff.png" style="max-width:600px;" mc:label="hero_image" mc:edit="hero_image00" id="heroImage"/>
                                                         </td>
                                                     </tr>
                                                 </table>
                                                 <!-- // End Module: Hero Image \\ -->
+                                                <!-- // Begin Module: Ad Section \\ -->
+                                                <table border="0" cellpadding="0" cellspacing="0" width="100%" mc:repeatable="block_section" mc:variant="Ad Image">
+                                                    <tr>
+                                                        <td align="center" valign="top" class="adSection">
+                                                            <img src="https://dummyimage.com/600x200/333/fff.png"  mc:label="ad_image" mc:edit="ad_image00" id="adImage"/>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!-- // End Module: Ad Section \\ -->
+
+                                                <!-- Begin Module: Left Image Right Text -->
+                                                  <!-- CENTERING TABLE // -->
+                                                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                      <tr>
+                                                          <td align="center" valign="top">
+                                                              <!-- FLEXIBLE CONTAINER // -->
+                                                              <table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+                                                                  <tr>
+                                                                      <td valign="top" width="600" class="flexibleContainerCell">
+
+
+                                                                            <!-- CONTENT TABLE // -->
+                                                                            <table align="Left" border="0" cellpadding="0" cellspacing="0" width="200" class="flexibleContainer">
+                                                                                <tr>
+                                                                                    <td align="Left" valign="top" class="imageContent">
+                                                                                        <img src="http://placekitten.com/g/400/400" width="200" class="flexibleImage" style="max-width:200px;" />
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                            <!-- // CONTENT TABLE -->
+
+
+                                                                            <!-- CONTENT TABLE // -->
+                                                                            <table align="Right" border="0" cellpadding="0" cellspacing="0" width="340" class="flexibleContainer">
+                                                                                <tr>
+                                                                                    <td valign="top" class="textContent">
+                                                                                        <h3>Right Column</h3>
+                                                                                        <br />
+                                                                                        A kitten or kitty is a juvenile domesticated cat. Kittens are highly social animals and spend most of their waking hours playing and interacting with available companions.
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                            <!-- // CONTENT TABLE -->
+
+
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                                <!-- // FLEXIBLE CONTAINER -->
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                    <!-- // CENTERING TABLE -->
+                                                    <!-- End Module: Left Image Right Text -->
+
                                             </td>
                                             <!-- END REPEATABLE SECTION -->
                                         </tr>
