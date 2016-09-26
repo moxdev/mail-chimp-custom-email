@@ -138,8 +138,12 @@ _MM_    \M\__MMMMMMMMM _MM_       _MMMMMMMMM _dM_     _dMM_   _MM_
   */
 
   .flexContainerLeft, .flexContainerRight{
+    width:100% !important;
+    max-width:600px !important;
+  }
+
+  .flexContainerLeftImage, .flexContainerRightImage{
     width: 100% !important;
-    max-width: 600px !important;
   }
 
   .flexContainerLeftContent, .flexContainerRightContent{

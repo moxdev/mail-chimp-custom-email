@@ -381,7 +381,6 @@
       .flexContainerRight{
           /*@editable*/ background-color:#ffffff;
           max-width:600px;
-          width:100%;
       }
       /**
       * @tab Section - Right Image Left Text
@@ -468,6 +467,36 @@
 
       .bottomShim{
           padding-bottom:20px;
+      }
+
+      /* ========== Repeatable Section: Two Columns Image and Text Styles ========== */
+
+      /**
+      * @tab Section - 2 Column Image with Text
+      * @section set background color, top and bottom border for separation
+      */
+      .twoCol{
+          /*@editable*/ background-color:#FFFFFF;
+      }
+      /**
+      * @tab Section - 2 Column Image with Text
+      * @section set optional top-border bottom-border for separation
+      */
+      .twoCol{
+        /*@editable*/ border-top:1px;
+        /*@editable*/ border-bottom:1px;
+      }
+
+      .twoColContent{
+          padding-top:20px;
+          padding-right:20px;
+          padding-bottom:20px;
+          padding-left:20px;
+      }
+
+      .flexImgTwoCol{
+          max-width: 260px;
+          height: auto;
       }
 
 
@@ -646,7 +675,7 @@ _MM_        _MM_    _MM_    \M\_
                                                             <!-- IMAGE TABLE // -->
                                                             <table align="right" border="0" cellpadding="0" cellspacing="0" width="200" class="flexContainerRightImage">
                                                                 <tr>
-                                                                    <td align="right" valign="top">
+                                                                    <td align="left" valign="top">
                                                                         <img src="http://dummyimage.com/200x200/333/fff.png" width="200" style="max-width:200px;" mc:edit="flex_right_image00" class="flexibleImage" />
                                                                     </td>
                                                                 </tr>
@@ -687,6 +716,46 @@ _MM_        _MM_    _MM_    \M\_
                                                     </tr>
                                                 </table>
                                                 <!--  End Module: Callout Button -->
+                                                <!--  Begin Module: 2 Column Image and Text -->
+                                                <table border="0" cellpadding="0" cellspacing="0" width="100%" mc:repeatable="block_section" mc:variant="Two Columns Image and Text" class="twoCol">
+                                                    <tr>
+                                                        <td align="center" valign="top">
+                                                            <!--  Begin Module: Left 2 Column Image and Text -->
+                                                            <table align="left" border="0" cellpadding="0" cellspacing="0" width="260">
+                                                                <tr>
+                                                                    <td valign="top" class="twoColContent">
+                                                                        <img src="http://dummyimage.com/260x260/333/fff.png&text=260+x+260" style="max-width:260px;" mc:edit="two_col_image_00" class="flexImgTwoCol"/>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td valign="top" class="twoColContent" mc:edit="two_col_content_00">
+                                                                        <h2>Left Column</h2>
+                                                                        <br />
+                                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit consectetur, tempore, in, laudantium quasi optio officia, saepe molestiae perspiciatis ipsam assumenda asperiores natus magni facere voluptate numquam. Voluptates, architecto, mollitia.
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                            <!--  End Module: Left 2 Column Image and Text -->
+                                                            <!--  Begin Module: Right 2 Column Image and Text -->
+                                                            <table align="left" border="0" cellpadding="0" cellspacing="0" width="260">
+                                                                <tr>
+                                                                    <td valign="top" class="twoColContent">
+                                                                        <img src="http://dummyimage.com/260x260/333/fff.png&text=260+x+260" style="max-width:260px;" mc:edit="two_col_image_01" class="flexImgTwoCol"/>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td valign="top" class="twoColContent" mc:edit="two_col_content_01">
+                                                                        <h2>Right Column</h2>
+                                                                        <br />
+                                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam vel sequi, quasi voluptatum possimus unde alias molestias delectus, nesciunt, recusandae exercitationem dignissimos officia minus. Vero recusandae natus beatae nihil, quia!
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                            <!--  End Module: Right 2 Column Image and Text -->
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!--  End Module: 2 Column Image and Text -->
 
 
 
