@@ -221,10 +221,10 @@
         /*@editable*/ text-decoration:underline;
       }
 
-      /*#headerImage{
-        height:auto;
+      #headerImage{
         max-width:600px;
-      }*/
+        height:auto;
+      }
 
       /* ========== Body Styles ========== */
 
@@ -250,11 +250,11 @@
         /*@editable*/ font-family:Helvetica;
         /*@editable*/ font-size:14px;
         /*@editable*/ line-height:150%;
+        /*@editable*/ text-align:left;
         padding-top:20px;
         padding-right:20px;
         padding-bottom:20px;
         padding-left:20px;
-        /*@editable*/ text-align:left;
       }
 
       /**
@@ -281,8 +281,7 @@
       * @section set top-border and bottom-border for section separation
       */
       .heroImageSection {
-          /*max-width:600px;*/
-          height:auto;
+          vertical-align:middle;
           /*@editable*/ border-top:1px;
           /*@editable*/ border-bottom:1px;
       }
@@ -297,6 +296,11 @@
           /*@editable*/ padding-right:0px;
           /*@editable*/ padding-left:0px;
       }
+      #heroImage {
+        max-width:600px;
+        height:auto;
+      }
+
 
       /* ========== Footer Styles ========== */
 
@@ -456,17 +460,6 @@
 
         /**
         * @tab Mobile Styles
-        * @section body image
-        * @tip Make the main body image fluid for portrait or landscape view adaptability, and set the image's original width as the max-width. If a fluid setting doesn't work, set the image width to half its original size instead.
-        */
-        #bodyImage{
-          height:auto !important;
-          /*@editable*/ max-width:560px !important;
-          /*@editable*/ width:100% !important;
-        }
-
-        /**
-        * @tab Mobile Styles
         * @section body text
         * @tip Make the body content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
         */
@@ -474,6 +467,20 @@
           /*@editable*/ font-size:18px !important;
           /*@editable*/ line-height:125% !important;
         }
+
+        /* REPEATABLE SECTIONS ================================= */
+
+        /**
+        * HERO SECTION
+        * Make the main body image fluid for portrait or landscape view adaptability, and set the image's original width as the max-width. If a fluid setting doesn't work, set the image width to half its original size instead.
+        */
+        #heroImage{
+          height:auto !important;
+          max-width:600px !important;
+          width:100% !important;
+        }
+
+
 
         /* ======== Footer Styles ======== */
 
@@ -524,7 +531,7 @@
                                     <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateHeader">
                                         <tr>
                                             <td valign="top" class="headerContent">
-                                                <img src="https://dummyimage.com/600x200/333/fff.png" style="max-width:600px;" id="headerImage" mc:label="header_image" mc:edit="header_image" mc:hideable mc:allowdesigner mc:allowtext />
+                                                <img src="https://dummyimage.com/600x200/333/fff.png" style="max-width:600px;" id="heroImage" mc:label="header_image" mc:edit="header_image" mc:hideable mc:allowdesigner mc:allowtext />
                                             </td>
                                         </tr>
                                     </table>
@@ -536,7 +543,9 @@
                                     <!-- #templateBody // -->
                                     <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateBody">
                                         <tr>
+                                            <!-- BEGIN REPEATABLE SECTION -->
                                             <td valign="top">
+                                                <!-- Begin Module: Text Section // -->
                                                 <table border="0" cellpadding="0" cellspacing="0" width="100%" mc:repeatable="block_section" mc:variant="Text Area" class="bodyContent">
                                                     <tr>
                                                         <td align="center" valign="top" class="bodyContent" mc:edit="text_section_content00">
@@ -546,7 +555,18 @@
                                                         </td>
                                                     </tr>
                                                 </table>
+                                                <!-- // End Module: Text Section // -->
+                                                <!-- // Begin Module: Hero Image -->
+                                                <table border="0" cellpadding="0" cellspacing="0" width="100%" mc:repeatable="block_section" mc:variant="Hero Image">
+                                                    <tr>
+                                                        <td class="heroImageSection">
+                                                            <img src="https://dummyimage.com/600x400/333/fff.png" style="max-width:600px;" mc:label="hero_image" mc:edit="hero_image00" id="heroImage"/>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!-- // End Module: Hero Image \\ -->
                                             </td>
+                                            <!-- END REPEATABLE SECTION -->
                                         </tr>
                                     </table>
                                     <!-- // #templateBody -->
