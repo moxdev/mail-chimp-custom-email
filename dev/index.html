@@ -345,7 +345,7 @@
       /* ========== Repeatable Section: Left Image Right Text Styles ========== */
 
       /**
-      * @tab Section - Left Image Right Text
+      * @tab Section - left image right text
       * @section Set the background color of the section.
       */
       .flexContainerLeft{
@@ -354,7 +354,7 @@
           width:100%;
       }
       /**
-      * @tab Section - Left Image Right Text
+      * @tab Section - left image right text
       * @section set optional top-border bottom-border for separation
       */
       .flexContainerLeft{
@@ -362,10 +362,40 @@
           /*@editable*/ border-bottom:1px;
       }
       /**
-      * @tab Section - Left Image Right Text
-      * @section set the padding of the section
+      * @tab Section - left image right text
+      * @section set the padding of the section, default is 20px
       */
       .flexContainerLeft{
+          /*@editable*/ padding-top:20px;
+          /*@editable*/ padding-bottom:20px;
+          /*@editable*/ padding-right:20px;
+          /*@editable*/ padding-left:20px;
+      }
+
+      /* ========== Repeatable Section: Right Image Left Text Styles ========== */
+
+      /**
+      * @tab Section - right image left text
+      * @section Set the background color of the section.
+      */
+      .flexContainerRight{
+          /*@editable*/ background-color:#ffffff;
+          max-width:600px;
+          width:100%;
+      }
+      /**
+      * @tab Section - right image left text
+      * @section set optional top-border bottom-border for separation
+      */
+      .flexContainerRight{
+          /*@editable*/ border-top:1px;
+          /*@editable*/ border-bottom:1px;
+      }
+      /**
+      * @tab Section - right image left text
+      * @section set the padding of the section, default is 20px
+      */
+      .flexContainerRight{
           /*@editable*/ padding-top:20px;
           /*@editable*/ padding-bottom:20px;
           /*@editable*/ padding-right:20px;
@@ -377,13 +407,7 @@
         height:auto
       }
 
-      .flexContainerLeftImage{
 
-      }
-
-      .flexContainerLeftContent{
-
-      }
 
 /*
 
@@ -501,7 +525,7 @@ _MM_        _MM_    _MM_    \M\_
                                                     <tr>
                                                         <td align="center" valign="top" class="bodyContent" mc:edit="text_section_content00">
                                                             <h1>Title</h1>
-                                                            <h3>Subtitle</h3>
+                                                            <h2>Subtitle</h2>
                                                             Click here to edit your content. Set your fonts, colors, and styles in the text editor.
                                                         </td>
                                                     </tr>
@@ -525,7 +549,6 @@ _MM_        _MM_    _MM_    \M\_
                                                     </tr>
                                                 </table>
                                                 <!-- // End Module: Ad Section \\ -->
-
                                                 <!-- Begin Module: Left Image Right Text -->
                                                 <table border="0" cellpadding="0" cellspacing="0" width="100%" mc:repeatable="block_section" mc:variant="Left Image Right Text">
                                                     <tr>
@@ -533,7 +556,7 @@ _MM_        _MM_    _MM_    \M\_
                                                             <!-- IMAGE TABLE // -->
                                                             <table align="left" border="0" cellpadding="0" cellspacing="0" width="200" class="flexContainerLeftImage">
                                                                 <tr>
-                                                                    <td align="left" valign="top" class="">
+                                                                    <td align="left" valign="top">
                                                                         <img src="http://dummyimage.com/200x200/333/fff.png" width="200" style="max-width:200px;" mc:edit="flex_left_image00" class="flexibleImage" />
                                                                     </td>
                                                                 </tr>
@@ -543,7 +566,7 @@ _MM_        _MM_    _MM_    \M\_
                                                             <table align="right" border="0" cellpadding="0" cellspacing="0" width="340">
                                                                 <tr>
                                                                     <td valign="top" class="flexContainerLeftContent" mc:edit="flex_left_content00">
-                                                                        <h3>Right Column</h3>
+                                                                        <h2>Right Column</h2>
                                                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe est possimus aliquam vel natus tempora incidunt, fugiat quidem. Nemo, optio id reprehenderit cum quasi ut, error aut commodi quod sit.
                                                                     </td>
                                                                 </tr>
@@ -553,6 +576,35 @@ _MM_        _MM_    _MM_    \M\_
                                                     </tr>
                                                 </table>
                                                 <!-- End Module: Left Image Right Text -->
+                                                <!-- Begin Module: Right Image Left Text -->
+                                                <table border="0" cellpadding="0" cellspacing="0" width="100%" mc:repeatable="block_section" mc:variant="Right Image Left Text">
+                                                    <tr>
+                                                        <td valign="top" width="600" class="flexContainerRight">
+                                                            <!-- IMAGE TABLE // -->
+                                                            <table align="right" border="0" cellpadding="0" cellspacing="0" width="200" class="flexContainerRightImage">
+                                                                <tr>
+                                                                    <td align="right" valign="top">
+                                                                        <img src="http://dummyimage.com/200x200/333/fff.png" width="200" style="max-width:200px;" mc:edit="flex_right_image00" class="flexibleImage" />
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                            <!-- // IMAGE TABLE -->
+                                                            <!-- CONTENT TABLE // -->
+                                                            <table align="left" border="0" cellpadding="0" cellspacing="0" width="340">
+                                                                <tr>
+                                                                    <td valign="top" class="flexContainerRightContent" mc:edit="flex_right_content00">
+                                                                        <h2>Left Column</h2>
+                                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe est possimus aliquam vel natus tempora incidunt, fugiat quidem. Nemo, optio id reprehenderit cum quasi ut, error aut commodi quod sit.
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                            <!-- // CONTENT TABLE -->
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!-- End Module: Right Image Left Text -->
+
+
 
                                             </td>
                                             <!-- END REPEATABLE SECTION -->
