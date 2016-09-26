@@ -137,7 +137,7 @@ _MM_    \M\__MMMMMMMMM _MM_       _MMMMMMMMM _dM_     _dMM_   _MM_
   * MOBILE LEFT AND RIGHT IMAGE WITH TEXT SECTION
   */
 
-  .flexContainerLeft, .flexContainerRightContent{
+  .flexContainerLeft, .flexContainerRight{
     width: 100% !important;
     max-width: 600px !important;
   }

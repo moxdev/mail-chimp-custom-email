@@ -345,7 +345,7 @@
       /* ========== Repeatable Section: Left Image Right Text Styles ========== */
 
       /**
-      * @tab Section - left image right text
+      * @tab Section - Left Image Right Text
       * @section Set the background color of the section.
       */
       .flexContainerLeft{
@@ -354,7 +354,7 @@
           width:100%;
       }
       /**
-      * @tab Section - left image right text
+      * @tab Section - Left Image Right Text
       * @section set optional top-border bottom-border for separation
       */
       .flexContainerLeft{
@@ -362,7 +362,7 @@
           /*@editable*/ border-bottom:1px;
       }
       /**
-      * @tab Section - left image right text
+      * @tab Section - Left Image Right Text
       * @section set the padding of the section, default is 20px
       */
       .flexContainerLeft{
@@ -375,7 +375,7 @@
       /* ========== Repeatable Section: Right Image Left Text Styles ========== */
 
       /**
-      * @tab Section - right image left text
+      * @tab Section - Right Image Left Text
       * @section Set the background color of the section.
       */
       .flexContainerRight{
@@ -384,7 +384,7 @@
           width:100%;
       }
       /**
-      * @tab Section - right image left text
+      * @tab Section - Right Image Left Text
       * @section set optional top-border bottom-border for separation
       */
       .flexContainerRight{
@@ -392,7 +392,7 @@
           /*@editable*/ border-bottom:1px;
       }
       /**
-      * @tab Section - right image left text
+      * @tab Section - Right Image Left Text
       * @section set the padding of the section, default is 20px
       */
       .flexContainerRight{
@@ -405,6 +405,69 @@
       .flexibleImage{
         max-width:200px;
         height:auto
+      }
+
+      /* ========== Repeatable Section: Callout Button Styles ========== */
+
+      /**
+      * @tab Section - Callout Button
+      * @section set the background color for the entire section
+      */
+      .calloutButtonSection{
+          /*@editable*/ background-color:#ffffff;
+      }
+
+      /**
+      * @tab Section - Callout Button
+      * @section set optional top-border bottom-border for separation
+      */
+      .calloutButtonSection{
+          /*@editable*/ border-top:1px;
+          /*@editable*/ border-bottom:1px;
+      }
+
+      /**
+      * @tab Section - Callout Button
+      * @section set the padding for the content area, default is 20px
+      */
+      .calloutContent{
+          /*@editable*/ padding-top:20px;
+          /*@editable*/ padding-bottom:20px;
+          /*@editable*/ padding-right:20px;
+          /*@editable*/ padding-left:20px;
+      }
+
+      /**
+      * @tab Section - Callout Button
+      * @section set the background color and border-radius of the button
+      */
+      .emailButton{
+          border-collapse:separate;
+          /*@editable*/ background-color:#0073AE;
+          /*@editable*/ border-radius:4px;
+      }
+
+      /**
+      * @tab Section - Callout Button
+      * @section set the color, size, and fonts for the button content
+      */
+      .buttonContent{
+          line-height:100%;
+          text-align:center;
+          padding:15px;
+          /*@editable*/ color:#FFFFFF;
+          /*@editable*/ font-family:Helvetica;
+          /*@editable*/ font-size:18px;
+          /*@editable*/ font-weight:bold;
+      }
+
+      .buttonContent a, .buttonContent a:visited{
+          text-decoration: none;
+          color: inherit;
+      }
+
+      .bottomShim{
+          padding-bottom:20px;
       }
 
 
@@ -603,6 +666,27 @@ _MM_        _MM_    _MM_    \M\_
                                                     </tr>
                                                 </table>
                                                 <!-- End Module: Right Image Left Text -->
+                                                <!--  Begin Module: Callout Button -->
+                                                <table border="0" cellpadding="0" cellspacing="0" width="100%" mc:repeatable="block_section" mc:variant="Callout Button" class="calloutButtonSection" >
+                                                    <tr>
+                                                        <td valign="top" class="calloutContent" mc:edit="callout_content00">
+                                                            <h2>Callout</h2>
+                                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, dolores quas quisquam molestiae quis eius voluptates, ad veritatis assumenda praesentium aut, a eos. Architecto hic eveniet cum magnam a, quaerat voluptatibus perferendis tempore doloremque, quas doloribus impedit, nisi vitae accusamus.
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="center" valign="top" class="bottomShim">
+                                                            <table border="0" cellpadding="0" cellspacing="0" width="260" class="emailButton">
+                                                                <tr>
+                                                                    <td align="center" valign="middle" class="buttonContent" mc:edit="button00">
+                                                                        <div>Purchase Now</div>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!--  End Module: Callout Button -->
 
 
 
