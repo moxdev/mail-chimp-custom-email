@@ -25,6 +25,10 @@
 
       /* ========== Page Styles ========== */
 
+      /* MM4 Colors*/
+      /* color:#EB4102*/
+      /* color:#0073AE*/
+
       /**
       * @tab Page
       * @section background style
@@ -216,7 +220,7 @@
       * @tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.
       */
       .headerContent a:link, .headerContent a:visited, /* Yahoo! Mail Override */ .headerContent a .yshortcuts /* Yahoo! Mail Override */{
-        /*@editable*/ color:#EB4102;
+        /*@editable*/ color:#0073AE;
         /*@editable*/ font-weight:normal;
         /*@editable*/ text-decoration:underline;
       }
@@ -473,7 +477,7 @@
 
       /**
       * @tab Section - 2 Column Image with Text
-      * @section set background color, top and bottom border for separation
+      * @section set background color of the entire section
       */
       .twoCol{
           /*@editable*/ background-color:#FFFFFF;
@@ -497,6 +501,67 @@
       .flexImgTwoCol{
           max-width: 260px;
           height: auto;
+      }
+
+      /* ========== Repeatable Section: Calendar Styles ========== */
+
+      /**
+      * @tab Section - Left and Right Calendar
+      * @section set background color of the entire section
+      */
+      .calSection{
+          /*@editable*/ background-color:#FFFFFF;
+      }
+      /**
+      * @tab Section - Left and Right Calendar
+      * @section set optional top-border bottom-border for separation
+      */
+      .calSection{
+          /*@editable*/ border-top:1px;
+          /*@editable*/ border-bottom:1px;
+      }
+      /**
+      * @tab Section - Left and Right Calendar
+      * @section set background color and border of calendar icon
+      */
+      .emailCalendar{
+          /*@editable*/ background-color:#F1F1F1;
+          /*@editable*/ border:1px solid #CCCCCC;
+      }
+      /**
+      * @tab Section - Left and Right Calendar
+      * @section set background color, text color, and font for calendar month
+      */
+      .emailCalendarMonth{
+          /*@editable*/ background-color:#0073AE;
+          /*@editable*/ color:#FFFFFF;
+          /*@editable*/ font-family:Helvetica;
+          /*@editable*/ font-size:16px;
+          /*@editable*/ font-weight:bold;
+          padding-top:10px;
+          padding-bottom:10px;
+          text-align:center;
+      }
+      /**
+      * @tab Section - Left and Right Calendar
+      * @section set text color, size and font for calendar day
+      */
+      .emailCalendarDay{
+          /*@editable*/ color:#0073AE;
+          /*@editable*/ font-family:Helvetica;
+          /*@editable*/ font-size:60px;
+          /*@editable*/ font-weight:bold;
+          line-height:100%;
+          padding-top:20px;
+          padding-bottom:20px;
+          text-align:center;
+      }
+
+      .fullPad{
+          padding-top:20px;
+          padding-right:20px;
+          padding-bottom:20px;
+          padding-left:20px;
       }
 
 
@@ -721,7 +786,7 @@ _MM_        _MM_    _MM_    \M\_
                                                     <tr>
                                                         <td align="center" valign="top">
                                                             <!--  Begin Module: Left 2 Column Image and Text -->
-                                                            <table align="left" border="0" cellpadding="0" cellspacing="0" width="260">
+                                                            <table align="left" border="0" cellpadding="0" cellspacing="0" width="260" class="colAdjust">
                                                                 <tr>
                                                                     <td valign="top" class="twoColContent">
                                                                         <img src="http://dummyimage.com/260x260/333/fff.png&text=260+x+260" style="max-width:260px;" mc:edit="two_col_image_00" class="flexImgTwoCol"/>
@@ -737,7 +802,7 @@ _MM_        _MM_    _MM_    \M\_
                                                             </table>
                                                             <!--  End Module: Left 2 Column Image and Text -->
                                                             <!--  Begin Module: Right 2 Column Image and Text -->
-                                                            <table align="left" border="0" cellpadding="0" cellspacing="0" width="260">
+                                                            <table align="left" border="0" cellpadding="0" cellspacing="0" width="260" class="colAdjust">
                                                                 <tr>
                                                                     <td valign="top" class="twoColContent">
                                                                         <img src="http://dummyimage.com/260x260/333/fff.png&text=260+x+260" style="max-width:260px;" mc:edit="two_col_image_01" class="flexImgTwoCol"/>
@@ -756,9 +821,88 @@ _MM_        _MM_    _MM_    \M\_
                                                     </tr>
                                                 </table>
                                                 <!--  End Module: 2 Column Image and Text -->
-
-
-
+                                                <!--  Begin Module: Left Calendar Event  -->
+                                                <table border="0" cellpadding="0" cellspacing="0" width="100%" mc:repeatable="block_section" mc:variant="Left Calendar Event" class="calSection">
+                                                    <tr>
+                                                        <td align="center" valign="top">
+                                                            <table align="left" border="0" cellpadding="0" cellspacing="0" width="160" class="colAdjust">
+                                                                <tr>
+                                                                    <td align="center" valign="top" class="fullPad">
+                                                                        <table border="0" cellpadding="0" cellspacing="0" width="160" class="emailCalendar">
+                                                                            <tr>
+                                                                                <td align="center" valign="top">
+                                                                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                                                        <tr>
+                                                                                            <td align="center" valign="top" class="emailCalendarMonth" mc:edit="month_00">
+                                                                                                September
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td align="center" valign="top" class="emailCalendarDay" mc:edit="day_00">
+                                                                                                16
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </table>
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                            <table align="right" border="0" cellpadding="0" cellspacing="0" width="400" class="colAdjust">
+                                                                <tr>
+                                                                    <td valign="top" class="textContent fullPad" mc:edit="calendar_content_00">
+                                                                        <h1>Event Title</h1>
+                                                                        <br />
+                                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum fuga corporis magni, quia tempora et quisquam minus non ducimus laudantium esse amet error excepturi ipsum at, rerum ad sit dolorem.
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!--  End Module: Left Calendar Event -->
+                                                <!--  Begin Module: Right Calendar Event  -->
+                                                <table border="0" cellpadding="0" cellspacing="0" width="100%" mc:repeatable="block_section" mc:variant="Right Calendar Event" class="calSection">
+                                                    <tr>
+                                                        <td align="center" valign="top">
+                                                            <table align="right" border="0" cellpadding="0" cellspacing="0" width="160" class="colAdjust">
+                                                                <tr>
+                                                                    <td align="center" valign="top" class="fullPad">
+                                                                        <table border="0" cellpadding="0" cellspacing="0" width="160" class="emailCalendar">
+                                                                            <tr>
+                                                                                <td align="center" valign="top">
+                                                                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                                                        <tr>
+                                                                                            <td align="center" valign="top" class="emailCalendarMonth" mc:edit="month_00">
+                                                                                                September
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                        <tr>
+                                                                                            <td align="center" valign="top" class="emailCalendarDay" mc:edit="day_00">
+                                                                                                16
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </table>
+                                                                                </td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                            <table align="left" border="0" cellpadding="0" cellspacing="0" width="400" class="colAdjust">
+                                                                <tr>
+                                                                    <td valign="top" class="textContent fullPad" mc:edit="calendar_content_00">
+                                                                        <h1>Event Title</h1>
+                                                                        <br />
+                                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum fuga corporis magni, quia tempora et quisquam minus non ducimus laudantium esse amet error excepturi ipsum at, rerum ad sit dolorem.
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!--  End Module: Right Calendar Event -->
                                             </td>
                                             <!-- END REPEATABLE SECTION -->
                                         </tr>
@@ -766,9 +910,38 @@ _MM_        _MM_    _MM_    \M\_
                                     <!-- // #templateBody -->
                                 </td>
                             </tr><!-- // #templateBody ROW -->
+                            <tr><!-- footer ROW -->
+                                <td align="center" valign="top">
+                                    <!-- BEGIN FOOTER // -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateFooter" class="flexibleContainer">
+                                        <tr>
+                                            <td valign="top" class="footerContent" mc:edit="footer_content00">
+                                                <a href="*|TWITTER:PROFILEURL|*">Follow on Twitter</a>&nbsp;&nbsp;&nbsp;<a href="*|FACEBOOK:PROFILEURL|*">Friend on Facebook</a>&nbsp;&nbsp;&nbsp;<a href="*|FORWARD|*">Forward to Friend</a>&nbsp;
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td valign="top" class="footerContent" style="padding-top:0;" mc:edit="footer_content01">
+                                                <em>Copyright &copy; *|CURRENT_YEAR|* *|LIST:COMPANY|*, All rights reserved.</em>
+                                                <br />
+                                                *|IFNOT:ARCHIVE_PAGE|* *|LIST:DESCRIPTION|*
+                                                <br />
+                                                <br />
+                                                <strong>Our mailing address is:</strong>
+                                                <br />
+                                                *|HTML:LIST_ADDRESS_HTML|* *|END:IF|*
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td valign="top" class="footerContent" style="padding-top:0;" mc:edit="footer_content02">
+                                                <a href="*|UNSUB|*">unsubscribe from this list</a>&nbsp;&nbsp;&nbsp;<a href="*|UPDATE_PROFILE|*">update subscription preferences</a>&nbsp;
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // END FOOTER -->
+                                </td>
+                            </tr><!-- footer ROW -->
                         </table>
                         <!-- #templateContainer -->
-
                       <!-- // END TEMPLATE -->
                     </td>
                     <!-- END #bodyCell-->
