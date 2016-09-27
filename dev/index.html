@@ -619,12 +619,21 @@ _MM_        _MM_    _MM_    \M\_
       /**
       * @tab Footer
       * @section footer link
-      * @tip Set the styling for your email's footer links. Choose a color that helps them stand out from your text.
+      * @theme footer
       */
       .footerContent a:link, .footerContent a:visited, /* Yahoo! Mail Override */ .footerContent a .yshortcuts, .footerContent a span /* Yahoo! Mail Override */{
         /*@editable*/ color:#606060;
         /*@editable*/ font-weight:normal;
         /*@editable*/ text-decoration:underline;
+      }
+      /**
+      * @tab Social Icons
+      * @section social icon size, set 24px or 48px only
+      * @theme footer
+      */
+      .socialIcons{
+        /*@editable*/ width: 24px;
+        height: auto;
       }
 
     </style>
@@ -913,10 +922,10 @@ _MM_        _MM_    _MM_    \M\_
                             <tr><!-- footer ROW -->
                                 <td align="center" valign="top">
                                     <!-- BEGIN FOOTER // -->
-                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateFooter" class="flexibleContainer">
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateFooter">
                                         <tr>
                                             <td valign="top" class="footerContent" mc:edit="footer_content00">
-                                                <a href="*|TWITTER:PROFILEURL|*">Follow on Twitter</a>&nbsp;&nbsp;&nbsp;<a href="*|FACEBOOK:PROFILEURL|*">Friend on Facebook</a>&nbsp;&nbsp;&nbsp;<a href="*|FORWARD|*">Forward to Friend</a>&nbsp;
+                                                <a href="*|TWITTER:PROFILEURL|*"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-twitter-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="*|FACEBOOK:PROFILEURL|*"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-facebook-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="#"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-instagram-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="#"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-linkedin-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="#"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-link-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="#"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-forwardtofriend-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;
                                             </td>
                                         </tr>
                                         <tr>
@@ -933,7 +942,7 @@ _MM_        _MM_    _MM_    \M\_
                                         </tr>
                                         <tr>
                                             <td valign="top" class="footerContent" style="padding-top:0;" mc:edit="footer_content02">
-                                                <a href="*|UNSUB|*">unsubscribe from this list</a>&nbsp;&nbsp;&nbsp;<a href="*|UPDATE_PROFILE|*">update subscription preferences</a>&nbsp;
+                                                <a href="*|FORWARD|*">forward to friend</a>&nbsp;&nbsp;&nbsp;<a href="*|UNSUB|*">unsubscribe from this list</a>&nbsp;&nbsp;&nbsp;<a href="*|UPDATE_PROFILE|*">update subscription preferences</a>&nbsp;
                                             </td>
                                         </tr>
                                     </table>

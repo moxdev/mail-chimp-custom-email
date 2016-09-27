@@ -1,0 +1,50 @@
+# Default Colored Icon
+- copy link src to preview each icon style
+
+```<img src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-facebook-48.png" height="24" width="24" class="">```
+
+```<img src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-twitter-48.png" height="24" width="24" class="">```
+
+```<img src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-instagram-48.png" height="24" width="24" class="">```
+
+```<img src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-linkedin-48.png" height="24" width="24" class="">```
+
+```<img src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-link-48.png" height="24" width="24" class="">```
+
+```<img src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-forwardtofriend-48.png" height="24" width="24" class="">```
+
+### Outlined Colored Icon
+- change 'color' to 'outline-color' in icon name
+
+```<img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-color-forwardtofriend-48.png" height="24" width="24" class="">```
+
+# Black Circle Icon
+- change 'color' to 'dark' in icon name
+
+```<img src="https://cdn-images.mailchimp.com/icons/social-block-v2/dark-facebook-48.png" height="24" width="24" class="">```
+
+### Outlined Black Circle Icon
+- change 'dark' to 'outline-dark' in icon name
+
+```<img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-facebook-48.png" height="24" width="24" class="">```
+
+# White Circle Icon
+- change 'color' to 'light' in icon name
+
+```<img src="https://cdn-images.mailchimp.com/icons/social-block-v2/light-facebook-48.png" height="24" width="24" class="">```
+
+### Outlined White Circle Icon
+- change 'light' to 'outline-light' in icon name
+
+```<img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-light-facebook-48.png" height="24" width="24" class="">```
+
+# Gray Circle Icon
+- change 'color' to 'gray' in icon name
+
+```<img src="https://cdn-images.mailchimp.com/icons/social-block-v2/gray-facebook-48.png" height="24" width="24" class="">```
+
+### Outlined Gray Circle Icon
+- change 'gray' to 'outline-gray' in icon name
+
+```<img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-gray-facebook-48.png" height="24" width="24" class="">```
+
