@@ -1,10 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <title>Mobile</title>
-        <style type="text/css">
-      /* /\/\/\/\/\/\/\/\/ CLIENT-SPECIFIC STYLES /\/\/\/\/\/\/\/\/ */
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width"/>
+    <title>*|MC:SUBJECT|*</title>
+    <style type="text/css">
+      /* CLIENT-SPECIFIC STYLES */
       #outlook a{padding:0;} /* Force Outlook to provide a "view in browser" message */
       .ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
       .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotmail to display normal line spacing */
@@ -12,13 +13,13 @@
       table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up */
       img{-ms-interpolation-mode:bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
 
-      /* /\/\/\/\/\/\/\/\/ RESET STYLES /\/\/\/\/\/\/\/\/ */
+      /* RESET STYLES */
       body{margin:0; padding:0;}
       img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
       table{border-collapse:collapse !important;}
       body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:100% !important;}
 
-      /* /\/\/\/\/\/\/\/\/ TEMPLATE STYLES /\/\/\/\/\/\/\/\/ */
+      /* TEMPLATE STYLES */
 
       #bodyCell{padding:20px;}
       #templateContainer{width:600px;}
@@ -499,7 +500,7 @@
         /*@editable*/ border-bottom:1px;
       }
 
-      .twoColContent{
+      .twoColContent, .twoColImage{
           padding-top:20px;
           padding-right:20px;
           padding-bottom:20px;
@@ -762,6 +763,9 @@
         * MOBILE LEFT AND RIGHT IMAGE WITH TEXT SECTION
         */
 
+        .imageCenter{
+          text-align: center;
+        }
         .flexContainerLeft, .flexContainerRight{
           width:100% !important;
           max-width:600px !important;
@@ -780,10 +784,12 @@
           max-width:200px !important;
           height:auto !important;
         }
-
         /**
         * 2 COLUMN IMAGE WITH TEXT SECTION
         */
+        .twoColImage{
+          text-align: center;
+        }
         .colAdjust {
           width: 100% !important;
         }
@@ -801,8 +807,20 @@
           /*@editable*/ font-size:14px !important;
           /*@editable*/ line-height:115% !important;
         }
-
-        .footerContent a{display:block !important;} /* Place footer social and utility links on their own lines, for easier access */
+        /**
+        * @tab Mobile Styles
+        * @section footer social icons display
+        */
+        .footerContent a{
+          /*@editable*/ display:block !important;
+          /*@editable*/ text-align: center;
+        } /* Place footer social and utility links on their own lines, for easier access */
+        /**
+        * @tab Mobile Styles
+        * @section footer social icons mobile size, 24px or 48px
+        */
+        .socialIcons{
+          /*@editable*/ width: 48px;
       }
 
     </style>
@@ -891,7 +909,7 @@
                                                             <!-- IMAGE TABLE // -->
                                                             <table align="left" border="0" cellpadding="0" cellspacing="0" width="200" class="flexContainerLeftImage">
                                                                 <tr>
-                                                                    <td align="left" valign="top">
+                                                                    <td align="left" valign="top" class="imageCenter">
                                                                         <img src="http://dummyimage.com/200x200/333/fff.png" width="200" style="max-width:200px;" mc:edit="flex_left_image00" class="flexibleImage" />
                                                                     </td>
                                                                 </tr>
@@ -918,7 +936,7 @@
                                                             <!-- IMAGE TABLE // -->
                                                             <table align="right" border="0" cellpadding="0" cellspacing="0" width="200" class="flexContainerRightImage">
                                                                 <tr>
-                                                                    <td align="left" valign="top">
+                                                                    <td align="left" valign="top" class="imageCenter">
                                                                         <img src="http://dummyimage.com/200x200/333/fff.png" width="200" style="max-width:200px;" mc:edit="flex_right_image00" class="flexibleImage" />
                                                                     </td>
                                                                 </tr>
@@ -966,7 +984,7 @@
                                                             <!--  Begin Module: Left 2 Column Image and Text -->
                                                             <table align="left" border="0" cellpadding="0" cellspacing="0" width="260" class="colAdjust">
                                                                 <tr>
-                                                                    <td valign="top" class="twoColContent">
+                                                                    <td valign="top" class="twoColImage">
                                                                         <img src="http://dummyimage.com/260x260/333/fff.png&text=260+x+260" style="max-width:260px;" mc:edit="two_col_image_00" class="flexImgTwoCol"/>
                                                                     </td>
                                                                 </tr>
@@ -982,7 +1000,7 @@
                                                             <!--  Begin Module: Right 2 Column Image and Text -->
                                                             <table align="left" border="0" cellpadding="0" cellspacing="0" width="260" class="colAdjust">
                                                                 <tr>
-                                                                    <td valign="top" class="twoColContent">
+                                                                    <td valign="top" class="twoColImage">
                                                                         <img src="http://dummyimage.com/260x260/333/fff.png&text=260+x+260" style="max-width:260px;" mc:edit="two_col_image_01" class="flexImgTwoCol"/>
                                                                     </td>
                                                                 </tr>
