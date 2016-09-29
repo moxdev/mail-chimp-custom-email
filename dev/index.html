@@ -5,41 +5,43 @@
     <meta name="viewport" content="width=device-width"/>
     <title>*|MC:SUBJECT|*</title>
     <style type="text/css">
-      /* CLIENT-SPECIFIC STYLES */
-      #outlook a{padding:0;} /* Force Outlook to provide a "view in browser" message */
-      .ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
-      .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotmail to display normal line spacing */
-      body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;} /* Prevent WebKit and Windows mobile changing default text sizes */
-      table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up */
-      img{-ms-interpolation-mode:bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
+        /* CLIENT-SPECIFIC STYLES */
+        #outlook a{padding:0;} /* Force Outlook to provide a "view in browser" message */
+        .ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
+        .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotmail to display normal line spacing */
+        body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;} /* Prevent WebKit and Windows mobile changing default text sizes */
+        table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up */
+        img{-ms-interpolation-mode:bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
 
-      /* RESET STYLES */
-      body{margin:0; padding:0;}
-      img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
-      table{border-collapse:collapse !important;}
-      body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:100% !important;}
+        /* RESET STYLES */
+        body{margin:0; padding:0;}
+        img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+        table{border-collapse:collapse !important;}
+        body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:100% !important;}
 
-      /* TEMPLATE STYLES */
+         /**
+        * TEMPLATE STYLES
+        */
 
-      #bodyCell{padding:20px;}
-      #templateContainer{width:600px;}
+        #bodyCell{padding:20px;}
+        #templateContainer{width:600px;}
 
-      /* ========== Page Styles ========== */
+        /* ========== Page Styles ========== */
 
-      /* MM4 Colors*/
-      /* ORANGE color:#EB4102*/
-      /* BLUE color:#0073AE*/
-      /* GREY color:#8a8a8d*/
+        /* MM4 Colors*/
+        /* ORANGE color:#EB4102*/
+        /* BLUE color:#0073AE*/
+        /* GREY color:#8a8a8d*/
 
 
-      /**
-      * @tab Page
-      * @section Set the background color of your email. You may want to choose colors that match your company's branding.
-      * @theme page
-      */
-      body, #bodyTable{
-        /*@editable*/ background-color:#DEE0E2;
-      }
+        /**
+        * @tab Page
+        * @section Set the background color of your email. You may want to choose colors that match your company's branding.
+        * @theme page
+        */
+        body, #bodyTable{
+            /*@editable*/ background-color:#DEE0E2;
+        }
 
       /**
       * @tab Page
@@ -71,7 +73,7 @@
         /*@editable*/ font-size:26px;
         /*@editable*/ font-style:normal;
         /*@editable*/ font-weight:bold;
-        /*@editable*/ line-height:100%;
+        /*@editable*/ line-height:125%;
         /*@editable*/ letter-spacing:normal;
         /*@editable*/ text-align:left;
       }
@@ -88,7 +90,7 @@
         /*@editable*/ font-size:20px;
         /*@editable*/ font-style:normal;
         /*@editable*/ font-weight:bold;
-        /*@editable*/ line-height:100%;
+        /*@editable*/ line-height:125%;
         /*@editable*/ letter-spacing:normal;
         /*@editable*/ text-align:left;
       }
@@ -103,9 +105,9 @@
         /*@editable*/ color:#606060 !important;
         /*@editable*/ font-family:Helvetica;
         /*@editable*/ font-size:16px;
-        /*@editable*/ font-style:italic;
+        /*@editable*/ font-style:normal;
         /*@editable*/ font-weight:normal;
-        /*@editable*/ line-height:100%;
+        /*@editable*/ line-height:125%;
         /*@editable*/ letter-spacing:normal;
         /*@editable*/ text-align:left;
       }
@@ -120,9 +122,9 @@
         /*@editable*/ color:#808080 !important;
         /*@editable*/ font-family:Helvetica;
         /*@editable*/ font-size:14px;
-        /*@editable*/ font-style:italic;
+        /*@editable*/ font-style:normal;
         /*@editable*/ font-weight:normal;
-        /*@editable*/ line-height:100%;
+        /*@editable*/ line-height:125%;
         /*@editable*/ letter-spacing:normal;
         /*@editable*/ text-align:left;
       }
@@ -860,6 +862,12 @@
                                                             <h1>Title</h1>
                                                             <h2>Subtitle</h2>
                                                             Click here to edit your content. Set your fonts, colors, and styles in the text editor.
+                                                            <h3>MM4 brand colors:</h3>
+                                                            <ul>
+                                                                <li style="color:#EB4102;">ORANGE color: #EB4102</li>
+                                                                <li style="color:#0073AE;">BLUE color: #0073AE</li>
+                                                                <li style="color:#8a8a8d;">GREY color: #8a8a8d</li>
+                                                            </ul>
                                                         </td>
                                                     </tr>
                                                 </table>
@@ -971,7 +979,6 @@
                                                                 <tr>
                                                                     <td valign="top" class="twoColContent" mc:edit="two_col_content_00">
                                                                         <h2>Left Column</h2>
-                                                                        <br />
                                                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit consectetur, tempore, in, laudantium quasi optio officia, saepe molestiae perspiciatis ipsam assumenda asperiores natus magni facere voluptate numquam. Voluptates, architecto, mollitia.
                                                                     </td>
                                                                 </tr>
@@ -987,7 +994,6 @@
                                                                 <tr>
                                                                     <td valign="top" class="twoColContent" mc:edit="two_col_content_01">
                                                                         <h2>Right Column</h2>
-                                                                        <br />
                                                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam vel sequi, quasi voluptatum possimus unde alias molestias delectus, nesciunt, recusandae exercitationem dignissimos officia minus. Vero recusandae natus beatae nihil, quia!
                                                                     </td>
                                                                 </tr>
@@ -1029,7 +1035,6 @@
                                                                 <tr>
                                                                     <td valign="top" class="textContent fullPad" mc:edit="calendar_content_00">
                                                                         <h1>Event Title</h1>
-                                                                        <br />
                                                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum fuga corporis magni, quia tempora et quisquam minus non ducimus laudantium esse amet error excepturi ipsum at, rerum ad sit dolorem.
                                                                     </td>
                                                                 </tr>
@@ -1070,7 +1075,6 @@
                                                                 <tr>
                                                                     <td valign="top" class="textContent fullPad" mc:edit="calendar_content_00">
                                                                         <h1>Event Title</h1>
-                                                                        <br />
                                                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum fuga corporis magni, quia tempora et quisquam minus non ducimus laudantium esse amet error excepturi ipsum at, rerum ad sit dolorem.
                                                                     </td>
                                                                 </tr>
