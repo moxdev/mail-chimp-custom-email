@@ -245,10 +245,10 @@
         /*@editable*/ font-size:14px;
         /*@editable*/ line-height:150%;
         /*@editable*/ text-align:left;
-        padding-top:20px;
-        padding-right:20px;
-        padding-bottom:20px;
-        padding-left:20px;
+        /*@editable*/ padding-top:20px;
+        /*@editable*/ padding-right:20px;
+        /*@editable*/ padding-bottom:20px;
+        /*@editable*/ padding-left:20px;
       }
 
       /**
@@ -262,11 +262,7 @@
         /*@editable*/ text-decoration:underline;
       }
 
-      .bodyContent img{
-        display:inline;
-        height:auto;
-        max-width:560px;
-      }
+
 
       /*
       ________    __________ ________   __________        _      __________
@@ -282,19 +278,30 @@
       _MM_    \M\__MMMMMMMMM _MM_       _MMMMMMMMM _dM_     _dMM_   _MM_
        */
 
-      /* ========== Repeatable Section: Hero Image ========== */
+      /* ========== Repeatable Section: Text Area ========== */
 
       /**
       * @tab Section - Text Area
-      * @section set background-color
+      * @section set the background color of the section.
       */
       .textContent{
         /*@editable*/ background-color:#FFFFFF;
-
       }
+
+      /**
+      * @tab Section - Text Area
+      * @section set optional top-border bottom-border for separation.
+      */
+     .textContent{
+        /*@editable*/ border-top:1px;
+        /*@editable*/ border-bottom:1px;
+     }
+
+      /* ========== Repeatable Section: Hero Image ========== */
+
       /**
       * @tab Section - Hero Image
-      * @section set top-border and bottom-border for section separation
+      * @section set optional top-border bottom-border for separation.
       */
       .heroImageSection {
           vertical-align:middle;
@@ -321,7 +328,7 @@
 
       /**
       * @tab Section - Ad Image
-      * @section set top-border and bottom-border for section separation
+      * @section set optional top-border bottom-border for separation.
       */
       .adSection {
           vertical-align:middle;
@@ -330,7 +337,7 @@
       }
       /**
       * @tab Section - Ad Image
-      * @section set padding for the ad image, default is 0px
+      * @section set padding for the ad image, default is 0px.
       */
       .adSection {
         /*@editable*/ padding-top:0px;
@@ -357,21 +364,24 @@
       }
       /**
       * @tab Section - Left Image Right Text
-      * @section set optional top-border bottom-border for separation
+      * @section set optional top-border bottom-border for separation.
       */
       .flexContainerLeft{
           /*@editable*/ border-top:1px;
           /*@editable*/ border-bottom:1px;
       }
+
       /**
       * @tab Section - Left Image Right Text
-      * @section set the padding of the section, default is 20px
+      * @section set the padding of the image, default is 20px
       */
-      .flexContainerLeft{
-          /*@editable*/ padding-top:20px;
-          /*@editable*/ padding-bottom:20px;
-          /*@editable*/ padding-right:20px;
-          /*@editable*/ padding-left:20px;
+      .flexibleImageLeft{
+        max-width:200px;
+        height:auto;
+        /*@editable*/ padding-top:20px;
+        /*@editable*/ padding-bottom:20px;
+        /*@editable*/ padding-right:20px;
+        /*@editable*/ padding-left:20px;
       }
 
       /* ========== Repeatable Section: Right Image Left Text Styles ========== */
@@ -383,36 +393,36 @@
       .flexContainerRight{
           /*@editable*/ background-color:#ffffff;
           max-width:600px;
+          width:100%;
       }
+
       /**
       * @tab Section - Right Image Left Text
-      * @section set optional top-border bottom-border for separation
+      * @section set optional top-border bottom-border for separation.
       */
       .flexContainerRight{
           /*@editable*/ border-top:1px;
           /*@editable*/ border-bottom:1px;
       }
+
       /**
       * @tab Section - Right Image Left Text
-      * @section set the padding of the section, default is 20px
+      * @section set the padding of the image, default is 20px
       */
-      .flexContainerRight{
-          /*@editable*/ padding-top:20px;
-          /*@editable*/ padding-bottom:20px;
-          /*@editable*/ padding-right:20px;
-          /*@editable*/ padding-left:20px;
-      }
-
-      .flexibleImage{
+      .flexibleImageRight{
         max-width:200px;
-        height:auto
+        height:auto;
+        /*@editable*/ padding-top:20px;
+        /*@editable*/ padding-bottom:20px;
+        /*@editable*/ padding-right:20px;
+        /*@editable*/ padding-left:20px;
       }
 
       /* ========== Repeatable Section: Callout Button Styles ========== */
 
       /**
       * @tab Section - Callout Button
-      * @section set the background color for the entire section
+      * @section set the background color for the entire section.
       */
       .calloutButtonSection{
           /*@editable*/ background-color:#ffffff;
@@ -420,7 +430,7 @@
 
       /**
       * @tab Section - Callout Button
-      * @section set optional top-border bottom-border for separation
+      * @section set optional top-border bottom-border for separation.
       */
       .calloutButtonSection{
           /*@editable*/ border-top:1px;
@@ -429,20 +439,9 @@
 
       /**
       * @tab Section - Callout Button
-      * @section set the padding for the content area, default is 20px
+      * @section set the background color and border-radius of the button.
       */
-      .calloutContent{
-          /*@editable*/ padding-top:20px;
-          /*@editable*/ padding-bottom:20px;
-          /*@editable*/ padding-right:20px;
-          /*@editable*/ padding-left:20px;
-      }
-
-      /**
-      * @tab Section - Callout Button
-      * @section set the background color and border-radius of the button
-      */
-      .emailButton{
+      .calloutButton{
           border-collapse:separate;
           /*@editable*/ background-color:#0073AE;
           /*@editable*/ border-radius:4px;
@@ -450,7 +449,7 @@
 
       /**
       * @tab Section - Callout Button
-      * @section set the color, size, and fonts for the button content
+      * @section set the color, size, and fonts for the button text.
       */
       .buttonContent{
           line-height:100%;
@@ -475,14 +474,14 @@
 
       /**
       * @tab Section - 2 Column Image with Text
-      * @section set background color of the entire section
+      * @section set background color of the entire section.
       */
       .twoCol{
           /*@editable*/ background-color:#FFFFFF;
       }
       /**
       * @tab Section - 2 Column Image with Text
-      * @section set optional top-border bottom-border for separation
+      * @section set optional top-border bottom-border for separation.
       */
       .twoCol{
         /*@editable*/ border-top:1px;
@@ -505,14 +504,14 @@
 
       /**
       * @tab Section - Left and Right Calendar
-      * @section set background color of the entire section
+      * @section set background color of the entire section.
       */
       .calSection{
           /*@editable*/ background-color:#FFFFFF;
       }
       /**
       * @tab Section - Left and Right Calendar
-      * @section set optional top-border bottom-border for separation
+      * @section set optional top-border bottom-border for separation.
       */
       .calSection{
           /*@editable*/ border-top:1px;
@@ -520,15 +519,16 @@
       }
       /**
       * @tab Section - Left and Right Calendar
-      * @section set background color and border of calendar icon
+      * @section set background color and border of calendar icon.
       */
       .emailCalendar{
           /*@editable*/ background-color:#F1F1F1;
           /*@editable*/ border:1px solid #CCCCCC;
+          margin-top: 20px;
       }
       /**
       * @tab Section - Left and Right Calendar
-      * @section set background color, text color, and font for calendar month
+      * @section set background color, text color, and font for calendar month.
       */
       .emailCalendarMonth{
           /*@editable*/ background-color:#0073AE;
@@ -542,7 +542,7 @@
       }
       /**
       * @tab Section - Left and Right Calendar
-      * @section set text color, size and font for calendar day
+      * @section set text color, size and font for calendar day.
       */
       .emailCalendarDay{
           /*@editable*/ color:#0073AE;
@@ -764,23 +764,26 @@
           width: 100% !important;
         }
 
-        .flexContainerLeftContent, .flexContainerRightContent{
-          padding-top: 20px !important;
-       }
-
         #flexibleImage{
           width:100% !important;
-          max-width:200px !important;
+          max-width:260px !important;
           height:auto !important;
         }
         /**
         * 2 COLUMN IMAGE WITH TEXT SECTION
         */
         .twoColImage{
-          text-align: center;
+          text-align: center !important;
         }
         .colAdjust {
           width: 100% !important;
+        }
+
+        /**
+        * CALENDAR SECTION
+        */
+        .emailCalendar{
+          margin:0 !important;
         }
 
 
@@ -905,15 +908,15 @@
                                                             <table align="left" border="0" cellpadding="0" cellspacing="0" width="200" class="flexContainerLeftImage">
                                                                 <tr>
                                                                     <td align="left" valign="top" class="imageCenter">
-                                                                        <img src="http://dummyimage.com/200x200/333/fff.png" width="200" style="max-width:200px;" mc:edit="flex_left_image00" class="flexibleImage" />
+                                                                        <img src="http://dummyimage.com/200x200/333/fff.png" width="200" style="max-width:200px;" mc:edit="flex_left_image00" class="flexibleImageLeft" />
                                                                     </td>
                                                                 </tr>
                                                             </table>
                                                             <!-- // IMAGE TABLE -->
                                                             <!-- CONTENT TABLE // -->
-                                                            <table align="right" border="0" cellpadding="0" cellspacing="0" width="340">
+                                                            <table align="right" border="0" cellpadding="0" cellspacing="0" width="350">
                                                                 <tr>
-                                                                    <td valign="top" class="flexContainerLeftContent" mc:edit="flex_left_content00">
+                                                                    <td valign="top" class="bodyContent" mc:edit="flex_left_content00">
                                                                         <h2>Right Column</h2>
                                                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe est possimus aliquam vel natus tempora incidunt, fugiat quidem. Nemo, optio id reprehenderit cum quasi ut, error aut commodi quod sit.
                                                                     </td>
@@ -932,15 +935,15 @@
                                                             <table align="right" border="0" cellpadding="0" cellspacing="0" width="200" class="flexContainerRightImage">
                                                                 <tr>
                                                                     <td align="left" valign="top" class="imageCenter">
-                                                                        <img src="http://dummyimage.com/200x200/333/fff.png" width="200" style="max-width:200px;" mc:edit="flex_right_image00" class="flexibleImage" />
+                                                                        <img src="http://dummyimage.com/200x200/333/fff.png" width="200" style="max-width:200px;" mc:edit="flex_right_image00" class="flexibleImageRight" />
                                                                     </td>
                                                                 </tr>
                                                             </table>
                                                             <!-- // IMAGE TABLE -->
                                                             <!-- CONTENT TABLE // -->
-                                                            <table align="left" border="0" cellpadding="0" cellspacing="0" width="340">
+                                                            <table align="left" border="0" cellpadding="0" cellspacing="0" width="350">
                                                                 <tr>
-                                                                    <td valign="top" class="flexContainerRightContent" mc:edit="flex_right_content00">
+                                                                    <td valign="top" class="bodyContent" mc:edit="flex_right_content00">
                                                                         <h2>Left Column</h2>
                                                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe est possimus aliquam vel natus tempora incidunt, fugiat quidem. Nemo, optio id reprehenderit cum quasi ut, error aut commodi quod sit.
                                                                     </td>
@@ -954,14 +957,14 @@
                                                 <!--  Begin Module: Callout Button -->
                                                 <table border="0" cellpadding="0" cellspacing="0" width="100%" mc:repeatable="block_section" mc:variant="Callout Button" class="calloutButtonSection" >
                                                     <tr>
-                                                        <td valign="top" class="calloutContent" mc:edit="callout_content00">
+                                                        <td valign="top" class="bodyContent" mc:edit="callout_content00">
                                                             <h2>Callout</h2>
                                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, dolores quas quisquam molestiae quis eius voluptates, ad veritatis assumenda praesentium aut, a eos. Architecto hic eveniet cum magnam a, quaerat voluptatibus perferendis tempore doloremque, quas doloribus impedit, nisi vitae accusamus.
                                                         </td>
                                                     </tr>
                                                     <tr>
                                                         <td align="center" valign="top" class="bottomShim">
-                                                            <table border="0" cellpadding="0" cellspacing="0" width="260" class="emailButton">
+                                                            <table border="0" cellpadding="0" cellspacing="0" width="260" class="calloutButton">
                                                                 <tr>
                                                                     <td align="center" valign="middle" class="buttonContent" mc:edit="button00">
                                                                         <div>Purchase Now</div>
@@ -984,7 +987,7 @@
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td valign="top" class="twoColContent" mc:edit="two_col_content_00">
+                                                                    <td valign="top" class="bodyContent" mc:edit="two_col_content_00">
                                                                         <h2>Left Column</h2>
                                                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit consectetur, tempore, in, laudantium quasi optio officia, saepe molestiae perspiciatis ipsam assumenda asperiores natus magni facere voluptate numquam. Voluptates, architecto, mollitia.
                                                                     </td>
@@ -999,7 +1002,7 @@
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td valign="top" class="twoColContent" mc:edit="two_col_content_01">
+                                                                    <td valign="top" class="bodyContent" mc:edit="two_col_content_01">
                                                                         <h2>Right Column</h2>
                                                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam vel sequi, quasi voluptatum possimus unde alias molestias delectus, nesciunt, recusandae exercitationem dignissimos officia minus. Vero recusandae natus beatae nihil, quia!
                                                                     </td>
@@ -1019,7 +1022,7 @@
                                                                     <td align="center" valign="top" class="fullPad">
                                                                         <table border="0" cellpadding="0" cellspacing="0" width="160" class="emailCalendar">
                                                                             <tr>
-                                                                                <td align="center" valign="top">
+                                                                                <td align="center" valign="top" >
                                                                                     <table border="0" cellpadding="0" cellspacing="0" width="100%">
                                                                                         <tr>
                                                                                             <td align="center" valign="top" class="emailCalendarMonth" mc:edit="month_00">
@@ -1040,7 +1043,7 @@
                                                             </table>
                                                             <table align="right" border="0" cellpadding="0" cellspacing="0" width="400" class="colAdjust">
                                                                 <tr>
-                                                                    <td valign="top" class="textContent fullPad" mc:edit="calendar_content_00">
+                                                                    <td valign="top" class="bodyContent" mc:edit="calendar_content_00">
                                                                         <h1>Event Title</h1>
                                                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum fuga corporis magni, quia tempora et quisquam minus non ducimus laudantium esse amet error excepturi ipsum at, rerum ad sit dolorem.
                                                                     </td>
@@ -1080,7 +1083,7 @@
                                                             </table>
                                                             <table align="left" border="0" cellpadding="0" cellspacing="0" width="400" class="colAdjust">
                                                                 <tr>
-                                                                    <td valign="top" class="textContent fullPad" mc:edit="calendar_content_00">
+                                                                    <td valign="top" class="bodyContent" mc:edit="calendar_content_00">
                                                                         <h1>Event Title</h1>
                                                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum fuga corporis magni, quia tempora et quisquam minus non ducimus laudantium esse amet error excepturi ipsum at, rerum ad sit dolorem.
                                                                     </td>
