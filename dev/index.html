@@ -141,7 +141,7 @@
 
       /**
       * @tab Preheader
-      * @section set the background color and bottom border for your email's preheader area.
+      * @section set the background color and bottom-border for the preheader section.
       * @theme header
       */
       #templatePreheader{
@@ -151,7 +151,7 @@
 
       /**
       * @tab Preheader
-      * @section set the styling for your email's preheader text. Choose a size and color that is easy to read.
+      * @section set the styling for preheader text.
       * @theme header
       */
       .preheaderContent{
@@ -164,7 +164,7 @@
 
       /**
       * @tab Preheader
-      * @section Set the styling for your email's preheader links. Choose a color that helps them stand out from your text.
+      * @section Set the styling for preheader links.
       * @theme header
       */
       .preheaderContent a:link, .preheaderContent a:visited, /* Yahoo! Mail Override */ .preheaderContent a .yshortcuts /* Yahoo! Mail Override */{
@@ -174,21 +174,32 @@
       }
 
       /**
+      * /////////////// PRE-HEADER STYLES //////////////////////
+      */
+
+      /**
       * @tab Header
-      * @section header style
-      * @tip Set the background color and borders for your email's header area.
+      * @section if using text instead of image, set the background color
       * @theme header
       */
       #templateHeader{
-        /*@editable*/ background-color:#F4F4F4;
-        /*@editable*/ border-top:1px solid #FFFFFF;
-        /*@editable*/ border-bottom:1px solid #CCCCCC;
+        /*@editable*/ background-color:#FFFFFF;
       }
 
       /**
       * @tab Header
-      * @section header text
-      * @tip Set the styling for your email's header text. Choose a size and color that is easy to read.
+      * @section set optional top and bottom border for separation.
+      * @theme header
+      */
+      #templateHeader{
+        /*@editable*/ border-top:1px;
+        /*@editable*/ border-bottom:1px;
+      }
+
+      /**
+      * @tab Header
+      * @section set styling for header text
+      * @theme header
       */
       .headerContent{
         /*@editable*/ color:#505050;
@@ -196,17 +207,29 @@
         /*@editable*/ font-size:20px;
         /*@editable*/ font-weight:bold;
         /*@editable*/ line-height:100%;
-        /*@editable*/ padding-top:0;
-        /*@editable*/ padding-right:0;
-        /*@editable*/ padding-bottom:0;
-        /*@editable*/ padding-left:0;
         /*@editable*/ text-align:left;
         /*@editable*/ vertical-align:middle;
+        padding-top:0;
+        padding-right:0;
+        padding-bottom:0;
+        padding-left:0;
       }
 
       /**
       * @tab Header
-      * @section set the styling for your email's header links.
+      * @section set padding for header section, default 0px
+      * @theme header
+      */
+      .headerContent{
+        /*@editable*/ padding-top:0;
+        /*@editable*/ padding-right:0;
+        /*@editable*/ padding-bottom:0;
+        /*@editable*/ padding-left:0;
+      }
+
+      /**
+      * @tab Header
+      * @section set the styling for header links.
       */
       .headerContent a:link, .headerContent a:visited, /* Yahoo! Mail Override */ .headerContent a .yshortcuts /* Yahoo! Mail Override */{
         /*@editable*/ color:#0073AE;
@@ -217,9 +240,12 @@
       #headerImage{
         max-width:600px;
         height:auto;
+        width: 100%;
       }
 
-      /* ========== Body Styles ========== */
+      /**
+      * /////////////// BODY STYLES //////////////////////
+      */
 
       #templateBody{
         background-color:#F4F4F4;
@@ -227,9 +253,8 @@
 
       /**
       * @tab Body
-      * @section body text
-      * @tip Set the styling for your email's main content text. Choose a size and color that is easy to read.
-      * @theme main
+      * @section Set the styling for the main content text.
+      * @theme body
       */
       .bodyContent{
         /*@editable*/ color:#505050;
@@ -237,6 +262,14 @@
         /*@editable*/ font-size:14px;
         /*@editable*/ line-height:150%;
         /*@editable*/ text-align:left;
+      }
+
+      /**
+      * @tab Body
+      * @section set the body padding, default is 20px
+      * @theme body
+      */
+      .bodyContent{
         /*@editable*/ padding-top:20px;
         /*@editable*/ padding-right:20px;
         /*@editable*/ padding-bottom:20px;
@@ -245,8 +278,8 @@
 
       /**
       * @tab Body
-      * @section body link
-      * @tip Set the styling for your email's main content links. Choose a color that helps them stand out from your text.
+      * @section Set the styling for body links
+      * @theme body
       */
       .bodyContent a:link, .bodyContent a:visited, /* Yahoo! Mail Override */ .bodyContent a .yshortcuts /* Yahoo! Mail Override */{
         /*@editable*/ color:#0073AE;
@@ -266,7 +299,7 @@
 
       /**
       * @tab Section - Text Area
-      * @section set optional top-border bottom-border for separation.
+      * @section set optional top and bottom border for separation.
       */
      .textContent{
         /*@editable*/ border-top:1px;
@@ -277,7 +310,7 @@
 
       /**
       * @tab Section - Hero Image
-      * @section set optional top-border bottom-border for separation.
+      * @section set optional top and bottom border for separation.
       */
       .heroImageSection {
           vertical-align:middle;
@@ -304,7 +337,7 @@
 
       /**
       * @tab Section - Ad Image
-      * @section set optional top-border bottom-border for separation.
+      * @section set optional top and bottom border for separation.
       */
       .adSection {
           vertical-align:middle;
@@ -337,10 +370,11 @@
           /*@editable*/ background-color:#ffffff;
           max-width:600px;
           width:100%;
+          padding:20px;
       }
       /**
       * @tab Section - Left Image Right Text
-      * @section set optional top-border bottom-border for separation.
+      * @section set optional top and bottom border for separation.
       */
       .flexContainerLeft{
           /*@editable*/ border-top:1px;
@@ -351,13 +385,13 @@
       * @tab Section - Left Image Right Text
       * @section set the padding of the image, default is 20px
       */
-      .flexibleImageLeft{
+      .flexibleImageLeft, .flexibleImageRight{
         max-width:200px;
         height:auto;
-        /*@editable*/ padding-top:20px;
-        /*@editable*/ padding-bottom:20px;
-        /*@editable*/ padding-right:20px;
-        /*@editable*/ padding-left:20px;
+      }
+
+      .imageContent{
+
       }
 
       /* ========== Repeatable Section: Right Image Left Text Styles ========== */
@@ -370,28 +404,16 @@
           /*@editable*/ background-color:#ffffff;
           max-width:600px;
           width:100%;
+          padding:20px;
       }
 
       /**
       * @tab Section - Right Image Left Text
-      * @section set optional top-border bottom-border for separation.
+      * @section set optional top and bottom border for separation.
       */
       .flexContainerRight{
           /*@editable*/ border-top:1px;
           /*@editable*/ border-bottom:1px;
-      }
-
-      /**
-      * @tab Section - Right Image Left Text
-      * @section set the padding of the image, default is 20px
-      */
-      .flexibleImageRight{
-        max-width:200px;
-        height:auto;
-        /*@editable*/ padding-top:20px;
-        /*@editable*/ padding-bottom:20px;
-        /*@editable*/ padding-right:20px;
-        /*@editable*/ padding-left:20px;
       }
 
       /* ========== Repeatable Section: Callout Button Styles ========== */
@@ -406,7 +428,7 @@
 
       /**
       * @tab Section - Callout Button
-      * @section set optional top-border bottom-border for separation.
+      * @section set optional top and bottom border for separation.
       */
       .calloutButtonSection{
           /*@editable*/ border-top:1px;
@@ -425,7 +447,7 @@
 
       /**
       * @tab Section - Callout Button
-      * @section set the color, size, and fonts for the button text.
+      * @section set the color, size, and font for the button text.
       */
       .buttonContent{
           line-height:100%;
@@ -449,15 +471,15 @@
       /* ========== Repeatable Section: Two Columns Image and Text Styles ========== */
 
       /**
-      * @tab Section - 2 Column Image with Text
+      * @tab Section - Two Column Image with Text
       * @section set background color of the entire section.
       */
       .twoCol{
           /*@editable*/ background-color:#FFFFFF;
       }
       /**
-      * @tab Section - 2 Column Image with Text
-      * @section set optional top-border bottom-border for separation.
+      * @tab Section - Two Column Image with Text
+      * @section set optional top and bottom border for separation.
       */
       .twoCol{
         /*@editable*/ border-top:1px;
@@ -487,7 +509,7 @@
       }
       /**
       * @tab Section - Left and Right Calendar
-      * @section set optional top-border bottom-border for separation.
+      * @section set optional top and bottom border for separation.
       */
       .calSection{
           /*@editable*/ border-top:1px;
@@ -544,7 +566,7 @@
 
       /**
       * @tab Footer
-      * @section Set the background color and top-border for your email's footer area.
+      * @section Set the background color and top-border of footer section.
       * @theme footer
       */
       #templateFooter{
@@ -581,7 +603,7 @@
       }
       /**
       * @tab Social Icons
-      * @section social icon size, set 24px or 48px
+      * @section set social icon size, set 24px or 48px
       * @theme footer
       */
       .socialIcons{
@@ -719,6 +741,15 @@
           height:auto !important;
         }
 
+        .imageContent{
+          width: 100% !important;
+          color:#505050;
+          font-family:Helvetica;
+          font-size:18px;
+          line-height:125%;
+          text-align:left;
+        }
+
         /**
         * 2 COLUMN IMAGE WITH TEXT SECTION
         */
@@ -740,20 +771,16 @@
 
         /**
         * @tab Mobile Styles
-        * @section footer text styles
+        * @section set footer text styles
         */
         .footerContent{
           /*@editable*/ font-size:14px !important;
           /*@editable*/ line-height:115% !important;
         }
 
-        /**
-        * @tab Mobile Styles
-        * @section footer social icons display
-        */
         .footerContent a{
-          /*@editable*/ display:block !important;
-          /*@editable*/ text-align: center;
+          display:block !important;
+          text-align: center;
         } /* Place footer social and utility links on their own lines, for easier access */
 
         /**
@@ -856,15 +883,15 @@
                                                             <table align="left" border="0" cellpadding="0" cellspacing="0" width="200" class="flexContainerLeftImage">
                                                                 <tr>
                                                                     <td align="left" valign="top" class="imageCenter">
-                                                                        <img src="http://dummyimage.com/200x200/333/fff.png" width="200" style="max-width:200px;" mc:edit="flex_left_image00" class="flexibleImageLeft" />
+                                                                        <img src="http://dummyimage.com/200x200/333/fff.png" width="200" style="max-width:200px;" mc:edit="flex_left_image00" class="" />
                                                                     </td>
                                                                 </tr>
                                                             </table>
                                                             <!-- // IMAGE TABLE -->
                                                             <!-- CONTENT TABLE // -->
-                                                            <table align="right" border="0" cellpadding="0" cellspacing="0" width="350">
+                                                            <table align="right" border="0" cellpadding="0" cellspacing="0" width="340">
                                                                 <tr>
-                                                                    <td valign="top" class="bodyContent" mc:edit="flex_left_content00">
+                                                                    <td valign="top" class="imageContent" mc:edit="flex_left_content00">
                                                                         <h2>Right Column</h2>
                                                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe est possimus aliquam vel natus tempora incidunt, fugiat quidem. Nemo, optio id reprehenderit cum quasi ut, error aut commodi quod sit.
                                                                     </td>
@@ -883,15 +910,15 @@
                                                             <table align="right" border="0" cellpadding="0" cellspacing="0" width="200" class="flexContainerRightImage">
                                                                 <tr>
                                                                     <td align="left" valign="top" class="imageCenter">
-                                                                        <img src="http://dummyimage.com/200x200/333/fff.png" width="200" style="max-width:200px;" mc:edit="flex_right_image00" class="flexibleImageRight" />
+                                                                        <img src="http://dummyimage.com/200x200/333/fff.png" width="200" style="max-width:200px;" mc:edit="flex_right_image00" class="" />
                                                                     </td>
                                                                 </tr>
                                                             </table>
                                                             <!-- // IMAGE TABLE -->
                                                             <!-- CONTENT TABLE // -->
-                                                            <table align="left" border="0" cellpadding="0" cellspacing="0" width="350">
+                                                            <table align="left" border="0" cellpadding="0" cellspacing="0" width="340">
                                                                 <tr>
-                                                                    <td valign="top" class="bodyContent" mc:edit="flex_right_content00">
+                                                                    <td valign="top" class="imageContent" mc:edit="flex_right_content00">
                                                                         <h2>Left Column</h2>
                                                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe est possimus aliquam vel natus tempora incidunt, fugiat quidem. Nemo, optio id reprehenderit cum quasi ut, error aut commodi quod sit.
                                                                     </td>
@@ -1057,56 +1084,56 @@
                                               <table border="0" cellpadding="0" cellspacing="0" width="100%" mc:repeatable="footer_icon_section" mc:variant="Default Colored Icons" class=""><!-- DEFAULT COLOR ICONS -->
                                                 <tr>
                                                   <td align="center" valign="top" class="footerContent" mc:edit="footer_content_default00">
-                                                    <a href="*|TWITTER:PROFILEURL|*"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-twitter-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="*|FACEBOOK:PROFILEURL|*"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-facebook-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/millenniummktg/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-instagram-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/company/millennium-marketing-solutions"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-linkedin-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.mm4solutions.com/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-link-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="mailto:info@mm4solutions.com"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-forwardtofriend-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;
+                                                    <a href="https://twitter.com/MillenniumMKTG"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-twitter-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.facebook.com/MillenniumMarketing"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-facebook-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/millenniummktg/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-instagram-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/company/millennium-marketing-solutions"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-linkedin-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.mm4solutions.com/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-link-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="mailto:info@mm4solutions.com"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-forwardtofriend-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;
                                                   </td>
                                                 </tr>
                                               </table>
                                               <table border="0" cellpadding="0" cellspacing="0" width="100%" mc:repeatable="footer_icon_section" mc:variant="Outline Colored Icons" class=""><!-- OUTLINE COLOR ICONS -->
                                                 <tr>
                                                   <td align="center" valign="top" class="footerContent" mc:edit="footer_content_default00">
-                                                    <a href="*|TWITTER:PROFILEURL|*"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-color-twitter-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="*|FACEBOOK:PROFILEURL|*"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-color-facebook-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/millenniummktg/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-color-instagram-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/company/millennium-marketing-solutions"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-color-linkedin-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.mm4solutions.com/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-color-link-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="mailto:info@mm4solutions.com"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-color-forwardtofriend-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;
+                                                    <a href="https://twitter.com/MillenniumMKTG"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-color-twitter-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.facebook.com/MillenniumMarketing"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-color-facebook-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/millenniummktg/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-color-instagram-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/company/millennium-marketing-solutions"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-color-linkedin-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.mm4solutions.com/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-color-link-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="mailto:info@mm4solutions.com"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-color-forwardtofriend-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;
                                                   </td>
                                                 </tr>
                                               </table>
                                               <table border="0" cellpadding="0" cellspacing="0" width="100%" mc:repeatable="footer_icon_section" mc:variant="Dark Icons" class=""><!-- DARK ICONS -->
                                                 <tr>
                                                   <td align="center" valign="top" class="footerContent" mc:edit="footer_content_dark00">
-                                                    <a href="*|TWITTER:PROFILEURL|*"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/dark-twitter-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="*|FACEBOOK:PROFILEURL|*"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/dark-facebook-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/millenniummktg/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/dark-instagram-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/company/millennium-marketing-solutions"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/dark-linkedin-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.mm4solutions.com/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/dark-link-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="mailto:info@mm4solutions.com"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/dark-forwardtofriend-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;
+                                                    <a href="https://twitter.com/MillenniumMKTG"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/dark-twitter-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.facebook.com/MillenniumMarketing"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/dark-facebook-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/millenniummktg/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/dark-instagram-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/company/millennium-marketing-solutions"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/dark-linkedin-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.mm4solutions.com/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/dark-link-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="mailto:info@mm4solutions.com"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/dark-forwardtofriend-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;
                                                   </td>
                                                 </tr>
                                               </table>
                                               <table border="0" cellpadding="0" cellspacing="0" width="100%" mc:repeatable="footer_icon_section" mc:variant="Outline Dark Icons" class=""><!-- OUTLINE DARK ICONS -->
                                                 <tr>
                                                   <td align="center" valign="top" class="footerContent" mc:edit="footer_content_default00">
-                                                    <a href="*|TWITTER:PROFILEURL|*"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-twitter-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="*|FACEBOOK:PROFILEURL|*"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-facebook-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/millenniummktg/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-instagram-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/company/millennium-marketing-solutions"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-linkedin-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.mm4solutions.com/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-link-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="mailto:info@mm4solutions.com"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-forwardtofriend-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;
+                                                    <a href="https://twitter.com/MillenniumMKTG"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-twitter-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.facebook.com/MillenniumMarketing"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-facebook-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/millenniummktg/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-instagram-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/company/millennium-marketing-solutions"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-linkedin-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.mm4solutions.com/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-link-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="mailto:info@mm4solutions.com"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-forwardtofriend-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;
                                                   </td>
                                                 </tr>
                                               </table>
                                               <table border="0" cellpadding="0" cellspacing="0" width="100%" mc:repeatable="footer_icon_section" mc:variant="Light Icons" class=""><!-- LIGHT ICONS -->
                                                 <tr>
                                                   <td align="center" valign="top" class="footerContent" mc:edit="footer_content_light00">
-                                                    <a href="*|TWITTER:PROFILEURL|*"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/light-twitter-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="*|FACEBOOK:PROFILEURL|*"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/light-facebook-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/millenniummktg/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/light-instagram-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/company/millennium-marketing-solutions"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/light-linkedin-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.mm4solutions.com/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/light-link-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="mailto:info@mm4solutions.com"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/light-forwardtofriend-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;
+                                                    <a href="https://twitter.com/MillenniumMKTG"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/light-twitter-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.facebook.com/MillenniumMarketing"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/light-facebook-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/millenniummktg/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/light-instagram-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/company/millennium-marketing-solutions"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/light-linkedin-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.mm4solutions.com/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/light-link-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="mailto:info@mm4solutions.com"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/light-forwardtofriend-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;
                                                   </td>
                                                 </tr>
                                               </table>
                                               <table border="0" cellpadding="0" cellspacing="0" width="100%" mc:repeatable="footer_icon_section" mc:variant="Outline Light Icons" class=""><!-- OUTLINE LIGHT ICONS -->
                                                 <tr>
                                                   <td align="center" valign="top" class="footerContent" mc:edit="footer_content_default00">
-                                                    <a href="*|TWITTER:PROFILEURL|*"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-light-twitter-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="*|FACEBOOK:PROFILEURL|*"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-light-facebook-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/millenniummktg/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-light-instagram-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/company/millennium-marketing-solutions"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-light-linkedin-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.mm4solutions.com/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-light-link-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="mailto:info@mm4solutions.com"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-light-forwardtofriend-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;
+                                                    <a href="https://twitter.com/MillenniumMKTG"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-light-twitter-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.facebook.com/MillenniumMarketing"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-light-facebook-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/millenniummktg/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-light-instagram-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/company/millennium-marketing-solutions"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-light-linkedin-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.mm4solutions.com/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-light-link-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="mailto:info@mm4solutions.com"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-light-forwardtofriend-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;
                                                   </td>
                                                 </tr>
                                               </table>
                                               <table border="0" cellpadding="0" cellspacing="0" width="100%" mc:repeatable="footer_icon_section" mc:variant="Gray Icons" class=""><!-- GRAY ICONS -->
                                                 <tr>
                                                   <td align="center" valign="top" class="footerContent" mc:edit="footer_content_gray00">
-                                                    <a href="*|TWITTER:PROFILEURL|*"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/gray-twitter-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="*|FACEBOOK:PROFILEURL|*"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/gray-facebook-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/millenniummktg/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/gray-instagram-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/company/millennium-marketing-solutions"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/gray-linkedin-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.mm4solutions.com/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/gray-link-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="mailto:info@mm4solutions.com"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/gray-forwardtofriend-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;
+                                                    <a href="https://twitter.com/MillenniumMKTG"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/gray-twitter-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.facebook.com/MillenniumMarketing"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/gray-facebook-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/millenniummktg/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/gray-instagram-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/company/millennium-marketing-solutions"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/gray-linkedin-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.mm4solutions.com/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/gray-link-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="mailto:info@mm4solutions.com"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/gray-forwardtofriend-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;
                                                   </td>
                                                 </tr>
                                               </table>
                                               <table border="0" cellpadding="0" cellspacing="0" width="100%" mc:repeatable="footer_icon_section" mc:variant="Outline Gray Icons" class=""><!-- OUTLINE GRAY ICONS -->
                                                 <tr>
                                                   <td align="center" valign="top" class="footerContent" mc:edit="footer_content_default00">
-                                                    <a href="*|TWITTER:PROFILEURL|*"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-gray-twitter-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="*|FACEBOOK:PROFILEURL|*"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-gray-facebook-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/millenniummktg/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-gray-instagram-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/company/millennium-marketing-solutions"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-gray-linkedin-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.mm4solutions.com/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-gray-link-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="mailto:info@mm4solutions.com"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-gray-forwardtofriend-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;
+                                                    <a href="https://twitter.com/MillenniumMKTG"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-gray-twitter-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.facebook.com/MillenniumMarketing"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-gray-facebook-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/millenniummktg/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-gray-instagram-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/company/millennium-marketing-solutions"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-gray-linkedin-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.mm4solutions.com/"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-gray-link-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;<a href="mailto:info@mm4solutions.com"><img src="https://cdn-images.mailchimp.com/icons/social-block-v2/outline-gray-forwardtofriend-48.png" height="24" width="24" class="socialIcons"></a>&nbsp;&nbsp;&nbsp;
                                                   </td>
                                                 </tr>
                                               </table>
