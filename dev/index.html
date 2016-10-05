@@ -19,7 +19,15 @@
         table{border-collapse:collapse !important;}
         body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:100% !important;}
 
-         /**
+        /*////// FRAMEWORK STYLES //////*/
+        /*.flexibleContainerCell{padding-top:20px; padding-Right:20px; padding-Left:20px;}*/
+        .flexibleImage{height:auto;}
+        /*.bottomShim{padding-bottom:20px;}*/
+        /*.imageContent, .imageContentLast{padding-bottom:20px;}
+        .nestedContainerCell{padding-top:20px; padding-Right:20px; padding-Left:20px;}*/
+
+
+        /**
         * TEMPLATE STYLES
         */
 
@@ -237,11 +245,6 @@
         /*@editable*/ text-decoration:underline;
       }
 
-      #headerImage{
-        max-width:600px;
-        height:auto;
-        width: 100%;
-      }
 
       /**
       * /////////////// BODY STYLES //////////////////////
@@ -391,7 +394,6 @@
       }
 
       .imageContent{
-
       }
 
       /* ========== Repeatable Section: Right Image Left Text Styles ========== */
@@ -620,11 +622,18 @@
         body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:none !important;} /* Prevent Webkit platforms from changing default text sizes */
         #body{width:100% !important; min-width:100% !important;} /* Prevent iOS Mail from adding padding to the body */
 
+        /*
+          CSS selectors are written in attribute selector format to prevent Yahoo Mail
+          from rendering media query styles on desktop.
+        */
+
         /*  MOBILE TEMPLATE STYLES  */
+        table[class="flexibleContainer"]{width:100% !important;}
+        img[class="flexibleImage"]{height:auto !important; width:100% !important;}
 
         /* ======== Page Styles ======== */
 
-        #templateContainer{
+        table[id="templateContainer"]{
           max-width:600px !important;
           width:100% !important;
         }
@@ -671,13 +680,7 @@
 
         /* ======== Header Styles ======== */
 
-        #templatePreheader{display:none !important;} /* Hide the template preheader to save space */
-
-        #headerImage{
-          height:auto !important;
-          max-width:600px !important;
-          width:100% !important;
-        }
+        table[id="templatePreheader"]{display:none !important;} /* Hide the template preheader to save space */
 
         /**
         * @tab Mobile Styles
@@ -727,20 +730,6 @@
           /*text-align: center !important;*/
           /*display: inline-block !important;*/
         }
-        .flexContainer{
-          width:100% !important;
-          max-width:600px !important;
-        }
-
-        .flexContainerImage{
-          width: 100% !important;
-        }
-
-        #flexibleImage{
-          width:100% !important;
-          max-width:200px !important;
-          height:auto !important;
-        }
 
         .imageContent{
           width: 100% !important;
@@ -780,8 +769,8 @@
         }
 
         .footerContent a{
-          display:block !important;
-          text-align: center;
+          /*display:block !important;*/
+          /*text-align: center;*/
         } /* Place footer social and utility links on their own lines, for easier access */
 
         /**
@@ -789,10 +778,30 @@
         * @section footer social icons mobile size, 24px or 48px
         */
         .socialIcons{
-          /*@editable*/ width: 48px;
+          /*@editable*/ width: 24px;
       }
     </style>
-    <link rel="stylesheet" href="mobile.css" />
+    <!--
+      Outlook Conditional CSS
+
+        These two style blocks target Outlook 2007 & 2010 specifically, forcing
+        columns into a single vertical stack as on mobile clients. This is
+        primarily done to avoid the 'page break bug' and is optional.
+
+        More information here:
+        http://templates.mailchimp.com/development/css/outlook-conditional-css
+    -->
+    <!--[if mso 12]>
+        style type="text/css">
+          .flexibleContainer{display:block !important; width:100% !important;}
+        </style>
+    <![endif]-->
+    <!--[if mso 14]>
+        <style type="text/css">
+          .flexibleContainer{display:block !important; width:100% !important;}
+        </style>
+    <![endif]-->
+
     </head>
     <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
       <center>
@@ -879,31 +888,51 @@
                                                 <!-- Begin Module: Left Image Right Text -->
                                                 <table border="0" cellpadding="0" cellspacing="0" width="100%" mc:repeatable="block_section" mc:variant="Left Image Right Text">
                                                   <tr>
-                                                      <td align="center" valign="top">
-                                                          <!-- IMAGE TABLE // -->
-                                                          <table align="left" border="0" cellpadding="0" cellspacing="0" width="200">
-                                                              <tr>
-                                                                  <td align="left" valign="top">
-                                                                      <img width="100%" src="http://dummyimage.com/200x200/333/fff.png" width="200" style="max-width:200px;" mc:edit="flex_left_image00" class="" />
+                                                    <td align="center" valign="top">
+                                                        <!-- CENTERING TABLE // -->
+                                                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                          <tr>
+                                                            <td align="center" valign="top">
+                                                              <!-- FLEXIBLE CONTAINER // -->
+                                                              <table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+                                                                <tr>
+                                                                  <td valign="top" width="600" class="flexibleContainerCell">
+                                                                    <!-- IMAGE TABLE // -->
+                                                                    <table align="left" border="0" cellpadding="0" cellspacing="0" width="200" class="flexibleContainer">
+                                                                      <tr>
+                                                                        <td align="left" valign="top" class="">
+                                                                          <img src="http://dummyimage.com/200x200/333/fff.png" width="200" style="max-width:200px;" mc:edit="flex_left_image00" class="flexibleImage" />
+                                                                        </td>
+                                                                      </tr>
+                                                                    </table>
+                                                                    <!-- // IMAGE TABLE -->
+                                                                    <!-- CONTENT TABLE // -->
+                                                                    <table align="right" border="0" cellpadding="0" cellspacing="0" width="340" class="flexibleContainer">
+                                                                      <tr>
+                                                                        <td valign="top" class="imageContent">
+                                                                          <h3>Right Column</h3>
+                                                                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe est possimus aliquam vel natus tempora incidunt, fugiat quidem. Nemo, optio id reprehenderit cum quasi ut, error aut commodi quod sit.
+                                                                        </td>
+                                                                      </tr>
+                                                                    </table>
+                                                                    <!-- // CONTENT TABLE -->
                                                                   </td>
-                                                              </tr>
-                                                          </table>
-                                                          <!-- IMAGE TABLE // -->
-                                                          <!-- // CONTENT TABLE // -->
-                                                          <table align="right" border="0" cellpadding="0" cellspacing="0" width="360" class="colAdjust">
-                                                              <tr>
-                                                                <td valign="top" class="imageContent fullPad" mc:edit="flex_left_content00">
-                                                                    <h2>Right Column</h2>
-                                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe est possimus aliquam vel natus tempora incidunt, fugiat quidem. Nemo, optio id reprehenderit cum quasi ut, error aut commodi quod sit.
-                                                                </td>
-                                                            </tr>
-                                                          </table>
-                                                          <!-- // CONTENT TABLE // -->
-
-                                                      </td>
+                                                                </tr>
+                                                              </table>
+                                                              <!-- // FLEXIBLE CONTAINER -->
+                                                            </td>
+                                                          </tr>
+                                                        </table>
+                                                        <!-- // CENTERING TABLE -->
+                                                    </td>
                                                   </tr>
                                                 </table>
                                                 <!-- End Module: Left Image Right Text -->
+                                                <!-- Begin Module: Right Image Left Text -->
+                                                <table border="0" cellpadding="0" cellspacing="0" width="100%" mc:repeatable="block_section" mc:variant="Right Image Left Text">
+
+                                                </table>
+                                                <!-- End Module: Right Image Left Text -->
 
 <!-- THIS IS THE END...MY ONLY FRIEND THE END -->
                                             </td>
