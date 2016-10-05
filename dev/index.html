@@ -546,6 +546,44 @@
           padding-left:20px;
       }
 
+      /* ========== Repeatable Section: Split Image / Text Styles ========== */
+
+      /**
+      * @tab Section - Split Image / Text
+      * @section set background color of the entire section.
+      */
+      .imageText{
+        /*@editable*/ background-color:#FFFFFF;
+      }
+
+      /**
+      * @tab Section - Split Image / Text
+      * @section set optional top and bottom border for separation.
+      */
+      .imageText{
+        /*@editable*/ border-top:1px;
+        /*@editable*/ border-bottom:1px;
+      }
+
+      /* ========== Repeatable Section: Split Text / Image Styles ========== */
+
+      /**
+      * @tab Section - Split Text / Image
+      * @section set background color of the entire section.
+      */
+      .textImage{
+        /*@editable*/ background-color:#FFFFFF;
+      }
+
+      /**
+      * @tab Section - Split Text / Image
+      * @section set optional top and bottom border for separation.
+      */
+      .textImage{
+        /*@editable*/ border-top:1px;
+        /*@editable*/ border-bottom:1px;
+      }
+
       /**
       * /////////////// FOOTER STYLES //////////////////////
       */
@@ -884,7 +922,7 @@
                                                                     <!-- IMAGE TABLE // -->
                                                                     <table align="left" border="0" cellpadding="0" cellspacing="0" width="200" class="flexibleContainer">
                                                                       <tr>
-                                                                        <td align="left" valign="top" class="">
+                                                                        <td align="left" valign="top" class="fullPad">
                                                                           <img src="http://dummyimage.com/200x200/333/fff.png" width="200" style="max-width:200px;" mc:edit="flex_left_image00" class="flexibleImage" />
                                                                         </td>
                                                                       </tr>
@@ -928,7 +966,7 @@
                                                                   <!-- IMAGE TABLE // -->
                                                                   <table align="right" border="0" cellpadding="0" cellspacing="0" width="200" class="flexibleContainer">
                                                                     <tr>
-                                                                      <td align="left" valign="top" class="">
+                                                                      <td align="left" valign="top" class="fullPad">
                                                                         <img src="http://dummyimage.com/200x200/333/fff.png" width="200" style="max-width:200px;" mc:edit="flex_right_image00" class="flexibleImage" />
                                                                       </td>
                                                                     </tr>
@@ -1096,6 +1134,96 @@
                                                     </tr>
                                                 </table>
                                                 <!--  End Module: Right Calendar Event
+
+                                                <!-- Begin Module: Split Columns Image / Text -->
+                                                <table border="0" cellpadding="0" cellspacing="0" width="100%" mc:repeatable="block_section" mc:variant="Split Image / Text">
+                                                  <tr>
+                                                    <td align="center" valign="top">
+                                                        <!-- CENTERING TABLE // -->
+                                                        <table border="0" cellpadding="0" cellspacing="0" width="100%" class="imageText">
+                                                          <tr>
+                                                            <td align="center" valign="top">
+                                                              <!-- FLEXIBLE CONTAINER // -->
+                                                              <table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+                                                                <tr>
+                                                                  <td valign="top" width="600" class="">
+                                                                    <!-- IMAGE TABLE // -->
+                                                                    <table align="left" border="0" cellpadding="0" cellspacing="0" width="300" class="flexibleContainer">
+                                                                      <tr>
+                                                                        <td align="left" valign="top" class="">
+                                                                          <img src="http://dummyimage.com/300/333/fff.png" width="300" style="max-width:300px;" mc:edit="flex_left_image00" class="flexibleImage" />
+                                                                        </td>
+                                                                      </tr>
+                                                                    </table>
+                                                                    <!-- // IMAGE TABLE -->
+                                                                    <!-- CONTENT TABLE // -->
+                                                                    <table align="right" border="0" cellpadding="0" cellspacing="0" width="300" class="flexibleContainer">
+                                                                      <tr>
+                                                                        <td valign="top" class="bodyContent" style="padding-top:0;">
+                                                                          <h3>Right Column</h3>
+                                                                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe est possimus aliquam vel natus tempora incidunt, fugiat quidem. Nemo, optio id reprehenderit cum quasi ut, error aut commodi quod sit.
+                                                                        </td>
+                                                                      </tr>
+                                                                    </table>
+                                                                    <!-- // CONTENT TABLE -->
+                                                                  </td>
+                                                                </tr>
+                                                              </table>
+                                                              <!-- // FLEXIBLE CONTAINER -->
+                                                            </td>
+                                                          </tr>
+                                                        </table>
+                                                        <!-- // CENTERING TABLE -->
+                                                    </td>
+                                                  </tr>
+                                                </table>
+                                                <!-- End Module: Split Columns Image / Text -->
+
+                                                <!-- Begin Module: Split Columns Text / Image -->
+                                                <table border="0" cellpadding="0" cellspacing="0" width="100%" mc:repeatable="block_section" mc:variant="Right Image Left Text">
+                                                  <!-- MODULE ROW // -->
+                                                  <tr>
+                                                    <td align="center" valign="top">
+                                                      <!-- CENTERING TABLE // -->
+                                                      <table border="0" cellpadding="0" cellspacing="0" width="100%" class="textImage">
+                                                        <tr>
+                                                          <td align="center" valign="top">
+                                                            <!-- FLEXIBLE CONTAINER // -->
+                                                            <table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+                                                              <tr>
+                                                                <td valign="top" width="600" class="">
+                                                                  <!-- IMAGE TABLE // -->
+                                                                  <table align="right" border="0" cellpadding="0" cellspacing="0" width="300" class="flexibleContainer">
+                                                                    <tr>
+                                                                      <td align="left" valign="top" class="">
+                                                                        <img src="http://dummyimage.com/300/333/fff.png" width="300" style="max-width:300px;" mc:edit="flex_right_image00" class="flexibleImage" />
+                                                                      </td>
+                                                                    </tr>
+                                                                  </table>
+                                                                  <!-- // IMAGE TABLE -->
+                                                                  <!-- CONTENT TABLE // -->
+                                                                  <table align="left" border="0" cellpadding="0" cellspacing="0" width="300" class="flexibleContainer">
+                                                                    <tr>
+                                                                      <td valign="top" mc:edit="flex_right_content00" class="bodyContent">
+                                                                        <h3>Left Column</h3>
+                                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe est possimus aliquam vel natus tempora incidunt, fugiat quidem. Nemo, optio id reprehenderit cum quasi ut, error aut commodi quod sit.
+                                                                      </td>
+                                                                    </tr>
+                                                                  </table>
+                                                                  <!-- // CONTENT TABLE -->
+                                                                </td>
+                                                              </tr>
+                                                            </table>
+                                                            <!-- // FLEXIBLE CONTAINER -->
+                                                          </td>
+                                                        </tr>
+                                                      </table>
+                                                      <!-- // CENTERING TABLE -->
+                                                    </td>
+                                                  </tr>
+                                                  <!-- // MODULE ROW -->
+                                                </table>
+                                                <!-- End Module: Split Columns Text / Image -->
 
 
 <!-- THIS IS THE END...MY ONLY FRIEND THE END -->
