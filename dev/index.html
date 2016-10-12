@@ -20,12 +20,9 @@
         body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:100% !important;}
 
         /*////// FRAMEWORK STYLES //////*/
-        /*.flexibleContainerCell{padding-top:20px; padding-Right:20px; padding-Left:20px;}*/
-        .flexibleImage{height:auto;}
-        /*.bottomShim{padding-bottom:20px;}*/
-        /*.imageContent, .imageContentLast{padding-bottom:20px;}
-        .nestedContainerCell{padding-top:20px; padding-Right:20px; padding-Left:20px;}*/
 
+        /* Make images responsive*/
+        .flexibleImage{height:auto;}
 
         /**
         * TEMPLATE STYLES
@@ -476,12 +473,15 @@
         /*@editable*/ border-top:1px;
         /*@editable*/ border-bottom:1px;
       }
-
+      /**
+      * @tab Section - Two Column Image with Text
+      * @section set optional padding on images
+      */
       .twoColPad{
-        padding-top: 20px;
-        padding-bottom: 20px;
-        padding-left: 20px;
-        padding-right: 20px;
+        /*@editable*/ padding-top: 20px;
+        /*@editable*/ padding-bottom: 20px;
+        /*@editable*/ padding-left: 20px;
+        /*@editable*/ padding-right: 20px;
       }
 
       /* ========== Repeatable Section: Calendar Styles ========== */
@@ -587,8 +587,8 @@
       /* ========== Repeatable Section: Split Image / Image Styles ========== */
 
       /**
-      * @tab Section - Split Text / Image
-      * @section set background color of the entire section.
+      * @tab Section - Split Image / Image
+      * @section set background color of the entire section
       */
       .dualImage{
         /*@editable*/ background-color:#FFFFFF;
@@ -596,7 +596,7 @@
 
       /**
       * @tab Section - Split Image / Image
-      * @section set optional top and bottom border for separation.
+      * @section set optional top and bottom border for separation
       */
       .dualImage{
         /*@editable*/ border-top:1px;
@@ -605,12 +605,17 @@
 
       /**
       * @tab Section - Split Image / Image
-      * @section set optional top and bottom padding for separation.
+      * @section set optional top and bottom padding for images, default is 0px
       */
-      .imagePad{
+     .doubleImage{
+        height: auto;
         /*@editable*/ padding-top:0px;
         /*@editable*/ padding-bottom:0px;
-      }
+        padding-right:0px;
+        padding-left:0px;
+
+     }
+
 
       /**
       * /////////////// FOOTER STYLES //////////////////////
@@ -680,6 +685,7 @@
         /*  MOBILE TEMPLATE STYLES  */
         table[class="flexibleContainer"]{width:100% !important;}
         img[class="flexibleImage"]{height:auto !important; width:100% !important;}
+        img[class="doubleImage"]{height:auto !important; width:100% !important;}
 
         /* ======== Page Styles ======== */
 
@@ -1250,14 +1256,13 @@
                                                   <!-- // MODULE ROW -->
                                                 </table>
                                                 <!-- End Module: Split Columns Text / Image -->
-
                                                 <!-- Begin Module: Split Columns Image / Image -->
                                                 <table border="0" cellpadding="0" cellspacing="0" width="100%" mc:repeatable="block_section" mc:variant="Right Image Left Image">
                                                   <!-- MODULE ROW // -->
                                                   <tr>
                                                     <td align="center" valign="top">
                                                       <!-- CENTERING TABLE // -->
-                                                      <table border="0" cellpadding="0" cellspacing="0" width="100%" class="textImage">
+                                                      <table border="0" cellpadding="0" cellspacing="0" width="100%" class="splitImage">
                                                         <tr>
                                                           <td align="center" valign="top">
                                                             <!-- FLEXIBLE CONTAINER // -->
@@ -1269,7 +1274,7 @@
                                                                   <table align="left" border="0" cellpadding="0" cellspacing="0" width="300" class="flexibleContainer">
                                                                     <tr>
                                                                       <td align="left" valign="top" class="">
-                                                                        <img src="http://dummyimage.com/300/333/fff.png" width="300" style="max-width:300px;" mc:edit="text_image00" class="flexibleImage" />
+                                                                        <img src="http://dummyimage.com/300/333/fff.png" width="300" style="max-width:300px;" mc:edit="split_image00" class="doubleImage" />
                                                                       </td>
                                                                     </tr>
                                                                   </table>
@@ -1278,7 +1283,7 @@
                                                                   <table align="right" border="0" cellpadding="0" cellspacing="0" width="300" class="flexibleContainer">
                                                                     <tr>
                                                                       <td align="right" valign="top" class="">
-                                                                        <img src="http://dummyimage.com/300/333/fff.png" width="300" style="max-width:300px;" mc:edit="text_image00" class="flexibleImage" />
+                                                                        <img src="http://dummyimage.com/300/333/fff.png" width="300" style="max-width:300px;" mc:edit="split_image01" class="doubleImage" />
                                                                       </td>
                                                                     </tr>
                                                                   </table>
