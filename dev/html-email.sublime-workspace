@@ -1,0 +1,2264 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"flexi",
+				"flexibleContainer"
+			],
+			[
+				"flexible",
+				"flexibleImage"
+			],
+			[
+				"full",
+				"fullPad"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"image",
+				"imageCenter"
+			],
+			[
+				"body",
+				"bodyContent"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"aling",
+				"vertical-align"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"backr",
+				"background-color"
+			],
+			[
+				"bui",
+				"buildSass"
+			],
+			[
+				"buildFonts",
+				"buildFontsCss"
+			],
+			[
+				"font",
+				"fontsCssDest"
+			],
+			[
+				"fonts",
+				"fontsCssSRC"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"pddin",
+				"padding-bottom"
+			],
+			[
+				"footer",
+				"footer-disclaimer"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"flex",
+				"flex-wrapper"
+			],
+			[
+				"masthead",
+				"masthead"
+			],
+			[
+				"entry",
+				"entry-title"
+			],
+			[
+				"inc",
+				"include\t@include"
+			],
+			[
+				"res",
+				"res\trespond-to"
+			],
+			[
+				"reso",
+				"respond-to"
+			],
+			[
+				"fle",
+				"flex-end"
+			],
+			[
+				"font-st",
+				"font-style"
+			],
+			[
+				"un",
+				"underline"
+			],
+			[
+				"ted",
+				"text-decoration"
+			],
+			[
+				"align",
+				"align-content"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"backgorund",
+				"background-color"
+			],
+			[
+				"pading",
+				"padding-left"
+			],
+			[
+				"inl",
+				"inline"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"read-more",
+				"read-more-content"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"invi",
+				"invite-content"
+			],
+			[
+				"inclu",
+				"include\t@include"
+			],
+			[
+				"alig",
+				"align-items"
+			],
+			[
+				"fun",
+				"function_exists"
+			],
+			[
+				"alt",
+				"alt-download-section"
+			],
+			[
+				"color",
+				"color__brand-2"
+			],
+			[
+				"en",
+				"endif"
+			],
+			[
+				"dw",
+				"download-icon"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"func",
+				"function_exists"
+			],
+			[
+				"setting",
+				"setting\tcustomize-add-setting"
+			],
+			[
+				"wp",
+				"wp_customize"
+			],
+			[
+				"save",
+				"_saveAnswers"
+			],
+			[
+				"_",
+				"_getPrompts"
+			],
+			[
+				"re",
+				"require"
+			],
+			[
+				"bord",
+				"border-bottom"
+			],
+			[
+				"jquery-ui",
+				"jquery-ui-core"
+			],
+			[
+				"wp_en",
+				"wp_enqueue_script"
+			],
+			[
+				"wp_regi",
+				"wp_register_script"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"call",
+				"callbackReturn"
+			],
+			[
+				"Map",
+				"MapOptionsModule"
+			],
+			[
+				"Mao",
+				"MapOptionsModule"
+			],
+			[
+				"pro",
+				"prototype"
+			],
+			[
+				"gM",
+				"gMapsW"
+			],
+			[
+				"mm4_",
+				"mm4_google-maps-module"
+			],
+			[
+				"Goog",
+				"GoogleMapsConstructor"
+			],
+			[
+				"Go",
+				"GoogleMapsConstructor"
+			],
+			[
+				"goo",
+				"googleMapsModule"
+			],
+			[
+				"class",
+				"class\tclass-php"
+			],
+			[
+				"album",
+				"album-image"
+			],
+			[
+				"incl",
+				"include\t@include"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"the_post",
+				"the_post_thumbnail"
+			],
+			[
+				"set_po",
+				"set_post_thumbnail"
+			],
+			[
+				"has_post",
+				"has_post_thumbnail"
+			],
+			[
+				"add_theme",
+				"add_theme_support"
+			],
+			[
+				"flo",
+				"float"
+			],
+			[
+				"large-",
+				"large-breakpoint-value"
+			],
+			[
+				"tablet",
+				"tablet-breakpoint-value"
+			],
+			[
+				"mo",
+				"mobile-breakpoint-value"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"front",
+				"frontpage-a"
+			],
+			[
+				"page_tem",
+				"is_page_template"
+			],
+			[
+				"client",
+				"client-list"
+			],
+			[
+				"the",
+				"the_row"
+			],
+			[
+				"function",
+				"function_exists"
+			],
+			[
+				"end",
+				"endwhile"
+			],
+			[
+				"section",
+				"sectionTitle"
+			],
+			[
+				"head",
+				"header"
+			],
+			[
+				"se",
+				"section1Title"
+			],
+			[
+				"on",
+				"onPageTitle"
+			],
+			[
+				"fron",
+				"frontpage-a"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"fontpage",
+				"frontpage-a"
+			],
+			[
+				"is_page",
+				"is_page_template"
+			],
+			[
+				"get_",
+				"get_field"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"tes",
+				"text-transform"
+			],
+			[
+				"ner",
+				"nerissemibold"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"u",
+				"uppercase"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 85441,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "html-email.sublime-project",
+			"settings":
+			{
+				"buffer_size": 168,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index-v2.html",
+			"settings":
+			{
+				"buffer_size": 67465,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/GraphicDesigner/projects/html-email-project/email-blueprints-master/modular-template-patterns/modular-template-patterns.html",
+			"settings":
+			{
+				"buffer_size": 83076,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/GraphicDesigner/projects/html-email-project/email-blueprints-master/responsive-templates/base_boxed_3column_query.html",
+			"settings":
+			{
+				"buffer_size": 32115,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n  <head>\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width\"/>\n    <title>*|MC:SUBJECT|*</title>\n    <style type=\"text/css\">\n        /* CLIENT-SPECIFIC STYLES */\n        #outlook a{padding:0;} /* Force Outlook to provide a \"view in browser\" message */\n        .ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */\n        .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotmail to display normal line spacing */\n        body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;} /* Prevent WebKit and Windows mobile changing default text sizes */\n        table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up */\n        img{-ms-interpolation-mode:bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */\n\n        /* RESET STYLES */\n        body{margin:0; padding:0;}\n        img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}\n        table{border-collapse:collapse !important;}\n        body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:100% !important;}\n\n         /**\n        * TEMPLATE STYLES\n        */\n\n        #bodyCell{padding:20px;}\n        #templateContainer{width:600px;}\n\n        /**\n        * /////////////// PAGE STYLES //////////////////////\n        */\n\n        /* MM4 Colors*/\n        /* ORANGE color:#EB4102*/\n        /* BLUE color:#0073AE*/\n        /* GREY color:#8a8a8d*/\n\n\n        /**\n        * @tab Page\n        * @section Set the background color of your email.\n        * @theme page\n        */\n        body, #bodyTable{\n            /*@editable*/ background-color:#DEE0E2;\n        }\n\n        /**\n        * @tab Page\n        * @section Set the top border color for your email.\n        * @theme page\n        */\n        #bodyCell{\n            /*@editable*/ border-top:4px solid #BBBBBB;\n        }\n\n        /**\n        * @tab Page\n        * @section set the border for the body of your email.\n        * @theme page\n        */\n        #templateContainer{\n            /*@editable*/ border:1px solid #BBBBBB;\n        }\n\n        /**\n        * /////////////// HEADING STYLES //////////////////////\n        */\n\n        /**\n        * @tab Headings\n        * @section H1 styles\n        * @style heading 1\n        */\n        h1{\n            display:block;\n            /*@editable*/ color:#202020 !important;\n            /*@editable*/ font-family:Helvetica;\n            /*@editable*/ font-size:26px;\n            /*@editable*/ font-style:normal;\n            /*@editable*/ font-weight:bold;\n            /*@editable*/ line-height:125%;\n            /*@editable*/ letter-spacing:normal;\n            /*@editable*/ text-align:left;\n        }\n\n        /**\n        * @tab Headings\n        * @section H2 styles\n        * @style heading 2\n        */\n        h2{\n            display:block;\n            /*@editable*/ color:#404040 !important;\n            /*@editable*/ font-family:Helvetica;\n            /*@editable*/ font-size:20px;\n            /*@editable*/ font-style:normal;\n            /*@editable*/ font-weight:bold;\n            /*@editable*/ line-height:125%;\n            /*@editable*/ letter-spacing:normal;\n            /*@editable*/ text-align:left;\n        }\n\n        /**\n        * @tab Headings\n        * @section H3 styles\n        * @style heading 3\n        */\n        h3{\n            display:block;\n            /*@editable*/ color:#606060 !important;\n            /*@editable*/ font-family:Helvetica;\n            /*@editable*/ font-size:16px;\n            /*@editable*/ font-style:normal;\n            /*@editable*/ font-weight:normal;\n            /*@editable*/ line-height:125%;\n            /*@editable*/ letter-spacing:normal;\n            /*@editable*/ text-align:left;\n        }\n\n        /**\n        * @tab Headings\n        * @section H4 styles\n        * @style heading 4\n        */\n        h4{\n            display:block;\n            /*@editable*/ color:#808080 !important;\n            /*@editable*/ font-family:Helvetica;\n            /*@editable*/ font-size:14px;\n            /*@editable*/ font-style:normal;\n            /*@editable*/ font-weight:normal;\n            /*@editable*/ line-height:125%;\n            /*@editable*/ letter-spacing:normal;\n            /*@editable*/ text-align:left;\n        }\n\n      /**\n      * /////////////// PRE-HEADER STYLES //////////////////////\n      */\n\n      /**\n      * @tab Preheader\n      * @section set the background color and bottom-border for the preheader section.\n      * @theme header\n      */\n      #templatePreheader{\n        /*@editable*/ background-color:#F4F4F4;\n        /*@editable*/ border-bottom:1px solid #CCCCCC;\n      }\n\n      /**\n      * @tab Preheader\n      * @section set the styling for preheader text.\n      * @theme header\n      */\n      .preheaderContent{\n        /*@editable*/ color:#808080;\n        /*@editable*/ font-family:Helvetica;\n        /*@editable*/ font-size:10px;\n        /*@editable*/ line-height:125%;\n        /*@editable*/ text-align:left;\n      }\n\n      /**\n      * @tab Preheader\n      * @section Set the styling for preheader links.\n      * @theme header\n      */\n      .preheaderContent a:link, .preheaderContent a:visited, /* Yahoo! Mail Override */ .preheaderContent a .yshortcuts /* Yahoo! Mail Override */{\n        /*@editable*/ color:#606060;\n        /*@editable*/ font-weight:normal;\n        /*@editable*/ text-decoration:underline;\n      }\n\n      /**\n      * /////////////// PRE-HEADER STYLES //////////////////////\n      */\n\n      /**\n      * @tab Header\n      * @section if using text instead of image, set the background color\n      * @theme header\n      */\n      #templateHeader{\n        /*@editable*/ background-color:#FFFFFF;\n      }\n\n      /**\n      * @tab Header\n      * @section set optional top and bottom border for separation.\n      * @theme header\n      */\n      #templateHeader{\n        /*@editable*/ border-top:1px;\n        /*@editable*/ border-bottom:1px;\n      }\n\n      /**\n      * @tab Header\n      * @section set styling for header text\n      * @theme header\n      */\n      .headerContent{\n        /*@editable*/ color:#505050;\n        /*@editable*/ font-family:Helvetica;\n        /*@editable*/ font-size:20px;\n        /*@editable*/ font-weight:bold;\n        /*@editable*/ line-height:100%;\n        /*@editable*/ text-align:left;\n        /*@editable*/ vertical-align:middle;\n        padding-top:0;\n        padding-right:0;\n        padding-bottom:0;\n        padding-left:0;\n      }\n\n      /**\n      * @tab Header\n      * @section set padding for header section, default 0px\n      * @theme header\n      */\n      .headerContent{\n        /*@editable*/ padding-top:0;\n        /*@editable*/ padding-right:0;\n        /*@editable*/ padding-bottom:0;\n        /*@editable*/ padding-left:0;\n      }\n\n      /**\n      * @tab Header\n      * @section set the styling for header links.\n      */\n      .headerContent a:link, .headerContent a:visited, /* Yahoo! Mail Override */ .headerContent a .yshortcuts /* Yahoo! Mail Override */{\n        /*@editable*/ color:#0073AE;\n        /*@editable*/ font-weight:normal;\n        /*@editable*/ text-decoration:underline;\n      }\n\n      #headerImage{\n        max-width:600px;\n        height:auto;\n        width: 100%;\n      }\n\n      /**\n      * /////////////// BODY STYLES //////////////////////\n      */\n\n      #templateBody{\n        background-color:#F4F4F4;\n      }\n\n      /**\n      * @tab Body\n      * @section Set the styling for the main content text.\n      * @theme body\n      */\n      .bodyContent{\n        /*@editable*/ color:#505050;\n        /*@editable*/ font-family:Helvetica;\n        /*@editable*/ font-size:14px;\n        /*@editable*/ line-height:150%;\n        /*@editable*/ text-align:left;\n      }\n\n      /**\n      * @tab Body\n      * @section set the body padding, default is 20px\n      * @theme body\n      */\n      .bodyContent{\n        /*@editable*/ padding-top:20px;\n        /*@editable*/ padding-right:20px;\n        /*@editable*/ padding-bottom:20px;\n        /*@editable*/ padding-left:20px;\n      }\n\n      /**\n      * @tab Body\n      * @section Set the styling for body links\n      * @theme body\n      */\n      .bodyContent a:link, .bodyContent a:visited, /* Yahoo! Mail Override */ .bodyContent a .yshortcuts /* Yahoo! Mail Override */{\n        /*@editable*/ color:#0073AE;\n        /*@editable*/ font-weight:normal;\n        /*@editable*/ text-decoration:underline;\n      }\n\n      /* ========== Repeatable Section: Text Area ========== */\n\n      /**\n      * @tab Section - Text Area\n      * @section set the background color of the section.\n      */\n      .textContent{\n        /*@editable*/ background-color:#FFFFFF;\n      }\n\n      /**\n      * @tab Section - Text Area\n      * @section set optional top and bottom border for separation.\n      */\n     .textContent{\n        /*@editable*/ border-top:1px;\n        /*@editable*/ border-bottom:1px;\n     }\n\n      /* ========== Repeatable Section: Hero Image ========== */\n\n      /**\n      * @tab Section - Hero Image\n      * @section set optional top and bottom border for separation.\n      */\n      .heroImageSection {\n          vertical-align:middle;\n          /*@editable*/ border-top:1px;\n          /*@editable*/ border-bottom:1px;\n      }\n\n      /**\n      * @tab Section - Hero Image\n      * @section set padding for image, default is 0px\n      */\n      .heroImageSection {\n          /*@editable*/ padding-top:0px;\n          /*@editable*/ padding-bottom:0px;\n          /*@editable*/ padding-right:0px;\n          /*@editable*/ padding-left:0px;\n      }\n      #heroImage {\n        max-width:600px;\n        height:auto;\n      }\n\n      /* ========== Repeatable Section: AD Section ========== */\n\n      /**\n      * @tab Section - Ad Image\n      * @section set optional top and bottom border for separation.\n      */\n      .adSection {\n          vertical-align:middle;\n          /*@editable*/ border-top:1px;\n          /*@editable*/ border-bottom:1px;\n      }\n      /**\n      * @tab Section - Ad Image\n      * @section set padding for the ad image, default is 0px.\n      */\n      .adSection {\n        /*@editable*/ padding-top:0px;\n        /*@editable*/ padding-bottom:0px;\n        /*@editable*/ padding-right:0px;\n        /*@editable*/ padding-left:0px;\n      }\n\n      #adImage {\n        max-width:600px;\n        height:auto;\n      }\n\n      /* ========== Repeatable Section: Left Image Right Text Styles ========== */\n\n      /**\n      * @tab Section - Left Image Right Text\n      * @section Set the background color of the section.\n      */\n      .flexContainerLeft{\n          /*@editable*/ background-color:#ffffff;\n          max-width:600px;\n          width:100%;\n          padding:20px;\n      }\n      /**\n      * @tab Section - Left Image Right Text\n      * @section set optional top and bottom border for separation.\n      */\n      .flexContainerLeft{\n          /*@editable*/ border-top:1px;\n          /*@editable*/ border-bottom:1px;\n      }\n\n      /**\n      * @tab Section - Left Image Right Text\n      * @section set the padding of the image, default is 20px\n      */\n      .flexibleImageLeft, .flexibleImageRight{\n        max-width:200px;\n        height:auto;\n      }\n\n      .imageContent{\n\n      }\n\n      /* ========== Repeatable Section: Right Image Left Text Styles ========== */\n\n      /**\n      * @tab Section - Right Image Left Text\n      * @section Set the background color of the section.\n      */\n      .flexContainerRight{\n          /*@editable*/ background-color:#ffffff;\n          max-width:600px;\n          width:100%;\n          padding:20px;\n      }\n\n      /**\n      * @tab Section - Right Image Left Text\n      * @section set optional top and bottom border for separation.\n      */\n      .flexContainerRight{\n          /*@editable*/ border-top:1px;\n          /*@editable*/ border-bottom:1px;\n      }\n\n      /* ========== Repeatable Section: Callout Button Styles ========== */\n\n      /**\n      * @tab Section - Callout Button\n      * @section set the background color for the entire section.\n      */\n      .calloutButtonSection{\n          /*@editable*/ background-color:#ffffff;\n      }\n\n      /**\n      * @tab Section - Callout Button\n      * @section set optional top and bottom border for separation.\n      */\n      .calloutButtonSection{\n          /*@editable*/ border-top:1px;\n          /*@editable*/ border-bottom:1px;\n      }\n\n      /**\n      * @tab Section - Callout Button\n      * @section set the background color and border-radius of the button.\n      */\n      .calloutButton{\n          border-collapse:separate;\n          /*@editable*/ background-color:#0073AE;\n          /*@editable*/ border-radius:4px;\n      }\n\n      /**\n      * @tab Section - Callout Button\n      * @section set the color, size, and font for the button text.\n      */\n      .buttonContent{\n          line-height:100%;\n          text-align:center;\n          padding:15px;\n          /*@editable*/ color:#FFFFFF;\n          /*@editable*/ font-family:Helvetica;\n          /*@editable*/ font-size:18px;\n          /*@editable*/ font-weight:bold;\n      }\n\n      .buttonContent a, .buttonContent a:visited{\n          text-decoration: none;\n          color: inherit;\n      }\n\n      .bottomShim{\n          padding-bottom:20px;\n      }\n\n      /* ========== Repeatable Section: Two Columns Image and Text Styles ========== */\n\n      /**\n      * @tab Section - Two Column Image with Text\n      * @section set background color of the entire section.\n      */\n      .twoCol{\n          /*@editable*/ background-color:#FFFFFF;\n      }\n      /**\n      * @tab Section - Two Column Image with Text\n      * @section set optional top and bottom border for separation.\n      */\n      .twoCol{\n        /*@editable*/ border-top:1px;\n        /*@editable*/ border-bottom:1px;\n      }\n\n      .twoColContent, .twoColImage{\n          padding-top:20px;\n          padding-right:20px;\n          padding-bottom:20px;\n          padding-left:20px;\n      }\n\n      .flexImgTwoCol{\n          max-width: 260px;\n          height: auto;\n      }\n\n      /* ========== Repeatable Section: Calendar Styles ========== */\n\n      /**\n      * @tab Section - Left and Right Calendar\n      * @section set background color of the entire section.\n      */\n      .calSection{\n          /*@editable*/ background-color:#FFFFFF;\n      }\n      /**\n      * @tab Section - Left and Right Calendar\n      * @section set optional top and bottom border for separation.\n      */\n      .calSection{\n          /*@editable*/ border-top:1px;\n          /*@editable*/ border-bottom:1px;\n      }\n      /**\n      * @tab Section - Left and Right Calendar\n      * @section set background color and border of calendar icon.\n      */\n      .emailCalendar{\n          /*@editable*/ background-color:#F1F1F1;\n          /*@editable*/ border:1px solid #CCCCCC;\n          margin-top: 20px;\n      }\n      /**\n      * @tab Section - Left and Right Calendar\n      * @section set background color, text color, and font for calendar month.\n      */\n      .emailCalendarMonth{\n          /*@editable*/ background-color:#0073AE;\n          /*@editable*/ color:#FFFFFF;\n          /*@editable*/ font-family:Helvetica;\n          /*@editable*/ font-size:16px;\n          /*@editable*/ font-weight:bold;\n          padding-top:10px;\n          padding-bottom:10px;\n          text-align:center;\n      }\n      /**\n      * @tab Section - Left and Right Calendar\n      * @section set text color, size and font for calendar day.\n      */\n      .emailCalendarDay{\n          /*@editable*/ color:#0073AE;\n          /*@editable*/ font-family:Helvetica;\n          /*@editable*/ font-size:60px;\n          /*@editable*/ font-weight:bold;\n          line-height:100%;\n          padding-top:20px;\n          padding-bottom:20px;\n          text-align:center;\n      }\n\n      .fullPad{\n          padding-top:20px;\n          padding-right:20px;\n          padding-bottom:20px;\n          padding-left:20px;\n      }\n\n      /**\n      * /////////////// FOOTER STYLES //////////////////////\n      */\n\n      /**\n      * @tab Footer\n      * @section Set the background color and top-border of footer section.\n      * @theme footer\n      */\n      #templateFooter{\n        /*@editable*/ background-color:#F4F4F4;\n        /*@editable*/ border-top:1px solid #FFFFFF;\n      }\n\n      /**\n      * @tab Footer\n      * @section Set the styling for your email's footer text.\n      * @theme footer\n      */\n      .footerContent{\n        /*@editable*/ color:#808080;\n        /*@editable*/ font-family:Helvetica;\n        /*@editable*/ font-size:10px;\n        /*@editable*/ line-height:150%;\n        /*@editable*/ text-align:center;\n        padding-top:20px;\n        padding-right:20px;\n        padding-bottom:20px;\n        padding-left:20px;\n      }\n\n      /**\n      * @tab Footer\n      * @section footer link styles\n      * @theme footer\n      */\n      .footerContent a:link, .footerContent a:visited, /* Yahoo! Mail Override */ .footerContent a .yshortcuts, .footerContent a span /* Yahoo! Mail Override */{\n        /*@editable*/ color:#606060;\n        /*@editable*/ font-weight:normal;\n        /*@editable*/ text-decoration:underline;\n      }\n      /**\n      * @tab Social Icons\n      * @section set social icon size, set 24px or 48px\n      * @theme footer\n      */\n      .socialIcons{\n        /*@editable*/ width: 24px;\n        height: auto;\n      }\n\n      /**\n      * /////////////// MOBILE STYLES //////////////////////\n      */\n\n      @media only screen and (max-width: 480px){\n        /* CLIENT-SPECIFIC MOBILE STYLES */\n        body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:none !important;} /* Prevent Webkit platforms from changing default text sizes */\n        #body{width:100% !important; min-width:100% !important;} /* Prevent iOS Mail from adding padding to the body */\n\n        /*  MOBILE TEMPLATE STYLES  */\n\n        /* ======== Page Styles ======== */\n\n        #templateContainer{\n          max-width:600px !important;\n          width:100% !important;\n        }\n\n        /**\n        * @tab Mobile Styles\n        * @section heading 1\n        * @tip Make the first-level headings larger in size for better readability on small screens.\n        */\n        h1{\n          /*@editable*/ font-size:24px !important;\n          /*@editable*/ line-height:100% !important;\n        }\n\n        /**\n        * @tab Mobile Styles\n        * @section heading 2\n        * @tip Make the second-level headings larger in size for better readability on small screens.\n        */\n        h2{\n          /*@editable*/ font-size:20px !important;\n          /*@editable*/ line-height:100% !important;\n        }\n\n        /**\n        * @tab Mobile Styles\n        * @section heading 3\n        * @tip Make the third-level headings larger in size for better readability on small screens.\n        */\n        h3{\n          /*@editable*/ font-size:18px !important;\n          /*@editable*/ line-height:100% !important;\n        }\n\n        /**\n        * @tab Mobile Styles\n        * @section heading 4\n        * @tip Make the fourth-level headings larger in size for better readability on small screens.\n        */\n        h4{\n          /*@editable*/ font-size:16px !important;\n          /*@editable*/ line-height:100% !important;\n        }\n\n        /* ======== Header Styles ======== */\n\n        #templatePreheader{display:none !important;} /* Hide the template preheader to save space */\n\n        #headerImage{\n          height:auto !important;\n          max-width:600px !important;\n          width:100% !important;\n        }\n\n        /**\n        * @tab Mobile Styles\n        * @section set the header content text larger for better readability on small screens.\n        */\n        .headerContent{\n          /*@editable*/ font-size:20px !important;\n          /*@editable*/ line-height:125% !important;\n        }\n\n        /* ======== Body Styles ======== */\n\n        /**\n        * @tab Mobile Styles\n        * @section set body text for better readability on small screens.\n        */\n        .bodyContent{\n          /*@editable*/ font-size:18px !important;\n          /*@editable*/ line-height:125% !important;\n        }\n\n        /* ================== MOBILE REPEATABLE SECTIONS ================================= */\n\n        /**\n        * MOBILE HERO SECTION\n        */\n        #heroImage{\n          height:auto !important;\n          max-width:600px !important;\n          width:100% !important;\n        }\n\n        /**\n        * MOBILE AD IMAGE SECTION\n        */\n        #adImage{\n          height:auto !important;\n          max-width:600px !important;\n          width:100% !important;\n        }\n\n        /**\n        * MOBILE LEFT AND RIGHT IMAGE WITH TEXT SECTION\n        */\n\n        .imageCenter{\n          text-align: center !important;\n        }\n        .flexContainerLeft, .flexContainerRight{\n          width:100% !important;\n          max-width:600px !important;\n        }\n\n        .flexContainerLeftImage, .flexContainerRightImage{\n          width: 100% !important;\n        }\n\n        #flexibleImage{\n          width:100% !important;\n          max-width:260px !important;\n          height:auto !important;\n        }\n\n        .imageContent{\n          width: 100% !important;\n          color:#505050;\n          font-family:Helvetica;\n          font-size:18px;\n          line-height:125%;\n          text-align:left;\n        }\n\n        /**\n        * 2 COLUMN IMAGE WITH TEXT SECTION\n        */\n        .twoColImage{\n          text-align: center !important;\n        }\n        .colAdjust {\n          width: 100% !important;\n        }\n\n        /**\n        * CALENDAR SECTION\n        */\n        .emailCalendar{\n          margin:0 !important;\n        }\n\n        /* ======== Footer Styles ======== */\n\n        /**\n        * @tab Mobile Styles\n        * @section set footer text styles\n        */\n        .footerContent{\n          /*@editable*/ font-size:14px !important;\n          /*@editable*/ line-height:115% !important;\n        }\n\n        .footerContent a{\n          display:block !important;\n          text-align: center;\n        } /* Place footer social and utility links on their own lines, for easier access */\n\n        /**\n        * @tab Mobile Styles\n        * @section footer social icons mobile size, 24px or 48px\n        */\n        .socialIcons{\n          /*@editable*/ width: 48px;\n      }\n    </style>\n    <link rel=\"stylesheet\" href=\"mobile.css\" />\n    </head>\n    <body leftmargin=\"0\" marginwidth=\"0\" topmargin=\"0\" marginheight=\"0\" offset=\"0\">\n      <center>\n          <table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" height=\"100%\" width=\"100%\" id=\"bodyTable\">\n              <tr>\n                  <td align=\"center\" valign=\"top\" id=\"bodyCell\">\n                      <!-- BEGIN TEMPLATE // -->\n\n                        <!-- #templateContainer -->\n                        <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" id=\"templateContainer\">\n                            <tr><!-- PREHEADER ROW // -->\n                                <td align=\"center\" valign=\"top\">\n                                    <!-- BEGIN PREHEADER // -->\n                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" id=\"templatePreheader\">\n                                        <tr>\n                                            <td valign=\"top\" class=\"preheaderContent\" style=\"padding-top:10px; padding-right:20px; padding-bottom:10px; padding-left:20px;\" mc:edit=\"preheader_content00\">\n                                                Use this area to offer a short teaser of your email's content. Text here will show in the preview area of some email clients.\n                                            </td>\n                                            <!-- *|IFNOT:ARCHIVE_PAGE|* -->\n                                            <td valign=\"top\" width=\"180\" class=\"preheaderContent\" style=\"padding-top:10px; padding-right:20px; padding-bottom:10px; padding-left:0;\" mc:edit=\"preheader_content01\">\n                                                Email not displaying correctly?<br /><a href=\"*|ARCHIVE|*\" target=\"_blank\">View it in your browser</a>.\n                                            </td>\n                                            <!-- *|END:IF|* -->\n                                        </tr>\n                                    </table>\n                                    <!-- // END PREHEADER -->\n                                </td>\n                            </tr><!-- // PREHEADER ROW -->\n                            <tr><!-- HEADER ROW // -->\n                                <td align=\"center\" valign=\"top\">\n                                    <!-- BEGIN HEADER // -->\n                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" id=\"templateHeader\">\n                                        <tr>\n                                            <td valign=\"top\" class=\"headerContent\">\n                                                <img src=\"https://dummyimage.com/600x200/333/fff.png\" style=\"max-width:600px;\" id=\"heroImage\" mc:label=\"header_image\" mc:edit=\"header_image\" mc:hideable mc:allowdesigner mc:allowtext />\n                                            </td>\n                                        </tr>\n                                    </table>\n                                    <!-- // END HEADER -->\n                                </td>\n                            </tr><!-- // HEADER ROW -->\n                            <tr><!-- #templateBody ROW // -->\n                                <td align=\"center\" valign=\"top\">\n                                    <!-- #templateBody // -->\n                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" id=\"templateBody\">\n                                        <tr>\n                                            <!-- BEGIN REPEATABLE SECTION -->\n                                            <td valign=\"top\">\n                                                <!-- Begin Module: Text Section // -->\n                                                <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" mc:repeatable=\"block_section\" mc:variant=\"Text Area\" class=\"bodyContent textContent\">\n                                                    <tr>\n                                                        <td align=\"center\" valign=\"top\" class=\"bodyContent\" mc:edit=\"text_section_content00\">\n                                                            <h1>Title</h1>\n                                                            <h2>Subtitle</h2>\n                                                            Click here to edit your content. Set your fonts, colors, and styles in the text editor.\n                                                            <h3>MM4 brand colors:</h3>\n                                                            <ul>\n                                                                <li style=\"color:#EB4102;\">ORANGE color: #EB4102</li>\n                                                                <li style=\"color:#0073AE;\">BLUE color: #0073AE</li>\n                                                                <li style=\"color:#8a8a8d;\">GREY color: #8a8a8d</li>\n                                                            </ul>\n                                                        </td>\n                                                    </tr>\n                                                </table>\n                                                <!-- // End Module: Text Section // -->\n                                                <!-- // Begin Module: Hero Image -->\n                                                <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" mc:repeatable=\"block_section\" mc:variant=\"Hero Image\">\n                                                    <tr>\n                                                        <td class=\"heroImageSection\">\n                                                            <img src=\"https://dummyimage.com/600x400/333/fff.png\" style=\"max-width:600px;\" mc:label=\"hero_image\" mc:edit=\"hero_image00\" id=\"heroImage\"/>\n                                                        </td>\n                                                    </tr>\n                                                </table>\n                                                <!-- // End Module: Hero Image \\\\ -->\n                                                <!-- // Begin Module: Ad Section \\\\ -->\n                                                <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" mc:repeatable=\"block_section\" mc:variant=\"Ad Image\">\n                                                    <tr>\n                                                        <td align=\"center\" valign=\"top\" class=\"adSection\">\n                                                            <img src=\"https://dummyimage.com/600x200/333/fff.png\"  style=\"max-width:600px;\" mc:label=\"ad_image\" mc:edit=\"ad_image00\" id=\"adImage\"/>\n                                                        </td>\n                                                    </tr>\n                                                </table>\n                                                <!-- // End Module: Ad Section \\\\ -->\n                                                \n                                                <!--  Begin Module: Left Image Right Text Event  -->\n                                                <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" mc:repeatable=\"block_section\" mc:variant=\"Left Image Right Text\">\n                                                    <tr>\n                                                        <td align=\"center\" valign=\"top\">\n                                                            <!-- IMAGE TABLE // -->\n                                                            <table align=\"left\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"200\" class=\"\">\n                                                                <tr>\n                                                                    <td align=\"center\" valign=\"top\" class=\"\">\n                                                                        <img src=\"http://dummyimage.com/200x200/333/fff.png\" width=\"200\" style=\"max-width:200px;\" mc:edit=\"flex_left_image00\" class=\"\" />\n                                                                    </td>\n                                                                </tr>\n                                                            </table>\n                                                            <!-- // IMAGE TABLE -->\n                                                            <!-- CONTENT TABLE // -->\n                                                         <!--    <table align=\"right\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"340\">\n                                                                <tr>\n                                                                    <td align=\"center\" valign=\"top\" class=\"\" mc:edit=\"flex_left_content00\">\n                                                                        <h2>Right Column</h2>\n                                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe est possimus aliquam vel natus tempora incidunt, fugiat quidem. Nemo, optio id reprehenderit cum quasi ut, error aut commodi quod sit.\n                                                                    </td>\n                                                                </tr>\n                                                            </table> -->\n                                                            <!-- // CONTENT TABLE -->\n                                                        </td>\n                                                    </tr>\n                                                </table>\n                                                <!--  End Module: Left Image Right Text Event -->\n                                                <!--  Begin Module: Right Calendar Event  -->\n                                                <!-- <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" mc:repeatable=\"block_section\" mc:variant=\"Right Calendar Event\" class=\"calSection\">\n                                                    <tr>\n                                                        <td align=\"center\" valign=\"top\">\n                                                            <table align=\"right\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"160\" class=\"colAdjust\">\n                                                                <tr>\n                                                                    <td align=\"center\" valign=\"top\" class=\"fullPad\">\n                                                                        <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"160\" class=\"emailCalendar\">\n                                                                            <tr>\n                                                                                <td align=\"center\" valign=\"top\">\n                                                                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\">\n                                                                                        <tr>\n                                                                                            <td align=\"center\" valign=\"top\" class=\"emailCalendarMonth\" mc:edit=\"month_00\">\n                                                                                                September\n                                                                                            </td>\n                                                                                        </tr>\n                                                                                        <tr>\n                                                                                            <td align=\"center\" valign=\"top\" class=\"emailCalendarDay\" mc:edit=\"day_00\">\n                                                                                                16\n                                                                                            </td>\n                                                                                        </tr>\n                                                                                    </table>\n                                                                                </td>\n                                                                            </tr>\n                                                                        </table>\n                                                                    </td>\n                                                                </tr>\n                                                            </table>\n                                                            <table align=\"left\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"400\" class=\"colAdjust\">\n                                                                <tr>\n                                                                    <td valign=\"top\" class=\"bodyContent\" mc:edit=\"calendar_content_00\">\n                                                                        <h1>Event Title</h1>\n                                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum fuga corporis magni, quia tempora et quisquam minus non ducimus laudantium esse amet error excepturi ipsum at, rerum ad sit dolorem.\n                                                                    </td>\n                                                                </tr>\n                                                            </table>\n                                                        </td>\n                                                    </tr>\n                                                </table> -->\n                                                <!--  End Module: Right Calendar Event -->\n                                            </td>\n                                            <!-- END REPEATABLE SECTION -->\n                                        </tr>\n                                    </table>\n                                    <!-- // #templateBody -->\n                                </td>\n                            </tr><!-- // #templateBody ROW -->\n                            <tr><!-- footer ROW -->\n                                <td align=\"center\" valign=\"top\">\n                                    <!-- BEGIN FOOTER // -->\n                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" id=\"templateFooter\">\n                                        <tr>\n                                            <td align=\"center\" valign=\"top\">\n                                              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" mc:repeatable=\"footer_icon_section\" mc:variant=\"Default Colored Icons\" class=\"\"><!-- DEFAULT COLOR ICONS -->\n                                                <tr>\n                                                  <td align=\"center\" valign=\"top\" class=\"footerContent\" mc:edit=\"footer_content_default00\">\n                                                    <a href=\"https://twitter.com/MillenniumMKTG\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/color-twitter-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.facebook.com/MillenniumMarketing\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/color-facebook-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.instagram.com/millenniummktg/\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/color-instagram-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.linkedin.com/company/millennium-marketing-solutions\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/color-linkedin-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.mm4solutions.com/\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/color-link-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"mailto:info@mm4solutions.com\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/color-forwardtofriend-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;\n                                                  </td>\n                                                </tr>\n                                              </table>\n                                              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" mc:repeatable=\"footer_icon_section\" mc:variant=\"Outline Colored Icons\" class=\"\"><!-- OUTLINE COLOR ICONS -->\n                                                <tr>\n                                                  <td align=\"center\" valign=\"top\" class=\"footerContent\" mc:edit=\"footer_content_default00\">\n                                                    <a href=\"https://twitter.com/MillenniumMKTG\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/outline-color-twitter-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.facebook.com/MillenniumMarketing\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/outline-color-facebook-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.instagram.com/millenniummktg/\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/outline-color-instagram-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.linkedin.com/company/millennium-marketing-solutions\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/outline-color-linkedin-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.mm4solutions.com/\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/outline-color-link-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"mailto:info@mm4solutions.com\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/outline-color-forwardtofriend-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;\n                                                  </td>\n                                                </tr>\n                                              </table>\n                                              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" mc:repeatable=\"footer_icon_section\" mc:variant=\"Dark Icons\" class=\"\"><!-- DARK ICONS -->\n                                                <tr>\n                                                  <td align=\"center\" valign=\"top\" class=\"footerContent\" mc:edit=\"footer_content_dark00\">\n                                                    <a href=\"https://twitter.com/MillenniumMKTG\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/dark-twitter-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.facebook.com/MillenniumMarketing\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/dark-facebook-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.instagram.com/millenniummktg/\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/dark-instagram-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.linkedin.com/company/millennium-marketing-solutions\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/dark-linkedin-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.mm4solutions.com/\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/dark-link-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"mailto:info@mm4solutions.com\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/dark-forwardtofriend-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;\n                                                  </td>\n                                                </tr>\n                                              </table>\n                                              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" mc:repeatable=\"footer_icon_section\" mc:variant=\"Outline Dark Icons\" class=\"\"><!-- OUTLINE DARK ICONS -->\n                                                <tr>\n                                                  <td align=\"center\" valign=\"top\" class=\"footerContent\" mc:edit=\"footer_content_default00\">\n                                                    <a href=\"https://twitter.com/MillenniumMKTG\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-twitter-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.facebook.com/MillenniumMarketing\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-facebook-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.instagram.com/millenniummktg/\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-instagram-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.linkedin.com/company/millennium-marketing-solutions\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-linkedin-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.mm4solutions.com/\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-link-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"mailto:info@mm4solutions.com\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-forwardtofriend-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;\n                                                  </td>\n                                                </tr>\n                                              </table>\n                                              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" mc:repeatable=\"footer_icon_section\" mc:variant=\"Light Icons\" class=\"\"><!-- LIGHT ICONS -->\n                                                <tr>\n                                                  <td align=\"center\" valign=\"top\" class=\"footerContent\" mc:edit=\"footer_content_light00\">\n                                                    <a href=\"https://twitter.com/MillenniumMKTG\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/light-twitter-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.facebook.com/MillenniumMarketing\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/light-facebook-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.instagram.com/millenniummktg/\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/light-instagram-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.linkedin.com/company/millennium-marketing-solutions\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/light-linkedin-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.mm4solutions.com/\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/light-link-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"mailto:info@mm4solutions.com\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/light-forwardtofriend-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;\n                                                  </td>\n                                                </tr>\n                                              </table>\n                                              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" mc:repeatable=\"footer_icon_section\" mc:variant=\"Outline Light Icons\" class=\"\"><!-- OUTLINE LIGHT ICONS -->\n                                                <tr>\n                                                  <td align=\"center\" valign=\"top\" class=\"footerContent\" mc:edit=\"footer_content_default00\">\n                                                    <a href=\"https://twitter.com/MillenniumMKTG\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/outline-light-twitter-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.facebook.com/MillenniumMarketing\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/outline-light-facebook-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.instagram.com/millenniummktg/\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/outline-light-instagram-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.linkedin.com/company/millennium-marketing-solutions\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/outline-light-linkedin-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.mm4solutions.com/\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/outline-light-link-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"mailto:info@mm4solutions.com\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/outline-light-forwardtofriend-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;\n                                                  </td>\n                                                </tr>\n                                              </table>\n                                              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" mc:repeatable=\"footer_icon_section\" mc:variant=\"Gray Icons\" class=\"\"><!-- GRAY ICONS -->\n                                                <tr>\n                                                  <td align=\"center\" valign=\"top\" class=\"footerContent\" mc:edit=\"footer_content_gray00\">\n                                                    <a href=\"https://twitter.com/MillenniumMKTG\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/gray-twitter-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.facebook.com/MillenniumMarketing\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/gray-facebook-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.instagram.com/millenniummktg/\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/gray-instagram-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.linkedin.com/company/millennium-marketing-solutions\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/gray-linkedin-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.mm4solutions.com/\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/gray-link-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"mailto:info@mm4solutions.com\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/gray-forwardtofriend-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;\n                                                  </td>\n                                                </tr>\n                                              </table>\n                                              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" mc:repeatable=\"footer_icon_section\" mc:variant=\"Outline Gray Icons\" class=\"\"><!-- OUTLINE GRAY ICONS -->\n                                                <tr>\n                                                  <td align=\"center\" valign=\"top\" class=\"footerContent\" mc:edit=\"footer_content_default00\">\n                                                    <a href=\"https://twitter.com/MillenniumMKTG\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/outline-gray-twitter-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.facebook.com/MillenniumMarketing\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/outline-gray-facebook-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.instagram.com/millenniummktg/\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/outline-gray-instagram-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.linkedin.com/company/millennium-marketing-solutions\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/outline-gray-linkedin-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.mm4solutions.com/\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/outline-gray-link-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"mailto:info@mm4solutions.com\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/outline-gray-forwardtofriend-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;\n                                                  </td>\n                                                </tr>\n                                              </table>\n                                            </td>\n                                        </tr>\n                                        <tr>\n                                            <td valign=\"top\" class=\"footerContent\" style=\"padding-top:0;\" mc:edit=\"footer_content01\">\n                                                <em>Copyright &copy; *|CURRENT_YEAR|* *|LIST:COMPANY|*, All rights reserved.</em>\n                                                <br />\n                                                *|IFNOT:ARCHIVE_PAGE|* *|LIST:DESCRIPTION|*\n                                                <br />\n                                                <br />\n                                                <strong>Our mailing address is:</strong>\n                                                <br />\n                                                *|HTML:LIST_ADDRESS_HTML|* *|END:IF|*\n                                            </td>\n                                        </tr>\n                                        <tr>\n                                            <td valign=\"top\" class=\"footerContent\" style=\"padding-top:0;\" mc:edit=\"footer_content02\">\n                                                <a href=\"*|FORWARD|*\">forward to friend</a>&nbsp;&nbsp;&nbsp;<a href=\"*|UNSUB|*\">unsubscribe from this list</a>&nbsp;&nbsp;&nbsp;<a href=\"*|UPDATE_PROFILE|*\">update subscription preferences</a>&nbsp;\n                                            </td>\n                                        </tr>\n                                    </table>\n                                    <!-- // END FOOTER -->\n                                </td>\n                            </tr><!-- footer ROW -->\n                        </table>\n                        <!-- #templateContainer -->\n                      <!-- // END TEMPLATE -->\n                    </td>\n                    <!-- END #bodyCell-->\n                </tr>\n                <!-- END TR -->\n            </table>\n            <!-- END #bodyTable -->\n        </center>\n    </body>\n</html>",
+			"settings":
+			{
+				"buffer_size": 54293,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "class=\"flexContainerLeftImage\"\nclass=\"imageCenter\"",
+			"settings":
+			{
+				"buffer_size": 50,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sections-backup.html",
+			"settings":
+			{
+				"buffer_size": 10883,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n  <head>\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width\"/>\n    <title>*|MC:SUBJECT|*</title>\n    <style type=\"text/css\">\n        /* CLIENT-SPECIFIC STYLES */\n        #outlook a{padding:0;} /* Force Outlook to provide a \"view in browser\" message */\n        .ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */\n        .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotmail to display normal line spacing */\n        body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;} /* Prevent WebKit and Windows mobile changing default text sizes */\n        table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up */\n        img{-ms-interpolation-mode:bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */\n\n        /* RESET STYLES */\n        body{margin:0; padding:0;}\n        img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}\n        table{border-collapse:collapse !important;}\n        body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:100% !important;}\n\n        /*////// FRAMEWORK STYLES //////*/\n        /*.flexibleContainerCell{padding-top:20px; padding-Right:20px; padding-Left:20px;}*/\n        .flexibleImage{height:auto;}\n        /*.bottomShim{padding-bottom:20px;}*/\n        /*.imageContent, .imageContentLast{padding-bottom:20px;}\n        .nestedContainerCell{padding-top:20px; padding-Right:20px; padding-Left:20px;}*/\n\n\n        /**\n        * TEMPLATE STYLES\n        */\n\n        #bodyCell{padding:20px;}\n        #templateContainer{width:600px;}\n\n        /**\n        * /////////////// PAGE STYLES //////////////////////\n        */\n\n        /* MM4 Colors*/\n        /* ORANGE color:#EB4102*/\n        /* BLUE color:#0073AE*/\n        /* GREY color:#8a8a8d*/\n\n\n        /**\n        * @tab Page\n        * @section Set the background color of your email.\n        * @theme page\n        */\n        body, #bodyTable{\n            /*@editable*/ background-color:#DEE0E2;\n        }\n\n        /**\n        * @tab Page\n        * @section Set the top border color for your email.\n        * @theme page\n        */\n        #bodyCell{\n            /*@editable*/ border-top:4px solid #BBBBBB;\n        }\n\n        /**\n        * @tab Page\n        * @section set the border for the body of your email.\n        * @theme page\n        */\n        #templateContainer{\n            /*@editable*/ border:1px solid #BBBBBB;\n        }\n\n        /**\n        * /////////////// HEADING STYLES //////////////////////\n        */\n\n        /**\n        * @tab Headings\n        * @section H1 styles\n        * @style heading 1\n        */\n        h1{\n            display:block;\n            /*@editable*/ color:#202020 !important;\n            /*@editable*/ font-family:Helvetica;\n            /*@editable*/ font-size:26px;\n            /*@editable*/ font-style:normal;\n            /*@editable*/ font-weight:bold;\n            /*@editable*/ line-height:125%;\n            /*@editable*/ letter-spacing:normal;\n            /*@editable*/ text-align:left;\n        }\n\n        /**\n        * @tab Headings\n        * @section H2 styles\n        * @style heading 2\n        */\n        h2{\n            display:block;\n            /*@editable*/ color:#404040 !important;\n            /*@editable*/ font-family:Helvetica;\n            /*@editable*/ font-size:20px;\n            /*@editable*/ font-style:normal;\n            /*@editable*/ font-weight:bold;\n            /*@editable*/ line-height:125%;\n            /*@editable*/ letter-spacing:normal;\n            /*@editable*/ text-align:left;\n        }\n\n        /**\n        * @tab Headings\n        * @section H3 styles\n        * @style heading 3\n        */\n        h3{\n            display:block;\n            /*@editable*/ color:#606060 !important;\n            /*@editable*/ font-family:Helvetica;\n            /*@editable*/ font-size:16px;\n            /*@editable*/ font-style:normal;\n            /*@editable*/ font-weight:normal;\n            /*@editable*/ line-height:125%;\n            /*@editable*/ letter-spacing:normal;\n            /*@editable*/ text-align:left;\n        }\n\n        /**\n        * @tab Headings\n        * @section H4 styles\n        * @style heading 4\n        */\n        h4{\n            display:block;\n            /*@editable*/ color:#808080 !important;\n            /*@editable*/ font-family:Helvetica;\n            /*@editable*/ font-size:14px;\n            /*@editable*/ font-style:normal;\n            /*@editable*/ font-weight:normal;\n            /*@editable*/ line-height:125%;\n            /*@editable*/ letter-spacing:normal;\n            /*@editable*/ text-align:left;\n        }\n\n      /**\n      * /////////////// PRE-HEADER STYLES //////////////////////\n      */\n\n      /**\n      * @tab Preheader\n      * @section set the background color and bottom-border for the preheader section.\n      * @theme header\n      */\n      #templatePreheader{\n        /*@editable*/ background-color:#F4F4F4;\n        /*@editable*/ border-bottom:1px solid #CCCCCC;\n      }\n\n      /**\n      * @tab Preheader\n      * @section set the styling for preheader text.\n      * @theme header\n      */\n      .preheaderContent{\n        /*@editable*/ color:#808080;\n        /*@editable*/ font-family:Helvetica;\n        /*@editable*/ font-size:10px;\n        /*@editable*/ line-height:125%;\n        /*@editable*/ text-align:left;\n      }\n\n      /**\n      * @tab Preheader\n      * @section Set the styling for preheader links.\n      * @theme header\n      */\n      .preheaderContent a:link, .preheaderContent a:visited, /* Yahoo! Mail Override */ .preheaderContent a .yshortcuts /* Yahoo! Mail Override */{\n        /*@editable*/ color:#606060;\n        /*@editable*/ font-weight:normal;\n        /*@editable*/ text-decoration:underline;\n      }\n\n      /**\n      * /////////////// PRE-HEADER STYLES //////////////////////\n      */\n\n      /**\n      * @tab Header\n      * @section if using text instead of image, set the background color\n      * @theme header\n      */\n      #templateHeader{\n        /*@editable*/ background-color:#FFFFFF;\n      }\n\n      /**\n      * @tab Header\n      * @section set optional top and bottom border for separation.\n      * @theme header\n      */\n      #templateHeader{\n        /*@editable*/ border-top:1px;\n        /*@editable*/ border-bottom:1px;\n      }\n\n      /**\n      * @tab Header\n      * @section set styling for header text\n      * @theme header\n      */\n      .headerContent{\n        /*@editable*/ color:#505050;\n        /*@editable*/ font-family:Helvetica;\n        /*@editable*/ font-size:20px;\n        /*@editable*/ font-weight:bold;\n        /*@editable*/ line-height:100%;\n        /*@editable*/ text-align:left;\n        /*@editable*/ vertical-align:middle;\n        padding-top:0;\n        padding-right:0;\n        padding-bottom:0;\n        padding-left:0;\n      }\n\n      /**\n      * @tab Header\n      * @section set padding for header section, default 0px\n      * @theme header\n      */\n      .headerContent{\n        /*@editable*/ padding-top:0;\n        /*@editable*/ padding-right:0;\n        /*@editable*/ padding-bottom:0;\n        /*@editable*/ padding-left:0;\n      }\n\n      /**\n      * @tab Header\n      * @section set the styling for header links.\n      */\n      .headerContent a:link, .headerContent a:visited, /* Yahoo! Mail Override */ .headerContent a .yshortcuts /* Yahoo! Mail Override */{\n        /*@editable*/ color:#0073AE;\n        /*@editable*/ font-weight:normal;\n        /*@editable*/ text-decoration:underline;\n      }\n\n\n      /**\n      * /////////////// BODY STYLES //////////////////////\n      */\n\n      .flexibleImage{height:auto;}\n\n      #templateBody{\n        background-color:#F4F4F4;\n      }\n\n      /**\n      * @tab Body\n      * @section Set the styling for the main content text.\n      * @theme body\n      */\n      .bodyContent{\n        /*@editable*/ color:#505050;\n        /*@editable*/ font-family:Helvetica;\n        /*@editable*/ font-size:14px;\n        /*@editable*/ line-height:150%;\n        /*@editable*/ text-align:left;\n      }\n\n      /**\n      * @tab Body\n      * @section set the body padding, default is 20px\n      * @theme body\n      */\n      .bodyContent{\n        /*@editable*/ padding-top:20px;\n        /*@editable*/ padding-right:20px;\n        /*@editable*/ padding-bottom:20px;\n        /*@editable*/ padding-left:20px;\n      }\n\n      /**\n      * @tab Body\n      * @section Set the styling for body links\n      * @theme body\n      */\n      .bodyContent a:link, .bodyContent a:visited, /* Yahoo! Mail Override */ .bodyContent a .yshortcuts /* Yahoo! Mail Override */{\n        /*@editable*/ color:#0073AE;\n        /*@editable*/ font-weight:normal;\n        /*@editable*/ text-decoration:underline;\n      }\n\n      /* ========== Repeatable Section: Text Area ========== */\n\n      /**\n      * @tab Section - Text Area\n      * @section set the background color of the section.\n      */\n      .textContent{\n        /*@editable*/ background-color:#FFFFFF;\n      }\n\n      /**\n      * @tab Section - Text Area\n      * @section set optional top and bottom border for separation.\n      */\n     .textContent{\n        /*@editable*/ border-top:1px;\n        /*@editable*/ border-bottom:1px;\n     }\n\n      /* ========== Repeatable Section: Hero Image ========== */\n\n      /**\n      * @tab Section - Hero Image\n      * @section set optional top and bottom border for separation.\n      */\n      .heroImageSection {\n          vertical-align:middle;\n          /*@editable*/ border-top:1px;\n          /*@editable*/ border-bottom:1px;\n      }\n\n      /**\n      * @tab Section - Hero Image\n      * @section set padding for image, default is 0px\n      */\n      .heroImageSection {\n          /*@editable*/ padding-top:0px;\n          /*@editable*/ padding-bottom:0px;\n          /*@editable*/ padding-right:0px;\n          /*@editable*/ padding-left:0px;\n      }\n      #heroImage {\n        max-width:600px;\n        height:auto;\n      }\n\n      /* ========== Repeatable Section: AD Section ========== */\n\n      /**\n      * @tab Section - Ad Image\n      * @section set optional top and bottom border for separation.\n      */\n      .adSection {\n          vertical-align:middle;\n          /*@editable*/ border-top:1px;\n          /*@editable*/ border-bottom:1px;\n      }\n      /**\n      * @tab Section - Ad Image\n      * @section set padding for the ad image, default is 0px.\n      */\n      .adSection {\n        /*@editable*/ padding-top:0px;\n        /*@editable*/ padding-bottom:0px;\n        /*@editable*/ padding-right:0px;\n        /*@editable*/ padding-left:0px;\n      }\n\n      #adImage {\n        max-width:600px;\n        height:auto;\n      }\n\n      /* ========== Repeatable Section: Left Image Right Text Styles ========== */\n\n      /**\n      * @tab Section - Left Image Right Text\n      * @section Set the background color of the section.\n      */\n      .leftContainer{\n          /*@editable*/ background-color:#ffffff;\n      }\n      /**\n      * @tab Section - Left Image Right Text\n      * @section set optional top and bottom border for separation.\n      */\n      .leftContainer{\n          /*@editable*/ border-top:1px;\n          /*@editable*/ border-bottom:1px;\n      }\n\n      /**\n      * @tab Section - Left Image Right Text\n      * @section set the padding of the image, default is 20px\n      */\n\n      /* ========== Repeatable Section: Right Image Left Text Styles ========== */\n\n      /**\n      * @tab Section - Right Image Left Text\n      * @section Set the background color of the section.\n      */\n      .rightContainer{\n          /*@editable*/ background-color:#ffffff;\n      }\n\n      /**\n      * @tab Section - Right Image Left Text\n      * @section set optional top and bottom border for separation.\n      */\n      .rightContainer{\n          /*@editable*/ border-top:1px;\n          /*@editable*/ border-bottom:1px;\n      }\n\n      /* ========== Repeatable Section: Callout Button Styles ========== */\n\n      /**\n      * @tab Section - Callout Button\n      * @section set the background color for the entire section.\n      */\n      .calloutButtonSection{\n          /*@editable*/ background-color:#ffffff;\n      }\n\n      /**\n      * @tab Section - Callout Button\n      * @section set optional top and bottom border for separation.\n      */\n      .calloutButtonSection{\n          /*@editable*/ border-top:1px;\n          /*@editable*/ border-bottom:1px;\n      }\n\n      /**\n      * @tab Section - Callout Button\n      * @section set the background color and border-radius of the button.\n      */\n      .calloutButton{\n          border-collapse:separate;\n          /*@editable*/ background-color:#0073AE;\n          /*@editable*/ border-radius:4px;\n      }\n\n      /**\n      * @tab Section - Callout Button\n      * @section set the color, size, and font for the button text.\n      */\n      .buttonContent{\n          line-height:100%;\n          text-align:center;\n          padding:15px;\n          /*@editable*/ color:#FFFFFF;\n          /*@editable*/ font-family:Helvetica;\n          /*@editable*/ font-size:18px;\n          /*@editable*/ font-weight:bold;\n      }\n\n      .buttonContent a, .buttonContent a:visited{\n          text-decoration: none;\n          color: inherit;\n      }\n\n      .bottomShim{\n          padding-bottom:20px;\n      }\n\n      /* ========== Repeatable Section: Two Columns Image and Text Styles ========== */\n\n      /**\n      * @tab Section - Two Column Image with Text\n      * @section set background color of the entire section.\n      */\n      .twoContainers{\n          /*@editable*/ background-color:#FFFFFF;\n      }\n      /**\n      * @tab Section - Two Column Image with Text\n      * @section set optional top and bottom border for separation.\n      */\n      .twoContainers{\n        /*@editable*/ border-top:1px;\n        /*@editable*/ border-bottom:1px;\n      }\n\n      .twoColPad{\n        padding-top: 20px;\n        padding-bottom: 20px;\n        padding-left: 20px;\n        padding-right: 20px;\n      }\n\n      /* ========== Repeatable Section: Calendar Styles ========== */\n\n      /**\n      * @tab Section - Left and Right Calendar\n      * @section set background color of the entire section.\n      */\n      .calSection{\n          /*@editable*/ background-color:#FFFFFF;\n      }\n      /**\n      * @tab Section - Left and Right Calendar\n      * @section set optional top and bottom border for separation.\n      */\n      .calSection{\n          /*@editable*/ border-top:1px;\n          /*@editable*/ border-bottom:1px;\n      }\n      /**\n      * @tab Section - Left and Right Calendar\n      * @section set background color and border of calendar icon.\n      */\n      .emailCalendar{\n          /*@editable*/ background-color:#F1F1F1;\n          /*@editable*/ border:1px solid #CCCCCC;\n          margin-top: 20px;\n      }\n      /**\n      * @tab Section - Left and Right Calendar\n      * @section set background color, text color, and font for calendar month.\n      */\n      .emailCalendarMonth{\n          /*@editable*/ background-color:#0073AE;\n          /*@editable*/ color:#FFFFFF;\n          /*@editable*/ font-family:Helvetica;\n          /*@editable*/ font-size:16px;\n          /*@editable*/ font-weight:bold;\n          padding-top:10px;\n          padding-bottom:10px;\n          text-align:center;\n      }\n      /**\n      * @tab Section - Left and Right Calendar\n      * @section set text color, size and font for calendar day.\n      */\n      .emailCalendarDay{\n          /*@editable*/ color:#0073AE;\n          /*@editable*/ font-family:Helvetica;\n          /*@editable*/ font-size:60px;\n          /*@editable*/ font-weight:bold;\n          line-height:100%;\n          padding-top:20px;\n          padding-bottom:20px;\n          text-align:center;\n      }\n\n      .fullPad{\n          padding-top:20px;\n          padding-right:20px;\n          padding-bottom:20px;\n          padding-left:20px;\n      }\n\n      /* ========== Repeatable Section: Split Image / Text Styles ========== */\n\n      /**\n      * @tab Section - Split Image / Text\n      * @section set background color of the entire section.\n      */\n      .imageText{\n        /*@editable*/ background-color:#FFFFFF;\n      }\n\n      /**\n      * @tab Section - Split Image / Text\n      * @section set optional top and bottom border for separation.\n      */\n      .imageText{\n        /*@editable*/ border-top:1px;\n        /*@editable*/ border-bottom:1px;\n      }\n\n      /* ========== Repeatable Section: Split Text / Image Styles ========== */\n\n      /**\n      * @tab Section - Split Text / Image\n      * @section set background color of the entire section.\n      */\n      .textImage{\n        /*@editable*/ background-color:#FFFFFF;\n      }\n\n      /**\n      * @tab Section - Split Text / Image\n      * @section set optional top and bottom border for separation.\n      */\n      .textImage{\n        /*@editable*/ border-top:1px;\n        /*@editable*/ border-bottom:1px;\n      }\n\n      /* ========== Repeatable Section: Split Image / Image Styles ========== */\n\n      /**\n      * @tab Section - Split Text / Image\n      * @section set background color of the entire section.\n      */\n      .dualImage{\n        /*@editable*/ background-color:#FFFFFF;\n      }\n\n      /**\n      * @tab Section - Split Image / Image\n      * @section set optional top and bottom border for separation.\n      */\n      .dualImage{\n        /*@editable*/ border-top:1px;\n        /*@editable*/ border-bottom:1px;\n      }\n\n      /**\n      * @tab Section - Split Image / Image\n      * @section set optional top and bottom padding for separation.\n      */\n      .imagePad{\n        /*@editable*/ padding-top:20px;\n        /*@editable*/ padding-bottom:20px;\n      }\n\n      /**\n      * /////////////// FOOTER STYLES //////////////////////\n      */\n\n      /**\n      * @tab Footer\n      * @section Set the background color and top-border of footer section.\n      * @theme footer\n      */\n      #templateFooter{\n        /*@editable*/ background-color:#F4F4F4;\n        /*@editable*/ border-top:1px solid #FFFFFF;\n      }\n\n      /**\n      * @tab Footer\n      * @section Set the styling for your email's footer text.\n      * @theme footer\n      */\n      .footerContent{\n        /*@editable*/ color:#808080;\n        /*@editable*/ font-family:Helvetica;\n        /*@editable*/ font-size:10px;\n        /*@editable*/ line-height:150%;\n        /*@editable*/ text-align:center;\n        padding-top:20px;\n        padding-right:20px;\n        padding-bottom:20px;\n        padding-left:20px;\n      }\n\n      /**\n      * @tab Footer\n      * @section footer link styles\n      * @theme footer\n      */\n      .footerContent a:link, .footerContent a:visited, /* Yahoo! Mail Override */ .footerContent a .yshortcuts, .footerContent a span /* Yahoo! Mail Override */{\n        /*@editable*/ color:#606060;\n        /*@editable*/ font-weight:normal;\n        /*@editable*/ text-decoration:underline;\n      }\n      /**\n      * @tab Social Icons\n      * @section set social icon size, set 24px or 48px\n      * @theme footer\n      */\n      .socialIcons{\n        /*@editable*/ width: 24px;\n        height: auto;\n      }\n\n      /**\n      * /////////////// MOBILE STYLES //////////////////////\n      */\n\n      @media only screen and (max-width: 480px){\n        /* CLIENT-SPECIFIC MOBILE STYLES */\n        body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:none !important;} /* Prevent Webkit platforms from changing default text sizes */\n        #body{width:100% !important; min-width:100% !important;} /* Prevent iOS Mail from adding padding to the body */\n\n        /*\n          CSS selectors are written in attribute selector format to prevent Yahoo Mail\n          from rendering media query styles on desktop.\n        */\n\n        /*  MOBILE TEMPLATE STYLES  */\n        table[class=\"flexibleContainer\"]{width:100% !important;}\n        img[class=\"flexibleImage\"]{height:auto !important; width:100% !important;}\n\n        /* ======== Page Styles ======== */\n\n        table[id=\"templateContainer\"]{\n          max-width:600px !important;\n          width:100% !important;\n        }\n\n        /**\n        * @tab Mobile Styles\n        * @section heading 1\n        * @tip Make the first-level headings larger in size for better readability on small screens.\n        */\n        h1{\n          /*@editable*/ font-size:24px !important;\n          /*@editable*/ line-height:100% !important;\n        }\n\n        /**\n        * @tab Mobile Styles\n        * @section heading 2\n        * @tip Make the second-level headings larger in size for better readability on small screens.\n        */\n        h2{\n          /*@editable*/ font-size:20px !important;\n          /*@editable*/ line-height:100% !important;\n        }\n\n        /**\n        * @tab Mobile Styles\n        * @section heading 3\n        * @tip Make the third-level headings larger in size for better readability on small screens.\n        */\n        h3{\n          /*@editable*/ font-size:18px !important;\n          /*@editable*/ line-height:100% !important;\n        }\n\n        /**\n        * @tab Mobile Styles\n        * @section heading 4\n        * @tip Make the fourth-level headings larger in size for better readability on small screens.\n        */\n        h4{\n          /*@editable*/ font-size:16px !important;\n          /*@editable*/ line-height:100% !important;\n        }\n\n        /* ======== Header Styles ======== */\n\n        table[id=\"templatePreheader\"]{display:none !important;} /* Hide the template preheader to save space */\n\n        /**\n        * @tab Mobile Styles\n        * @section set the header content text larger for better readability on small screens.\n        */\n        .headerContent{\n          /*@editable*/ font-size:20px !important;\n          /*@editable*/ line-height:125% !important;\n        }\n\n        /* ======== Body Styles ======== */\n\n        /**\n        * @tab Mobile Styles\n        * @section set body text for better readability on small screens.\n        */\n        .bodyContent{\n          /*@editable*/ font-size:18px !important;\n          /*@editable*/ line-height:125% !important;\n        }\n\n        /* ================== MOBILE REPEATABLE SECTIONS ================================= */\n\n        /**\n        * MOBILE HERO SECTION\n        */\n        #heroImage{\n          height:auto !important;\n          max-width:600px !important;\n          width:100% !important;\n        }\n\n        /**\n        * MOBILE AD IMAGE SECTION\n        */\n        #adImage{\n          height:auto !important;\n          max-width:600px !important;\n          width:100% !important;\n        }\n\n        /**\n        * MOBILE LEFT AND RIGHT IMAGE WITH TEXT SECTION\n        */\n\n        .imageCenter{\n          /*text-align: center !important;*/\n          /*display: inline-block !important;*/\n        }\n\n        .imageContent{\n          width: 100% !important;\n          color:#505050;\n          font-family:Helvetica;\n          font-size:18px;\n          line-height:125%;\n          text-align:left;\n        }\n\n        /**\n        * 2 COLUMN IMAGE WITH TEXT SECTION\n        */\n        .twoColImage{\n          text-align: center !important;\n        }\n        .colAdjust {\n          width: 100% !important;\n        }\n\n        /**\n        * CALENDAR SECTION\n        */\n        .emailCalendar{\n          margin:0 !important;\n        }\n\n        /* ======== Footer Styles ======== */\n\n        /**\n        * @tab Mobile Styles\n        * @section set footer text styles\n        */\n        .footerContent{\n          /*@editable*/ font-size:14px !important;\n          /*@editable*/ line-height:115% !important;\n        }\n\n        .footerContent a{\n          /*display:block !important;*/\n          /*text-align: center;*/\n        } /* Place footer social and utility links on their own lines, for easier access */\n\n        /**\n        * @tab Mobile Styles\n        * @section footer social icons mobile size, 24px or 48px\n        */\n        .socialIcons{\n          /*@editable*/ width: 24px;\n      }\n    </style>\n    <!--\n      Outlook Conditional CSS\n\n        These two style blocks target Outlook 2007 & 2010 specifically, forcing\n        columns into a single vertical stack as on mobile clients. This is\n        primarily done to avoid the 'page break bug' and is optional.\n\n        More information here:\n        http://templates.mailchimp.com/development/css/outlook-conditional-css\n    -->\n    <!--[if mso 12]>\n        style type=\"text/css\">\n          .flexibleContainer{display:block !important; width:100% !important;}\n        </style>\n    <![endif]-->\n    <!--[if mso 14]>\n        <style type=\"text/css\">\n          .flexibleContainer{display:block !important; width:100% !important;}\n        </style>\n    <![endif]-->\n\n    </head>\n    <body leftmargin=\"0\" marginwidth=\"0\" topmargin=\"0\" marginheight=\"0\" offset=\"0\">\n      <center>\n          <table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" height=\"100%\" width=\"100%\" id=\"bodyTable\">\n              <tr>\n                  <td align=\"center\" valign=\"top\" id=\"bodyCell\">\n                      <!-- BEGIN TEMPLATE // -->\n\n                        <!-- #templateContainer -->\n                        <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" id=\"templateContainer\">\n                            <tr><!-- PREHEADER ROW // -->\n                                <td align=\"center\" valign=\"top\">\n                                    <!-- BEGIN PREHEADER // -->\n                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" id=\"templatePreheader\">\n                                        <tr>\n                                            <td valign=\"top\" class=\"preheaderContent\" style=\"padding-top:10px; padding-right:20px; padding-bottom:10px; padding-left:20px;\" mc:edit=\"preheader_content00\">\n                                                Use this area to offer a short teaser of your email's content. Text here will show in the preview area of some email clients.\n                                            </td>\n                                            <!-- *|IFNOT:ARCHIVE_PAGE|* -->\n                                            <td valign=\"top\" width=\"180\" class=\"preheaderContent\" style=\"padding-top:10px; padding-right:20px; padding-bottom:10px; padding-left:0;\" mc:edit=\"preheader_content01\">\n                                                Email not displaying correctly?<br /><a href=\"*|ARCHIVE|*\" target=\"_blank\">View it in your browser</a>.\n                                            </td>\n                                            <!-- *|END:IF|* -->\n                                        </tr>\n                                    </table>\n                                    <!-- // END PREHEADER -->\n                                </td>\n                            </tr><!-- // PREHEADER ROW -->\n                            <tr><!-- HEADER ROW // -->\n                                <td align=\"center\" valign=\"top\">\n                                    <!-- BEGIN HEADER // -->\n                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" id=\"templateHeader\">\n                                        <tr>\n                                            <td valign=\"top\" class=\"headerContent\">\n                                                <img src=\"https://dummyimage.com/600x200/333/fff.png\" style=\"max-width:600px;\" id=\"heroImage\" mc:label=\"header_image\" mc:edit=\"header_image\" mc:hideable mc:allowdesigner mc:allowtext />\n                                            </td>\n                                        </tr>\n                                    </table>\n                                    <!-- // END HEADER -->\n                                </td>\n                            </tr><!-- // HEADER ROW -->\n                            <tr><!-- #templateBody ROW // -->\n                                <td align=\"center\" valign=\"top\">\n                                    <!-- #templateBody // -->\n                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" id=\"templateBody\">\n                                        <tr>\n                                            <!-- BEGIN REPEATABLE SECTION -->\n                                            <td valign=\"top\">\n                                                <!-- Begin Module: Text Section // -->\n                                                <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" mc:repeatable=\"block_section\" mc:variant=\"Text Area\" class=\"bodyContent textContent\">\n                                                    <tr>\n                                                        <td align=\"center\" valign=\"top\" class=\"bodyContent\" mc:edit=\"text_section_content00\">\n                                                            <h1>Title</h1>\n                                                            <h2>Subtitle</h2>\n                                                            Click here to edit your content. Set your fonts, colors, and styles in the text editor.\n                                                            <h3>MM4 brand colors:</h3>\n                                                            <ul>\n                                                                <li style=\"color:#EB4102;\">ORANGE color: #EB4102</li>\n                                                                <li style=\"color:#0073AE;\">BLUE color: #0073AE</li>\n                                                                <li style=\"color:#8a8a8d;\">GREY color: #8a8a8d</li>\n                                                            </ul>\n                                                        </td>\n                                                    </tr>\n                                                </table>\n                                                <!-- // End Module: Text Section // -->\n                                                <!-- // Begin Module: Hero Image -->\n                                                <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" mc:repeatable=\"block_section\" mc:variant=\"Hero Image\">\n                                                    <tr>\n                                                        <td class=\"heroImageSection\">\n                                                            <img src=\"https://dummyimage.com/600x400/333/fff.png\" style=\"max-width:600px;\" mc:label=\"hero_image\" mc:edit=\"hero_image00\" id=\"heroImage\"/>\n                                                        </td>\n                                                    </tr>\n                                                </table>\n                                                <!-- // End Module: Hero Image \\\\ -->\n                                                <!-- // Begin Module: Ad Section \\\\ -->\n                                                <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" mc:repeatable=\"block_section\" mc:variant=\"Ad Image\">\n                                                    <tr>\n                                                        <td align=\"center\" valign=\"top\" class=\"adSection\">\n                                                            <img src=\"https://dummyimage.com/600x200/333/fff.png\"  style=\"max-width:600px;\" mc:label=\"ad_image\" mc:edit=\"ad_image00\" id=\"adImage\"/>\n                                                        </td>\n                                                    </tr>\n                                                </table>\n                                                <!-- // End Module: Ad Section \\\\ -->\n                                                <!-- Begin Module: Left Image Right Text -->\n                                                <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" mc:repeatable=\"block_section\" mc:variant=\"Left Image Right Text\">\n                                                  <tr>\n                                                    <td align=\"center\" valign=\"top\">\n                                                        <!-- CENTERING TABLE // -->\n                                                        <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" class=\"leftContainer\">\n                                                          <tr>\n                                                            <td align=\"center\" valign=\"top\">\n                                                              <!-- FLEXIBLE CONTAINER // -->\n                                                              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"600\" class=\"flexibleContainer\">\n                                                                <tr>\n                                                                  <td valign=\"top\" width=\"600\" class=\"\">\n                                                                    <!-- IMAGE TABLE // -->\n                                                                    <table align=\"left\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"200\" class=\"flexibleContainer\">\n                                                                      <tr>\n                                                                        <td align=\"left\" valign=\"top\" class=\"fullPad\">\n                                                                          <img src=\"http://dummyimage.com/200x200/333/fff.png\" width=\"200\" style=\"max-width:200px;\" mc:edit=\"left_image_right_text00\" class=\"flexibleImage\" />\n                                                                        </td>\n                                                                      </tr>\n                                                                    </table>\n                                                                    <!-- // IMAGE TABLE -->\n                                                                    <!-- CONTENT TABLE // -->\n                                                                    <table align=\"right\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"340\" class=\"flexibleContainer\">\n                                                                      <tr>\n                                                                        <td valign=\"top\" class=\"bodyContent\" mc:edit=\"left_image_right_text_content00\">\n                                                                          <h3>Right Column</h3>\n                                                                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe est possimus aliquam vel natus tempora incidunt, fugiat quidem. Nemo, optio id reprehenderit cum quasi ut, error aut commodi quod sit.\n                                                                        </td>\n                                                                      </tr>\n                                                                    </table>\n                                                                    <!-- // CONTENT TABLE -->\n                                                                  </td>\n                                                                </tr>\n                                                              </table>\n                                                              <!-- // FLEXIBLE CONTAINER -->\n                                                            </td>\n                                                          </tr>\n                                                        </table>\n                                                        <!-- // CENTERING TABLE -->\n                                                    </td>\n                                                  </tr>\n                                                </table>\n                                                <!-- End Module: Left Image Right Text -->\n                                                <!-- Begin Module: Right Image Left Text -->\n                                                <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" mc:repeatable=\"block_section\" mc:variant=\"Right Image Left Text\">\n                                                  <!-- MODULE ROW // -->\n                                                  <tr>\n                                                    <td align=\"center\" valign=\"top\">\n                                                      <!-- CENTERING TABLE // -->\n                                                      <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" class=\"rightContainer\">\n                                                        <tr>\n                                                          <td align=\"center\" valign=\"top\">\n                                                            <!-- FLEXIBLE CONTAINER // -->\n                                                            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"600\" class=\"flexibleContainer\">\n                                                              <tr>\n                                                                <td valign=\"top\" width=\"600\" class=\"\">\n                                                                  <!-- IMAGE TABLE // -->\n                                                                  <table align=\"right\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"200\" class=\"flexibleContainer\">\n                                                                    <tr>\n                                                                      <td align=\"left\" valign=\"top\" class=\"fullPad\">\n                                                                        <img src=\"http://dummyimage.com/200x200/333/fff.png\" width=\"200\" style=\"max-width:200px;\" mc:edit=\"right_image_left_text00\" class=\"flexibleImage\" />\n                                                                      </td>\n                                                                    </tr>\n                                                                  </table>\n                                                                  <!-- // IMAGE TABLE -->\n                                                                  <!-- CONTENT TABLE // -->\n                                                                  <table align=\"left\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"340\" class=\"flexibleContainer\">\n                                                                    <tr>\n                                                                      <td valign=\"top\" mc:edit=\"right_image_left_text_content00\" class=\"bodyContent\">\n                                                                        <h3>Left Column</h3>\n                                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe est possimus aliquam vel natus tempora incidunt, fugiat quidem. Nemo, optio id reprehenderit cum quasi ut, error aut commodi quod sit.\n                                                                      </td>\n                                                                    </tr>\n                                                                  </table>\n                                                                  <!-- // CONTENT TABLE -->\n                                                                </td>\n                                                              </tr>\n                                                            </table>\n                                                            <!-- // FLEXIBLE CONTAINER -->\n                                                          </td>\n                                                        </tr>\n                                                      </table>\n                                                      <!-- // CENTERING TABLE -->\n                                                    </td>\n                                                  </tr>\n                                                  <!-- // MODULE ROW -->\n                                                </table>\n                                                <!-- End Module: Right Image Left Text -->\n                                                <!--  Begin Module: 2 Column Image and Text -->\n                                                <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" mc:repeatable=\"block_section\" mc:variant=\"Two Columns Image and Text\" class=\"twoContainers\">\n                                                    <tr>\n                                                        <td align=\"center\" valign=\"top\">\n                                                            <!--  Begin Module: Left 2 Column Image and Text -->\n                                                            <table align=\"left\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"300\" class=\"flexibleContainer\">\n                                                                <tr>\n                                                                    <td valign=\"top\" class=\"twoColPad\">\n                                                                        <img src=\"http://dummyimage.com/500/333/fff.png&text=260+x+260\" style=\"max-width:260px;\" mc:edit=\"two_col_image_00\" class=\"flexibleImage\"/>\n                                                                    </td>\n                                                                </tr>\n                                                                <tr>\n                                                                    <td valign=\"top\" class=\"bodyContent\" mc:edit=\"two_col_content_00\">\n                                                                        <h2>Left Column</h2>\n                                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit consectetur, tempore, in, laudantium quasi optio officia, saepe molestiae perspiciatis ipsam assumenda asperiores natus magni facere voluptate numquam. Voluptates, architecto, mollitia.\n                                                                    </td>\n                                                                </tr>\n                                                            </table>\n                                                            <!--  End Module: Left 2 Column Image and Text -->\n                                                            <!--  Begin Module: Right 2 Column Image and Text -->\n                                                            <table align=\"left\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"300\" class=\"flexibleContainer\">\n                                                                <tr>\n                                                                    <td valign=\"top\" class=\"twoColPad\">\n                                                                        <img src=\"http://dummyimage.com/500/333/fff.png&text=260+x+260\" style=\"max-width:260px;\" mc:edit=\"two_col_image_01\" class=\"flexibleImage\"/>\n                                                                    </td>\n                                                                </tr>\n                                                                <tr>\n                                                                    <td valign=\"top\" class=\"bodyContent\" mc:edit=\"two_col_content_01\">\n                                                                        <h2>Right Column</h2>\n                                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam vel sequi, quasi voluptatum possimus unde alias molestias delectus, nesciunt, recusandae exercitationem dignissimos officia minus. Vero recusandae natus beatae nihil, quia!\n                                                                    </td>\n                                                                </tr>\n                                                            </table>\n                                                            <!--  End Module: Right 2 Column Image and Text -->\n                                                        </td>\n                                                    </tr>\n                                                </table>\n                                                <!--  End Module: 2 Column Image and Text -->\n                                                <!--  Begin Module: Callout Button -->\n                                                <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" mc:repeatable=\"block_section\" mc:variant=\"Callout Button\" class=\"calloutButtonSection\" >\n                                                    <tr>\n                                                        <td valign=\"top\" class=\"bodyContent\" mc:edit=\"callout_content00\">\n                                                            <h2>Callout</h2>\n                                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, dolores quas quisquam molestiae quis eius voluptates, ad veritatis assumenda praesentium aut, a eos. Architecto hic eveniet cum magnam a, quaerat voluptatibus perferendis tempore doloremque, quas doloribus impedit, nisi vitae accusamus.\n                                                        </td>\n                                                    </tr>\n                                                    <tr>\n                                                        <td align=\"center\" valign=\"top\" class=\"bottomShim\">\n                                                            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"260\" class=\"calloutButton\">\n                                                                <tr>\n                                                                    <td align=\"center\" valign=\"middle\" class=\"buttonContent\" mc:edit=\"button00\">\n                                                                        <div>Purchase Now</div>\n                                                                    </td>\n                                                                </tr>\n                                                            </table>\n                                                        </td>\n                                                    </tr>\n                                                </table>\n                                                <!--  End Module: Callout Button -->\n                                                <!--  Begin Module: Left Calendar Event  -->\n                                                <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" mc:repeatable=\"block_section\" mc:variant=\"Left Calendar Event\" class=\"calSection\">\n                                                    <tr>\n                                                        <td align=\"center\" valign=\"top\">\n                                                            <table align=\"left\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"160\" class=\"colAdjust\">\n                                                                <tr>\n                                                                    <td align=\"center\" valign=\"top\" class=\"fullPad\">\n                                                                        <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"160\" class=\"emailCalendar\">\n                                                                            <tr>\n                                                                                <td align=\"center\" valign=\"top\" >\n                                                                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\">\n                                                                                        <tr>\n                                                                                            <td align=\"center\" valign=\"top\" class=\"emailCalendarMonth\" mc:edit=\"month_00\">\n                                                                                                September\n                                                                                            </td>\n                                                                                        </tr>\n                                                                                        <tr>\n                                                                                            <td align=\"center\" valign=\"top\" class=\"emailCalendarDay\" mc:edit=\"day_00\">\n                                                                                                16\n                                                                                            </td>\n                                                                                        </tr>\n                                                                                    </table>\n                                                                                </td>\n                                                                            </tr>\n                                                                        </table>\n                                                                    </td>\n                                                                </tr>\n                                                            </table>\n                                                            <table align=\"right\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"400\" class=\"colAdjust\">\n                                                                <tr>\n                                                                    <td valign=\"top\" class=\"bodyContent\" mc:edit=\"calendar_content_00\">\n                                                                        <h1>Event Title</h1>\n                                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum fuga corporis magni, quia tempora et quisquam minus non ducimus laudantium esse amet error excepturi ipsum at, rerum ad sit dolorem.\n                                                                    </td>\n                                                                </tr>\n                                                            </table>\n                                                        </td>\n                                                    </tr>\n                                                </table>\n                                                <!--  End Module: Left Calendar Event -->\n                                                <!--  Begin Module: Right Calendar Event  -->\n                                                <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" mc:repeatable=\"block_section\" mc:variant=\"Right Calendar Event\" class=\"calSection\">\n                                                    <tr>\n                                                        <td align=\"center\" valign=\"top\">\n                                                            <table align=\"right\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"160\" class=\"colAdjust\">\n                                                                <tr>\n                                                                    <td align=\"center\" valign=\"top\" class=\"fullPad\">\n                                                                        <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"160\" class=\"emailCalendar\">\n                                                                            <tr>\n                                                                                <td align=\"center\" valign=\"top\">\n                                                                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\">\n                                                                                        <tr>\n                                                                                            <td align=\"center\" valign=\"top\" class=\"emailCalendarMonth\" mc:edit=\"month_00\">\n                                                                                                September\n                                                                                            </td>\n                                                                                        </tr>\n                                                                                        <tr>\n                                                                                            <td align=\"center\" valign=\"top\" class=\"emailCalendarDay\" mc:edit=\"day_00\">\n                                                                                                16\n                                                                                            </td>\n                                                                                        </tr>\n                                                                                    </table>\n                                                                                </td>\n                                                                            </tr>\n                                                                        </table>\n                                                                    </td>\n                                                                </tr>\n                                                            </table>\n                                                            <table align=\"left\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"400\" class=\"colAdjust\">\n                                                                <tr>\n                                                                    <td valign=\"top\" class=\"bodyContent\" mc:edit=\"calendar_content_00\">\n                                                                        <h1>Event Title</h1>\n                                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum fuga corporis magni, quia tempora et quisquam minus non ducimus laudantium esse amet error excepturi ipsum at, rerum ad sit dolorem.\n                                                                    </td>\n                                                                </tr>\n                                                            </table>\n                                                        </td>\n                                                    </tr>\n                                                </table>\n                                                <!--  End Module: Right Calendar Event\n                                                <!-- Begin Module: Split Columns Image / Text -->\n                                                <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" mc:repeatable=\"block_section\" mc:variant=\"Split Image / Text\">\n                                                  <tr>\n                                                    <td align=\"center\" valign=\"top\">\n                                                        <!-- CENTERING TABLE // -->\n                                                        <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" class=\"imageText\">\n                                                          <tr>\n                                                            <td align=\"center\" valign=\"top\">\n                                                              <!-- FLEXIBLE CONTAINER // -->\n                                                              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"600\" class=\"flexibleContainer\">\n                                                                <tr>\n                                                                  <td valign=\"top\" width=\"600\" class=\"\">\n                                                                    <!-- IMAGE TABLE // -->\n                                                                    <table align=\"left\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"300\" class=\"flexibleContainer\">\n                                                                      <tr>\n                                                                        <td align=\"left\" valign=\"top\" class=\"\">\n                                                                          <img src=\"http://dummyimage.com/300/333/fff.png\" width=\"300\" style=\"max-width:300px;\" mc:edit=\"image_text00\" class=\"flexibleImage\" />\n                                                                        </td>\n                                                                      </tr>\n                                                                    </table>\n                                                                    <!-- // IMAGE TABLE -->\n                                                                    <!-- CONTENT TABLE // -->\n                                                                    <table align=\"right\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"300\" class=\"flexibleContainer\">\n                                                                      <tr>\n                                                                        <td valign=\"top\" class=\"bodyContent\" mc:edit=\"image_text_content00\">\n                                                                          <h3>Right Column</h3>\n                                                                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe est possimus aliquam vel natus tempora incidunt, fugiat quidem. Nemo, optio id reprehenderit cum quasi ut, error aut commodi quod sit.\n                                                                        </td>\n                                                                      </tr>\n                                                                    </table>\n                                                                    <!-- // CONTENT TABLE -->\n                                                                  </td>\n                                                                </tr>\n                                                              </table>\n                                                              <!-- // FLEXIBLE CONTAINER -->\n                                                            </td>\n                                                          </tr>\n                                                        </table>\n                                                        <!-- // CENTERING TABLE -->\n                                                    </td>\n                                                  </tr>\n                                                </table>\n                                                <!-- End Module: Split Columns Image / Text -->\n                                                <!-- Begin Module: Split Columns Text / Image -->\n                                                <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" mc:repeatable=\"block_section\" mc:variant=\"Right Image Left Text\">\n                                                  <!-- MODULE ROW // -->\n                                                  <tr>\n                                                    <td align=\"center\" valign=\"top\">\n                                                      <!-- CENTERING TABLE // -->\n                                                      <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" class=\"textImage\">\n                                                        <tr>\n                                                          <td align=\"center\" valign=\"top\">\n                                                            <!-- FLEXIBLE CONTAINER // -->\n                                                            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"600\" class=\"flexibleContainer\">\n                                                              <tr>\n                                                                <td valign=\"top\" width=\"600\" class=\"\">\n                                                                  <!-- IMAGE TABLE // -->\n                                                                  <table align=\"right\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"300\" class=\"flexibleContainer\">\n                                                                    <tr>\n                                                                      <td align=\"left\" valign=\"top\" class=\"\">\n                                                                        <img src=\"http://dummyimage.com/300/333/fff.png\" width=\"300\" style=\"max-width:300px;\" mc:edit=\"text_image00\" class=\"flexibleImage\" />\n                                                                      </td>\n                                                                    </tr>\n                                                                  </table>\n                                                                  <!-- // IMAGE TABLE -->\n                                                                  <!-- CONTENT TABLE // -->\n                                                                  <table align=\"left\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"300\" class=\"flexibleContainer\">\n                                                                    <tr>\n                                                                      <td valign=\"top\" mc:edit=\"text_image_content00\" class=\"bodyContent\">\n                                                                        <h3>Left Column</h3>\n                                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe est possimus aliquam vel natus tempora incidunt, fugiat quidem. Nemo, optio id reprehenderit cum quasi ut, error aut commodi quod sit.\n                                                                      </td>\n                                                                    </tr>\n                                                                  </table>\n                                                                  <!-- // CONTENT TABLE -->\n                                                                </td>\n                                                              </tr>\n                                                            </table>\n                                                            <!-- // FLEXIBLE CONTAINER -->\n                                                          </td>\n                                                        </tr>\n                                                      </table>\n                                                      <!-- // CENTERING TABLE -->\n                                                    </td>\n                                                  </tr>\n                                                  <!-- // MODULE ROW -->\n                                                </table>\n                                                <!-- End Module: Split Columns Text / Image -->\n                                                <!-- Begin Module: Split Columns Image / Image -->\n                                                <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" mc:repeatable=\"block_section\" mc:variant=\"Split Image / Image\">\n                                                  <tr>\n                                                    <td align=\"center\" valign=\"top\">\n                                                        <!-- CENTERING TABLE // -->\n                                                        <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" class=\"dualImage\">\n                                                          <tr>\n                                                            <td align=\"center\" valign=\"top\">\n                                                              <!-- FLEXIBLE CONTAINER // -->\n                                                              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"600\" class=\"flexibleContainer\">\n                                                                <tr>\n                                                                  <td valign=\"top\" width=\"600\" class=\"\">\n                                                                    <!-- IMAGE TABLE // -->\n                                                                    <table align=\"left\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"300\" class=\"flexibleContainer\">\n                                                                      <tr>\n                                                                        <td align=\"left\" valign=\"top\" class=\"\">\n                                                                          <img src=\"http://dummyimage.com/300/333/fff.png\" width=\"300\" style=\"max-width:300px;\" mc:edit=\"dual_image00\" class=\"flexibleImage imagePad\" />\n                                                                        </td>\n                                                                      </tr>\n                                                                    </table>\n                                                                    <!-- // IMAGE TABLE -->\n                                                                    <!-- IMAGE TABLE // -->\n                                                                    <table align=\"left\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"300\" class=\"flexibleContainer\">\n                                                                      <tr>\n                                                                        <td align=\"left\" valign=\"top\" class=\"\">\n                                                                          <img src=\"http://dummyimage.com/300/333/fff.png\" width=\"300\" style=\"max-width:300px;\" mc:edit=\"dual_image01\" class=\"flexibleImage imagePad\" />\n                                                                        </td>\n                                                                      </tr>\n                                                                    </table>\n                                                                    <!-- // IMAGE TABLE -->\n                                                                  </td>\n                                                                </tr>\n                                                              </table>\n                                                              <!-- // FLEXIBLE CONTAINER -->\n                                                            </td>\n                                                          </tr>\n                                                        </table>\n                                                        <!-- // CENTERING TABLE -->\n                                                    </td>\n                                                  </tr>\n                                                </table>\n                                                <!-- End Module: Split Columns Image / Text -->\n                                            </td>\n                                            <!-- END REPEATABLE SECTION -->\n\n                                            <!-- THIS IS THE END...MY ONLY FRIEND THE END -->\n                                        </tr>\n                                    </table>\n                                    <!-- // #templateBody -->\n                                </td>\n                            </tr><!-- // #templateBody ROW -->\n                            <tr><!-- footer ROW -->\n                                <td align=\"center\" valign=\"top\">\n                                    <!-- BEGIN FOOTER // -->\n                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" id=\"templateFooter\">\n                                        <tr>\n                                            <td align=\"center\" valign=\"top\">\n                                              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" mc:repeatable=\"footer_icon_section\" mc:variant=\"Default Colored Icons\" class=\"\"><!-- DEFAULT COLOR ICONS -->\n                                                <tr>\n                                                  <td align=\"center\" valign=\"top\" class=\"footerContent\" mc:edit=\"footer_content_default00\">\n                                                    <a href=\"https://twitter.com/MillenniumMKTG\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/color-twitter-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.facebook.com/MillenniumMarketing\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/color-facebook-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.instagram.com/millenniummktg/\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/color-instagram-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.linkedin.com/company/millennium-marketing-solutions\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/color-linkedin-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.mm4solutions.com/\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/color-link-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"mailto:info@mm4solutions.com\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/color-forwardtofriend-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;\n                                                  </td>\n                                                </tr>\n                                              </table>\n                                              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" mc:repeatable=\"footer_icon_section\" mc:variant=\"Outline Colored Icons\" class=\"\"><!-- OUTLINE COLOR ICONS -->\n                                                <tr>\n                                                  <td align=\"center\" valign=\"top\" class=\"footerContent\" mc:edit=\"footer_content_default00\">\n                                                    <a href=\"https://twitter.com/MillenniumMKTG\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/outline-color-twitter-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.facebook.com/MillenniumMarketing\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/outline-color-facebook-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.instagram.com/millenniummktg/\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/outline-color-instagram-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.linkedin.com/company/millennium-marketing-solutions\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/outline-color-linkedin-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.mm4solutions.com/\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/outline-color-link-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"mailto:info@mm4solutions.com\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/outline-color-forwardtofriend-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;\n                                                  </td>\n                                                </tr>\n                                              </table>\n                                              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" mc:repeatable=\"footer_icon_section\" mc:variant=\"Dark Icons\" class=\"\"><!-- DARK ICONS -->\n                                                <tr>\n                                                  <td align=\"center\" valign=\"top\" class=\"footerContent\" mc:edit=\"footer_content_dark00\">\n                                                    <a href=\"https://twitter.com/MillenniumMKTG\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/dark-twitter-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.facebook.com/MillenniumMarketing\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/dark-facebook-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.instagram.com/millenniummktg/\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/dark-instagram-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.linkedin.com/company/millennium-marketing-solutions\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/dark-linkedin-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.mm4solutions.com/\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/dark-link-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"mailto:info@mm4solutions.com\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/dark-forwardtofriend-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;\n                                                  </td>\n                                                </tr>\n                                              </table>\n                                              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" mc:repeatable=\"footer_icon_section\" mc:variant=\"Outline Dark Icons\" class=\"\"><!-- OUTLINE DARK ICONS -->\n                                                <tr>\n                                                  <td align=\"center\" valign=\"top\" class=\"footerContent\" mc:edit=\"footer_content_default00\">\n                                                    <a href=\"https://twitter.com/MillenniumMKTG\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-twitter-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.facebook.com/MillenniumMarketing\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-facebook-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.instagram.com/millenniummktg/\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-instagram-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.linkedin.com/company/millennium-marketing-solutions\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-linkedin-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.mm4solutions.com/\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-link-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"mailto:info@mm4solutions.com\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/outline-dark-forwardtofriend-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;\n                                                  </td>\n                                                </tr>\n                                              </table>\n                                              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" mc:repeatable=\"footer_icon_section\" mc:variant=\"Light Icons\" class=\"\"><!-- LIGHT ICONS -->\n                                                <tr>\n                                                  <td align=\"center\" valign=\"top\" class=\"footerContent\" mc:edit=\"footer_content_light00\">\n                                                    <a href=\"https://twitter.com/MillenniumMKTG\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/light-twitter-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.facebook.com/MillenniumMarketing\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/light-facebook-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.instagram.com/millenniummktg/\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/light-instagram-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.linkedin.com/company/millennium-marketing-solutions\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/light-linkedin-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.mm4solutions.com/\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/light-link-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"mailto:info@mm4solutions.com\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/light-forwardtofriend-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;\n                                                  </td>\n                                                </tr>\n                                              </table>\n                                              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" mc:repeatable=\"footer_icon_section\" mc:variant=\"Outline Light Icons\" class=\"\"><!-- OUTLINE LIGHT ICONS -->\n                                                <tr>\n                                                  <td align=\"center\" valign=\"top\" class=\"footerContent\" mc:edit=\"footer_content_default00\">\n                                                    <a href=\"https://twitter.com/MillenniumMKTG\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/outline-light-twitter-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.facebook.com/MillenniumMarketing\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/outline-light-facebook-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.instagram.com/millenniummktg/\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/outline-light-instagram-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.linkedin.com/company/millennium-marketing-solutions\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/outline-light-linkedin-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.mm4solutions.com/\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/outline-light-link-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"mailto:info@mm4solutions.com\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/outline-light-forwardtofriend-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;\n                                                  </td>\n                                                </tr>\n                                              </table>\n                                              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" mc:repeatable=\"footer_icon_section\" mc:variant=\"Gray Icons\" class=\"\"><!-- GRAY ICONS -->\n                                                <tr>\n                                                  <td align=\"center\" valign=\"top\" class=\"footerContent\" mc:edit=\"footer_content_gray00\">\n                                                    <a href=\"https://twitter.com/MillenniumMKTG\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/gray-twitter-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.facebook.com/MillenniumMarketing\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/gray-facebook-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.instagram.com/millenniummktg/\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/gray-instagram-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.linkedin.com/company/millennium-marketing-solutions\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/gray-linkedin-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.mm4solutions.com/\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/gray-link-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"mailto:info@mm4solutions.com\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/gray-forwardtofriend-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;\n                                                  </td>\n                                                </tr>\n                                              </table>\n                                              <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" mc:repeatable=\"footer_icon_section\" mc:variant=\"Outline Gray Icons\" class=\"\"><!-- OUTLINE GRAY ICONS -->\n                                                <tr>\n                                                  <td align=\"center\" valign=\"top\" class=\"footerContent\" mc:edit=\"footer_content_default00\">\n                                                    <a href=\"https://twitter.com/MillenniumMKTG\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/outline-gray-twitter-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.facebook.com/MillenniumMarketing\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/outline-gray-facebook-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.instagram.com/millenniummktg/\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/outline-gray-instagram-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.linkedin.com/company/millennium-marketing-solutions\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/outline-gray-linkedin-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"https://www.mm4solutions.com/\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/outline-gray-link-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;<a href=\"mailto:info@mm4solutions.com\"><img src=\"https://cdn-images.mailchimp.com/icons/social-block-v2/outline-gray-forwardtofriend-48.png\" height=\"24\" width=\"24\" class=\"socialIcons\"></a>&nbsp;&nbsp;&nbsp;\n                                                  </td>\n                                                </tr>\n                                              </table>\n                                            </td>\n                                        </tr>\n                                        <tr>\n                                            <td valign=\"top\" class=\"footerContent\" style=\"padding-top:0;\" mc:edit=\"footer_content01\">\n                                                <em>Copyright &copy; *|CURRENT_YEAR|* *|LIST:COMPANY|*, All rights reserved.</em>\n                                                <br />\n                                                *|IFNOT:ARCHIVE_PAGE|* *|LIST:DESCRIPTION|*\n                                                <br />\n                                                <br />\n                                                <strong>Our mailing address is:</strong>\n                                                <br />\n                                                *|HTML:LIST_ADDRESS_HTML|* *|END:IF|*\n                                            </td>\n                                        </tr>\n                                        <tr>\n                                            <td valign=\"top\" class=\"footerContent\" style=\"padding-top:0;\" mc:edit=\"footer_content02\">\n                                                <a href=\"*|FORWARD|*\">forward to friend</a>&nbsp;&nbsp;&nbsp;<a href=\"*|UNSUB|*\">unsubscribe from this list</a>&nbsp;&nbsp;&nbsp;<a href=\"*|UPDATE_PROFILE|*\">update subscription preferences</a>&nbsp;\n                                            </td>\n                                        </tr>\n                                    </table>\n                                    <!-- // END FOOTER -->\n                                </td>\n                            </tr><!-- footer ROW -->\n                        </table>\n                        <!-- #templateContainer -->\n                      <!-- // END TEMPLATE -->\n                    </td>\n                    <!-- END #bodyCell-->\n                </tr>\n                <!-- END TR -->\n            </table>\n            <!-- END #bodyTable -->\n        </center>\n    </body>\n</html>",
+			"settings":
+			{
+				"buffer_size": 85463,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "refold",
+		"selected_items":
+		[
+			[
+				"refold",
+				"Code Folding: Refold"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"fold",
+				"Code Folding: Refold"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"snipp",
+				"Snippet: Sassy Comments - Long Comment Block"
+			],
+			[
+				"dock",
+				"DocBlockr: Reparse comment block"
+			],
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"m",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"gulp",
+				"Set Syntax: Gulpfile JS"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"markdown",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"open",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"boiler",
+				"Snippet: htmlboiler"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"move",
+				"File: Move"
+			],
+			[
+				"sftp",
+				"SFTP: Monitor File (Upload on External Save)"
+			],
+			[
+				"sft",
+				"SFTP: Monitor File (Upload on External Save)"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"php",
+				"PHP CodeBeautifier"
+			],
+			[
+				"sort",
+				"StyleSorter: Sort Stylesheet"
+			],
+			[
+				"sass",
+				"SassBeautify"
+			],
+			[
+				"ma",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"docb",
+				"DocBlockr: Decorate line comment"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Sassy Comments - Sub-Section Comment Block"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: class",
+				"Snippet: class-php"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"PackageResourceViewer: Edit Package Resource",
+				"PackageResourceViewer: Edit Package Resource"
+			],
+			[
+				"packagere",
+				"PackageResourceViewer: View Package Resource"
+			],
+			[
+				"json",
+				"Set Syntax: Bower JSON"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 302.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/GraphicDesigner/projects/html-email-project",
+		"/Users/GraphicDesigner/projects/html-email-project/dev"
+	],
+	"file_history":
+	[
+		"/Users/GraphicDesigner/Library/Application Support/Sublime Text 3/Packages/BufferScroll/BufferScroll.sublime-settings",
+		"/Users/GraphicDesigner/Library/Application Support/Sublime Text 3/Packages/User/BufferScroll.sublime-settings",
+		"/Users/GraphicDesigner/projects/html-email-project/dev/index-v2.html",
+		"/Users/GraphicDesigner/projects/html-email-project/index.html",
+		"/Users/GraphicDesigner/projects/html-email-project/dev/old-index.html",
+		"/Users/GraphicDesigner/Library/Application Support/Sublime Text 3/Packages/User/Base File.sublime-settings",
+		"/Users/GraphicDesigner/Library/Application Support/Sublime Text 3/Packages/DocBlockr/Base File.sublime-settings",
+		"/Users/GraphicDesigner/Library/Application Support/Sublime Text 3/Packages/User/MySnippets.sublime-settings",
+		"/Users/GraphicDesigner/projects/html-email-project/main.css",
+		"/Users/GraphicDesigner/projects/html-email-project/dev/v1.html",
+		"/Users/GraphicDesigner/projects/html-email-project/Default Colored Icon.mdown",
+		"/Users/GraphicDesigner/projects/html-email-project/email-blueprints-master/modular-template-patterns/modular-template-patterns.html",
+		"/Users/GraphicDesigner/projects/html-email-project/dev/mobile.css",
+		"/Users/GraphicDesigner/projects/html-email-project/email-blueprints-master/responsive-templates/base_boxed_2column_query.html",
+		"/Users/GraphicDesigner/projects/html-email-project/email-notes.markdown",
+		"/Users/GraphicDesigner/projects/html-email-project/dev/index.html",
+		"/Users/GraphicDesigner/Dropbox/Sync/Sublime Text/User/Preferences.sublime-settings",
+		"/Users/GraphicDesigner/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/GraphicDesigner/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/GraphicDesigner/Sites/acy-popup/mm4-modal/acy-modal.html",
+		"/Users/GraphicDesigner/projects/html-email-project/email-blueprints-master/examples/base_boxed_body_image_2column_query.html",
+		"/Users/GraphicDesigner/projects/html-email-project/spotlight/index.html",
+		"/Users/GraphicDesigner/projects/html-email-project/email-blueprints-master/templates/fancy-variablelayout.html",
+		"/Users/GraphicDesigner/Desktop/mm4-video/index.html",
+		"/Users/GraphicDesigner/projects/html-email-project/ProductSpotlight.html",
+		"/Users/GraphicDesigner/projects/html-email-project/email-blueprints-master/responsive-templates/base_boxed_body_image_2column_query.html",
+		"/Users/GraphicDesigner/projects/html-email-project/email-blueprints-master/responsive-templates/base_boxed_3column_query.html",
+		"/Users/GraphicDesigner/projects/html-email-project/email-blueprints-master/responsive-templates/base_boxed_basic_2column_query.html",
+		"/Users/GraphicDesigner/projects/html-email-project/email-blueprints-master/responsive-templates/base_boxed_basic_body_image_query.html",
+		"/Users/GraphicDesigner/projects/html-email-project/spotlight/v2.html",
+		"/Users/GraphicDesigner/projects/html-email-project/email-notes.md",
+		"/Users/GraphicDesigner/projects/auto-theme/auto-theme/gulpfile.js",
+		"/Users/GraphicDesigner/projects/auto-theme/auto-theme/gulp/tasks/styles.js",
+		"/Users/GraphicDesigner/.zshrc",
+		"/Users/GraphicDesigner/projects/auto-theme/auto-theme/gulp/tasks/build.js",
+		"/Users/GraphicDesigner/projects/auto-theme/auto-theme/gulp/config.js",
+		"/Users/GraphicDesigner/projects/auto-theme/auto-theme/gulp/tasks/server.js",
+		"/Users/GraphicDesigner/projects/auto-theme/auto-theme/gulp/tasks/clean.js",
+		"/Users/GraphicDesigner/projects/auto-theme/auto-theme/gulp/tasks/scripts.js",
+		"/Users/GraphicDesigner/projects/auto-theme/auto-theme/gulp/tasks/watch.js",
+		"/Users/GraphicDesigner/projects/auto-theme/auto-theme/style.css",
+		"/Users/GraphicDesigner/projects/auto-theme/auto-theme/sass/navigation/_masthead.scss",
+		"/Users/GraphicDesigner/projects/auto-theme/auto-theme/tasks/production.js",
+		"/Users/GraphicDesigner/projects/auto-theme/auto-theme/tasks/scripts.js",
+		"/Users/GraphicDesigner/projects/auto-theme/auto-theme/tasks/server.js",
+		"/Users/GraphicDesigner/projects/auto-theme/auto-theme/tasks/watch.js",
+		"/Users/GraphicDesigner/projects/auto-theme/auto-theme/tasks/styles.js",
+		"/Users/GraphicDesigner/projects/auto-theme/auto-theme/tasks/build.js",
+		"/Users/GraphicDesigner/Desktop/iPhone 7 Plus.md",
+		"/Users/GraphicDesigner/projects/auto-theme/auto-theme/new-gulpfile.js",
+		"/Users/GraphicDesigner/Library/Application Support/Sublime Text 3/Packages/User/JSON.sublime-settings",
+		"/Users/GraphicDesigner/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/GraphicDesigner/projects/new-test/gulpfile.js",
+		"/Users/GraphicDesigner/projects/new-test/.gitignore",
+		"/Users/GraphicDesigner/projects/new-test/advanced-gulp-wordpress/gulpfile.js",
+		"/Users/GraphicDesigner/Desktop/* EXPO/Fall Expo 2016_template.html",
+		"/Users/GraphicDesigner/Desktop/* EXPO/Fall Expo 2015.html",
+		"/Users/GraphicDesigner/Desktop/* EXPO/2016-fall-expo-executive-email-footer.txt",
+		"/Users/GraphicDesigner/Sites/htdocs/rollins-ridge-test/wp-content/themes/mobile-first.sass",
+		"/Users/GraphicDesigner/Sites/htdocs/rollins-ridge-test/wp-content/themes/rr_test/sass/mixins/mixins-breakpoints.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/rollins-ridge-test/wp-content/themes/rr_test/js/photo-gallery.js",
+		"/Users/GraphicDesigner/Sites/htdocs/rollins-ridge-test/wp-content/themes/rr_test/sass/page-templates/_page-templates.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/rollins-ridge-test/wp-content/themes/rr_test/sass/page-templates/_photo-gallery.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/rollins-ridge-test/wp-content/themes/rr_test/sass/page-templates/_footer.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/rollins-ridge-test/wp-content/themes/rr_test/sass/page-templates/_header.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/rollins-ridge-test/wp-content/themes/rr_test/sass/page-templates/_homepage.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/rollins-ridge-test/wp-content/themes/rr_test/sass/_grid-settings.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/rollins-ridge-test/wp-content/themes/rr_test/style.css",
+		"/Users/GraphicDesigner/Sites/htdocs/rollins-ridge-test/wp-content/themes/rr_test/sass/page-templates/_content.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/rollins-ridge-test/wp-content/themes/rr_test/sass/page-templates/_amenities-page.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/rollins-ridge-test/wp-content/themes/rr_test/sass/elements/_elements.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/rollins-ridge-test/wp-content/themes/rr_test/sass/variables-site/_typography.scss",
+		"/Users/GraphicDesigner/Dropbox/Sync/Sublime Text/User/sass-snippets/respond-to.sublime-snippet",
+		"/Users/GraphicDesigner/Sites/htdocs/rollins-ridge-test/wp-content/themes/rr_test/sass/navigation/_menus.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/rollins-ridge-test/wp-content/themes/rr_test/sass/variables-site/_colors.scss",
+		"/Users/GraphicDesigner/Desktop/equal-housing-footer.svg",
+		"/Users/GraphicDesigner/Sites/htdocs/rollins-ridge-test/wp-content/themes/rr_test/inc/footer-colophon.php",
+		"/Users/GraphicDesigner/Sites/htdocs/rollins-ridge-test/wp-content/themes/rr_test/functions.php",
+		"/Users/GraphicDesigner/Sites/htdocs/rollins-ridge-test/wp-content/themes/rr_test/footer.php",
+		"/Users/GraphicDesigner/Sites/htdocs/rollins-ridge-test/wp-content/themes/rr_test/inc/front-page-boxes.php",
+		"/Users/GraphicDesigner/Sites/htdocs/rollins-ridge-test/wp-content/themes/rr_test/sass/forms/_buttons.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/rollins-ridge-test/wp-content/themes/rr_test/header.php",
+		"/Users/GraphicDesigner/Sites/htdocs/rollins-ridge-test/wp-content/themes/rr_test/sass/addons/_buttons.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/rollins-ridge-test/wp-content/themes/rr_test/sass/mixins/_mixins-master.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/rollins-ridge-test/wp-content/themes/rr_test/sass/navigation/_navigation.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/gateway-village/residential-one-properties/sass/style.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/gateway-village/residential-one-properties/style.css.map",
+		"/Users/GraphicDesigner/Sites/htdocs/gateway-village/residential-one-properties/style.css",
+		"/Users/GraphicDesigner/Desktop/highland email list.txt",
+		"/Users/GraphicDesigner/Sites/htdocs/gateway-village/residential-one-properties/sass/masthead/_masthead.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/gateway-village/residential-one-properties/sass/navigation/_desktop-alt-nav.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/gateway-village/residential-one-properties/sass/variables-site/_colors.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/gateway-village/residential-one-properties/sass/navigation/_mobile-nav.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/gateway-village/residential-one-properties/js/min/location-map-min.js",
+		"/Users/GraphicDesigner/Sites/htdocs/gateway-village/residential-one-properties/sass/navigation/_desktop-drill-nav.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/gateway-village/residential-one-properties/sass/colophon/_colophon.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/gateway-village/residential-one-properties/footer.php",
+		"/Users/GraphicDesigner/Sites/htdocs/gateway-village/residential-one-properties/sftp-config.json",
+		"/Users/GraphicDesigner/Desktop/* EXPO/dev/sass/_site.scss",
+		"/Users/GraphicDesigner/Desktop/* EXPO/dev/index.html",
+		"/Users/GraphicDesigner/Desktop/* EXPO/dev/sass/_registration.scss",
+		"/Users/GraphicDesigner/Desktop/* EXPO/dev/sass/_header.scss",
+		"/Users/GraphicDesigner/Desktop/* EXPO/dev/sass/variables/_breakpoints.scss",
+		"/Users/GraphicDesigner/Desktop/* EXPO/dev/thank-you.php",
+		"/Users/GraphicDesigner/Desktop/* EXPO/dev/thank-you.html",
+		"/Users/GraphicDesigner/Desktop/* EXPO/dev/sass/mixins/mixins.scss",
+		"/Users/GraphicDesigner/Desktop/* EXPO/dev/sass/variables/_variables.scss",
+		"/Users/GraphicDesigner/Desktop/* EXPO/dev/sass/_about.scss",
+		"/Users/GraphicDesigner/Desktop/* EXPO/dev/sass/_invite.scss",
+		"/Users/GraphicDesigner/Desktop/* EXPO/dev/fonts/Aleo-Bold/styles.css",
+		"/Users/GraphicDesigner/Desktop/* EXPO/dev/js/script.js",
+		"/Users/GraphicDesigner/Library/Application Support/Sublime Text 3/Packages/User/bh_core.sublime-settings",
+		"/Users/GraphicDesigner/Library/Application Support/Sublime Text 3/Packages/BracketHighlighter/bh_core.sublime-settings",
+		"/Users/GraphicDesigner/Desktop/* EXPO/dev/css/style.css",
+		"/Users/GraphicDesigner/Desktop/* EXPO/expo2016.sublime-project",
+		"/Users/GraphicDesigner/Documents/Logins/Logins-Passwords.md",
+		"/private/var/folders/41/zbyptdb53mx517syr_qxd7d00000gp/T/5b963f2a-0312-4d17-a333-0c081fd8109e/home/douglasknolls/www/dev/wp-content/themes/residential-one-properties/header.php",
+		"/Users/GraphicDesigner/Sites/htdocs/douglas-knolls/wp-content/themes/residential-one-properties/header.php",
+		"/Users/Shared/.com.serverpress.desktopserver.json",
+		"/private/etc/hosts",
+		"/Users/GraphicDesigner/Sites/htdocs/douglas-knolls/residential-one-properties/sftp-config.json",
+		"/Users/GraphicDesigner/Sites/htdocs/columbia-landing/wp-content/themes/residential-one-properties/sftp-config.json",
+		"/Users/GraphicDesigner/Sites/htdocs/columbia-landing/wp-content/themes/residential-one-properties/sass/mixins/_mixins-master.scss",
+		"/Users/GraphicDesigner/Sites/htdocs/columbia-landing/cl.sublime-project",
+		"/Users/GraphicDesigner/Sites/htdocs/columbia-landing/wp-activate.php",
+		"/Users/GraphicDesigner/Sites/francis/dev/fsk/residential-one-properties/single.php",
+		"/Users/GraphicDesigner/Sites/maple/github/maple.dev/wp-content/themes/residential-one-properties/sass/masthead/_masthead.scss",
+		"/Users/GraphicDesigner/Sites/maple/github/maple.dev/wp-content/themes/residential-one-properties/sass/navigation/_desktop-home-nav.scss"
+	],
+	"find":
+	{
+		"height": 82.0
+	},
+	"find_in_files":
+	{
+		"height": 188.0,
+		"where_history":
+		[
+			"/Users/GraphicDesigner/projects/html-email-project/email-blueprints-master/templates",
+			"<open folders>",
+			"/Users/GraphicDesigner/projects/codekit/neat/neat.dev/wp-content/themes/mm4_shane",
+			"/Users/GraphicDesigner/projects/codekit/neat/neat.dev/wp-content/themes/mm4_shane,<current file>",
+			"/Users/GraphicDesigner/projects/codekit/neat/neat.dev/wp-content/themes/mm4_shane",
+			"/Users/GraphicDesigner/Sites/loktek/www.loktek.dev/wp-content/themes/mm4-you",
+			"/Users/GraphicDesigner/Sites/loktek/www.loktek.dev",
+			"www.loktek.dev",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"headerContent",
+			"bodyContent",
+			"socialIcons",
+			"footerContent",
+			"emailCalendar",
+			"twoColImage",
+			"imageContent",
+			"imageCenter",
+			"adImage",
+			"heroImage",
+			"headerContent",
+			"0",
+			"border",
+			"Text",
+			"Image",
+			"Text",
+			"0",
+			"20",
+			"rightContainer",
+			"leftContainer",
+			"300",
+			"imageContent",
+			"#headerImage{\n      }",
+			"headerImage",
+			"emailBody",
+			"CONTENT",
+			"imageCenter",
+			"width=\"600\"",
+			"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\"",
+			"colAdjust",
+			"<!-- CENTERING TABLE // -->",
+			"center",
+			"imageCenter",
+			"flexibleImage",
+			"flexContainerLeftImage",
+			"*|TWITTER:PROFILEURL|*",
+			"*|FACEBOOK:PROFILEURL|*",
+			"- 2",
+			"set optional top-border bottom-border for separation.",
+			"set optional top and bottom border for separation.",
+			"main",
+			"/\\/\\/\\/\\/\\/\\/",
+			"/\\/\\/\\/\\/\\/\\/ ",
+			"/\\/\\/\\/\\/\\/\\/\\/\\/",
+			"260",
+			"200",
+			"imageCenter",
+			"emailButton",
+			"Left",
+			"flexContain",
+			"/\\/\\/\\/\\/\\/\\/ ",
+			"margin: 0;",
+			"<br",
+			"100%",
+			"italic",
+			"h1",
+			"Page",
+			"ExternalClass",
+			"ReadMsgBody",
+			"ExternalClass",
+			"ReadMsgBody",
+			"dark",
+			"color",
+			"link",
+			"forwardtofriend",
+			"linkedin",
+			"inkedin",
+			"linkedin",
+			"instagram",
+			"color",
+			"class=\"\"",
+			"left",
+			" flexibleContainer",
+			"400x400",
+			"left",
+			"h3",
+			"g/400/400",
+			"260",
+			"h3",
+			"Callout Button Section",
+			"right image left text",
+			"text",
+			"right",
+			"image",
+			"left",
+			"h3",
+			"_left_",
+			"0",
+			"20",
+			"flexibleContiner",
+			"textContent",
+			"flexContainerLeft",
+			"imageContent",
+			"20",
+			"0",
+			"headerImage",
+			"headerContent",
+			"text section",
+			"h1",
+			"h2",
+			"'pt_sansregular'",
+			".home-modal .modal-details-intro",
+			"h1",
+			"h3",
+			"close-modal",
+			"h3",
+			"Open",
+			"open",
+			"Open",
+			"h1",
+			"modal",
+			"bodyContent",
+			"headerImage",
+			"flexibleContainer",
+			"headerImage",
+			"/*@editable*/ ",
+			"img",
+			"flexibleImage",
+			"flexibleContainer",
+			"emailBody",
+			"/*@editable*/ ",
+			"heroImageSection",
+			"calloutButtonSection",
+			"flexibleImage",
+			"Left",
+			"flexContainerLeft",
+			"adSection",
+			"heroImageSection"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\n\n$color__brand-3"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 8,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 85441,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								63793,
+								63793
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										67457,
+										67462
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/tag.png",
+										"brackethighlighter.tag"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										63668,
+										63673
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"bs_sintax": "html",
+							"buffer_scroll_name": "23cd699e",
+							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
+							"function_name_status_row": 1253,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"spell_check": true,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 48362.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "html-email.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 168,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								159,
+								159
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										164,
+										165
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.curly"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										109,
+										110
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"bs_sintax": "json",
+							"buffer_scroll_name": "6e0d0a89",
+							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
+							"function_name_status_row": 9,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"spell_check": true,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index-v2.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 67465,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								67465
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										67460,
+										67464
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/tag.png",
+										"brackethighlighter.tag"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										123,
+										127
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"bs_sintax": "html",
+							"buffer_scroll_name": "9d6bb93b",
+							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
+							"function_name_status_row": 0,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"spell_check": true,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5300.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/GraphicDesigner/projects/html-email-project/email-blueprints-master/modular-template-patterns/modular-template-patterns.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 83076,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								52352,
+								48427
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"bs_sintax": "html",
+							"buffer_scroll_name": "1fa93bc4",
+							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
+							"function_name_status_row": 710,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"spell_check": true,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 28711.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/GraphicDesigner/projects/html-email-project/email-blueprints-master/responsive-templates/base_boxed_3column_query.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 32115,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										120,
+										121
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/angle_bracket.png",
+										"brackethighlighter.angle"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										0,
+										1
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"bs_sintax": "html",
+							"buffer_scroll_name": "580ba0c2",
+							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
+							"function_name_status_row": 0,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"spell_check": true,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 23955.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 54293,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								29918,
+								29918
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										29917,
+										29918
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"brackethighlighter.quote"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										29895,
+										29896
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"bs_sintax": "plain text",
+							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
+							"default_dir": "/Users/GraphicDesigner/projects/html-email-project",
+							"function_name_status_row": 879,
+							"incomplete_sync": null,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 32214.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 50,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								50,
+								50
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"bs_sintax": "plain text",
+							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
+							"default_dir": "/Users/GraphicDesigner/projects/html-email-project",
+							"function_name_status_row": 1,
+							"incomplete_sync": null,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "sections-backup.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10883,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10883,
+								8510
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"bs_sintax": "plain text",
+							"buffer_scroll_name": "ab979080",
+							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
+							"function_name_status_row": 160,
+							"incomplete_sync": null,
+							"spell_check": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 85463,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								69932,
+								69943
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										69943,
+										69944
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"brackethighlighter.quote"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										69931,
+										69932
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"bs_sintax": "plain text",
+							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
+							"default_dir": "/Users/GraphicDesigner/projects/html-email-project",
+							"function_name_status_row": 1312,
+							"incomplete_sync": null,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 52755.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 44.0
+	},
+	"input":
+	{
+		"height": 77.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 304.0
+	},
+	"pinned_build_system": "",
+	"project": "html-email.sublime-project",
+	"replace":
+	{
+		"height": 84.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"butt",
+				"rr_test/sass/addons/_buttons.scss"
+			],
+			[
+				"_header",
+				"sass/page-templates/_header.scss"
+			],
+			[
+				"header",
+				"header.php"
+			],
+			[
+				"menus",
+				"sass/navigation/_menus.scss"
+			],
+			[
+				"_heading",
+				"sass/typography/_headings.scss"
+			],
+			[
+				"func",
+				"functions.php"
+			],
+			[
+				"fun",
+				"functions.php"
+			],
+			[
+				"color",
+				"sass/variables-site/_colors.scss"
+			],
+			[
+				"function",
+				"functions.php"
+			],
+			[
+				"typo",
+				"sass/typography/_typography.scss"
+			],
+			[
+				"style",
+				"wp-content/themes/mm4-you/style.css"
+			],
+			[
+				"contact",
+				"wp-content/themes/mm4-you/contact-custom.php"
+			],
+			[
+				"styl",
+				"wp-content/themes/mm4-you/style.css"
+			],
+			[
+				"funct",
+				"Sites/loktek/www.loktek.dev/wp-content/themes/mm4-you/functions.php"
+			],
+			[
+				"fucntion",
+				"Sites/loktek/www.loktek.dev/wp-content/themes/mm4-you/functions.php"
+			],
+			[
+				"",
+				"Sites/loktek/www.loktek.dev/wp-content/themes/mm4-you/footer.php"
+			],
+			[
+				"footer",
+				"Sites/loktek/www.loktek.dev/wp-content/themes/mm4-you/footer.php"
+			],
+			[
+				"customize",
+				"Sites/loktek/www.loktek.dev/wp-admin/customize.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 235.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
