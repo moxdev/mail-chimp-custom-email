@@ -21,6 +21,8 @@
 
         /*////// FRAMEWORK STYLES //////*/
 
+        #bodyCell{padding:20px;}
+        #templateContainer{width:600px;}
         /* Make images responsive*/
         .flexibleImage{height:auto;}
 
@@ -28,22 +30,18 @@
         * TEMPLATE STYLES
         */
 
-        #bodyCell{padding:20px;}
-        #templateContainer{width:600px;}
-
         /**
         * /////////////// PAGE STYLES //////////////////////
         */
 
-        /* MM4 Colors*/
+        /* MM4 Brand Colors*/
         /* ORANGE color:#EB4102*/
         /* BLUE color:#0073AE*/
         /* GREY color:#8a8a8d*/
 
-
         /**
         * @tab Page
-        * @section Set the background color of your email.
+        * @section set the background color of your email.
         * @theme page
         */
         body, #bodyTable{
@@ -74,7 +72,7 @@
 
         /**
         * @tab Headings
-        * @section H1 styles
+        * @section h1 styles
         * @style heading 1
         */
         h1{
@@ -91,7 +89,7 @@
 
         /**
         * @tab Headings
-        * @section H2 styles
+        * @section h2 styles
         * @style heading 2
         */
         h2{
@@ -108,7 +106,7 @@
 
         /**
         * @tab Headings
-        * @section H3 styles
+        * @section h3 styles
         * @style heading 3
         */
         h3{
@@ -117,7 +115,7 @@
             /*@editable*/ font-family:Helvetica;
             /*@editable*/ font-size:16px;
             /*@editable*/ font-style:normal;
-            /*@editable*/ font-weight:normal;
+            /*@editable*/ font-weight:bold;
             /*@editable*/ line-height:125%;
             /*@editable*/ letter-spacing:normal;
             /*@editable*/ text-align:left;
@@ -125,7 +123,7 @@
 
         /**
         * @tab Headings
-        * @section H4 styles
+        * @section h4 styles
         * @style heading 4
         */
         h4{
@@ -134,7 +132,7 @@
             /*@editable*/ font-family:Helvetica;
             /*@editable*/ font-size:14px;
             /*@editable*/ font-style:normal;
-            /*@editable*/ font-weight:normal;
+            /*@editable*/ font-weight:bold;
             /*@editable*/ line-height:125%;
             /*@editable*/ letter-spacing:normal;
             /*@editable*/ text-align:left;
@@ -179,7 +177,7 @@
       }
 
       /**
-      * /////////////// PRE-HEADER STYLES //////////////////////
+      * /////////////// HEADER STYLES //////////////////////
       */
 
       /**
@@ -203,7 +201,7 @@
 
       /**
       * @tab Header
-      * @section set styling for header text
+      * @section if not using a header image set styling for header text
       * @theme header
       */
       .headerContent{
@@ -214,27 +212,11 @@
         /*@editable*/ line-height:100%;
         /*@editable*/ text-align:left;
         /*@editable*/ vertical-align:middle;
-        padding-top:0;
-        padding-right:0;
-        padding-bottom:0;
-        padding-left:0;
       }
 
       /**
       * @tab Header
-      * @section set padding for header section, default 0px
-      * @theme header
-      */
-      .headerContent{
-        /*@editable*/ padding-top:0;
-        /*@editable*/ padding-right:0;
-        /*@editable*/ padding-bottom:0;
-        /*@editable*/ padding-left:0;
-      }
-
-      /**
-      * @tab Header
-      * @section set the styling for header links.
+      * @section set the styling for header links when using a text header
       */
       .headerContent a:link, .headerContent a:visited, /* Yahoo! Mail Override */ .headerContent a .yshortcuts /* Yahoo! Mail Override */{
         /*@editable*/ color:#0073AE;
@@ -242,12 +224,9 @@
         /*@editable*/ text-decoration:underline;
       }
 
-
       /**
       * /////////////// BODY STYLES //////////////////////
       */
-
-      .flexibleImage{height:auto;}
 
       #templateBody{
         background-color:#F4F4F4;
@@ -268,7 +247,7 @@
 
       /**
       * @tab Body
-      * @section set the body padding, default is 20px
+      * @section set the default padding for body text sections, default is 20px
       * @theme body
       */
       .bodyContent{
@@ -289,7 +268,7 @@
         /*@editable*/ text-decoration:underline;
       }
 
-      /* ========== Repeatable Section: Text Area ========== */
+      /* ========== Repeatable Section: Text Area Styles ========== */
 
       /**
       * @tab Section - Text Area
@@ -308,7 +287,7 @@
         /*@editable*/ border-bottom:1px;
      }
 
-      /* ========== Repeatable Section: Hero Image ========== */
+      /* ========== Repeatable Section: Hero Image Styles========== */
 
       /**
       * @tab Section - Hero Image
@@ -320,22 +299,12 @@
           /*@editable*/ border-bottom:1px;
       }
 
-      /**
-      * @tab Section - Hero Image
-      * @section set padding for image, default is 0px
-      */
-      .heroImageSection {
-          /*@editable*/ padding-top:0px;
-          /*@editable*/ padding-bottom:0px;
-          /*@editable*/ padding-right:0px;
-          /*@editable*/ padding-left:0px;
-      }
       #heroImage {
         max-width:600px;
         height:auto;
       }
 
-      /* ========== Repeatable Section: AD Section ========== */
+      /* ========== Repeatable Section: AD Section Styles========== */
 
       /**
       * @tab Section - Ad Image
@@ -345,16 +314,6 @@
           vertical-align:middle;
           /*@editable*/ border-top:1px;
           /*@editable*/ border-bottom:1px;
-      }
-      /**
-      * @tab Section - Ad Image
-      * @section set padding for the ad image, default is 0px.
-      */
-      .adSection {
-        /*@editable*/ padding-top:0px;
-        /*@editable*/ padding-bottom:0px;
-        /*@editable*/ padding-right:0px;
-        /*@editable*/ padding-left:0px;
       }
 
       #adImage {
@@ -362,17 +321,78 @@
         height:auto;
       }
 
-      /* ========== Repeatable Section: Left Image Right Text Styles ========== */
+       /* ========== Repeatable Section: Large Image - Text Styles ========== */
+
+       /**
+       * @tab Section - Large Image - Text
+       * @section set background color of the entire section.
+       */
+       .imageText{
+         /*@editable*/ background-color:#FFFFFF;
+       }
+
+       /**
+       * @tab Section - Large Image - Text
+       * @section set optional top and bottom border for separation.
+       */
+       .imageText{
+         /*@editable*/ border-top:1px;
+         /*@editable*/ border-bottom:1px;
+       }
+
+       /* ========== Repeatable Section: Large Text - Image Styles ========== */
+
+       /**
+       * @tab Section - Large Text - Image
+       * @section set background color of the entire section.
+       */
+       .textImage{
+         /*@editable*/ background-color:#FFFFFF;
+       }
+
+       /**
+       * @tab Section - Large Text - Image
+       * @section set optional top and bottom border for separation.
+       */
+       .textImage{
+         /*@editable*/ border-top:1px;
+         /*@editable*/ border-bottom:1px;
+       }
+
+       /* ========== Repeatable Section: Large Image - Image ========== */
+
+       /**
+       * @tab Section - Large Image - Image
+       * @section set background color of the entire section
+       */
+       .dualImage{
+         /*@editable*/ background-color:#FFFFFF;
+       }
+
+       /**
+       * @tab Section - Large Image - Image
+       * @section set optional top and bottom border for separation
+       */
+       .dualImage{
+         /*@editable*/ border-top:1px;
+         /*@editable*/ border-bottom:1px;
+       }
+
+      .doubleImage{
+         height: auto;
+      }
+
+      /* ========== Repeatable Section: Small Image - Text Styles ========== */
 
       /**
-      * @tab Section - Left Image Right Text
+      * @tab Section - Small Image - Text
       * @section Set the background color of the section.
       */
       .leftContainer{
           /*@editable*/ background-color:#ffffff;
       }
       /**
-      * @tab Section - Left Image Right Text
+      * @tab Section - Small Image - Text
       * @section set optional top and bottom border for separation.
       */
       .leftContainer{
@@ -380,15 +400,10 @@
           /*@editable*/ border-bottom:1px;
       }
 
-      /**
-      * @tab Section - Left Image Right Text
-      * @section set the padding of the image, default is 20px
-      */
-
-      /* ========== Repeatable Section: Right Image Left Text Styles ========== */
+      /* ========== Repeatable Section: Small Text - Image Styles ========== */
 
       /**
-      * @tab Section - Right Image Left Text
+      * @tab Section - Small Text - Image
       * @section Set the background color of the section.
       */
       .rightContainer{
@@ -396,12 +411,30 @@
       }
 
       /**
-      * @tab Section - Right Image Left Text
+      * @tab Section - Small Text - Image
       * @section set optional top and bottom border for separation.
       */
       .rightContainer{
           /*@editable*/ border-top:1px;
           /*@editable*/ border-bottom:1px;
+      }
+
+      /* ========== Repeatable Section: Two Columns Image and Text Styles ========== */
+
+      /**
+      * @tab Section - Two Column Image with Text
+      * @section set background color of the entire section.
+      */
+      .twoContainers{
+          /*@editable*/ background-color:#FFFFFF;
+      }
+      /**
+      * @tab Section - Two Column Image with Text
+      * @section set optional top and bottom border for separation.
+      */
+      .twoContainers{
+        /*@editable*/ border-top:1px;
+        /*@editable*/ border-bottom:1px;
       }
 
       /* ========== Repeatable Section: Callout Button Styles ========== */
@@ -454,34 +487,6 @@
 
       .bottomShim{
           padding-bottom:20px;
-      }
-
-      /* ========== Repeatable Section: Two Columns Image and Text Styles ========== */
-
-      /**
-      * @tab Section - Two Column Image with Text
-      * @section set background color of the entire section.
-      */
-      .twoContainers{
-          /*@editable*/ background-color:#FFFFFF;
-      }
-      /**
-      * @tab Section - Two Column Image with Text
-      * @section set optional top and bottom border for separation.
-      */
-      .twoContainers{
-        /*@editable*/ border-top:1px;
-        /*@editable*/ border-bottom:1px;
-      }
-      /**
-      * @tab Section - Two Column Image with Text
-      * @section set optional padding on images
-      */
-      .twoColPad{
-        /*@editable*/ padding-top: 20px;
-        /*@editable*/ padding-bottom: 20px;
-        /*@editable*/ padding-left: 20px;
-        /*@editable*/ padding-right: 20px;
       }
 
       /* ========== Repeatable Section: Calendar Styles ========== */
@@ -546,77 +551,6 @@
           padding-left:20px;
       }
 
-      /* ========== Repeatable Section: Split Image / Text Styles ========== */
-
-      /**
-      * @tab Section - Split Image / Text
-      * @section set background color of the entire section.
-      */
-      .imageText{
-        /*@editable*/ background-color:#FFFFFF;
-      }
-
-      /**
-      * @tab Section - Split Image / Text
-      * @section set optional top and bottom border for separation.
-      */
-      .imageText{
-        /*@editable*/ border-top:1px;
-        /*@editable*/ border-bottom:1px;
-      }
-
-      /* ========== Repeatable Section: Split Text / Image Styles ========== */
-
-      /**
-      * @tab Section - Split Text / Image
-      * @section set background color of the entire section.
-      */
-      .textImage{
-        /*@editable*/ background-color:#FFFFFF;
-      }
-
-      /**
-      * @tab Section - Split Text / Image
-      * @section set optional top and bottom border for separation.
-      */
-      .textImage{
-        /*@editable*/ border-top:1px;
-        /*@editable*/ border-bottom:1px;
-      }
-
-      /* ========== Repeatable Section: Split Image / Image Styles ========== */
-
-      /**
-      * @tab Section - Split Image / Image
-      * @section set background color of the entire section
-      */
-      .dualImage{
-        /*@editable*/ background-color:#FFFFFF;
-      }
-
-      /**
-      * @tab Section - Split Image / Image
-      * @section set optional top and bottom border for separation
-      */
-      .dualImage{
-        /*@editable*/ border-top:1px;
-        /*@editable*/ border-bottom:1px;
-      }
-
-      /**
-      * @tab Section - Split Image / Image
-      * @section set optional top and bottom padding for images, default is 0px
-      */
-     .doubleImage{
-        height: auto;
-        /*@editable*/ padding-top:0px;
-        /*@editable*/ padding-bottom:0px;
-        padding-right:0px;
-        padding-left:0px;
-
-     }
-
-
       /**
       * /////////////// FOOTER STYLES //////////////////////
       */
@@ -674,18 +608,17 @@
 
       @media only screen and (max-width: 480px){
         /* CLIENT-SPECIFIC MOBILE STYLES */
-        body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:none !important;} /* Prevent Webkit platforms from changing default text sizes */
-        #body{width:100% !important; min-width:100% !important;} /* Prevent iOS Mail from adding padding to the body */
 
-        /*
-          CSS selectors are written in attribute selector format to prevent Yahoo Mail
-          from rendering media query styles on desktop.
-        */
+        /* Prevent Webkit platforms from changing default text sizes */
+        body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:none !important;}
+
+        /* Prevent iOS Mail from adding padding to the body */
+        #body{width:100% !important; min-width:100% !important;}
 
         /*  MOBILE TEMPLATE STYLES  */
-        table[class="flexibleContainer"]{width:100% !important;}
-        img[class="flexibleImage"]{height:auto !important; width:100% !important;}
-        img[class="doubleImage"]{height:auto !important; width:100% !important;}
+        .flexibleContainer{width:100% !important;}
+        .flexibleImage{height:auto !important; width:100% !important;}
+        .doubleImage{height:auto !important; width:100% !important;}
 
         /* ======== Page Styles ======== */
 
@@ -736,7 +669,8 @@
 
         /* ======== Header Styles ======== */
 
-        #templatePreheader{display:none !important;} /* Hide the template preheader to save space */
+        /* Hide the template preheader to save space */
+        #templatePreheader{display:none !important;}
 
         /**
         * @tab Mobile Styles
@@ -783,8 +717,9 @@
         */
 
         .imageCenter{
-          /*text-align: center !important;*/
-          /*display: inline-block !important;*/
+          height: auto !important;
+          width: 100% !important;
+          max-width: 480px !important;
         }
 
         .imageContent{
@@ -957,7 +892,7 @@
                                                                     <table align="left" border="0" cellpadding="0" cellspacing="0" width="200" class="flexibleContainer">
                                                                       <tr>
                                                                         <td align="left" valign="top" class="fullPad">
-                                                                          <img src="http://dummyimage.com/200x200/333/fff.png" width="200" style="max-width:200px;" mc:edit="left_image_right_text00" class="flexibleImage" />
+                                                                          <img src="http://dummyimage.com/500x500/333/fff.png" width="200" style="max-width:200px;" mc:edit="left_image_right_text00" class="flexibleImage imageCenter" />
                                                                         </td>
                                                                       </tr>
                                                                     </table>
@@ -1001,7 +936,7 @@
                                                                   <table align="right" border="0" cellpadding="0" cellspacing="0" width="200" class="flexibleContainer">
                                                                     <tr>
                                                                       <td align="left" valign="top" class="fullPad">
-                                                                        <img src="http://dummyimage.com/200x200/333/fff.png" width="200" style="max-width:200px;" mc:edit="right_image_left_text00" class="flexibleImage" />
+                                                                        <img src="http://dummyimage.com/500x500/333/fff.png" width="200" style="max-width:200px;" mc:edit="right_image_left_text00" class="flexibleImage imageCenter" />
                                                                       </td>
                                                                     </tr>
                                                                   </table>
@@ -1037,7 +972,7 @@
                                                             <table align="left" border="0" cellpadding="0" cellspacing="0" width="300" class="flexibleContainer">
                                                                 <tr>
                                                                     <td valign="top" class="twoColPad">
-                                                                        <img src="http://dummyimage.com/500/333/fff.png&text=260+x+260" style="max-width:260px;" mc:edit="two_col_image_00" class="flexibleImage"/>
+                                                                        <img src="http://dummyimage.com/500/333/fff.png" style="max-width:260px;" mc:edit="two_col_image_00" class="flexibleImage"/>
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
@@ -1052,7 +987,7 @@
                                                             <table align="left" border="0" cellpadding="0" cellspacing="0" width="300" class="flexibleContainer">
                                                                 <tr>
                                                                     <td valign="top" class="twoColPad">
-                                                                        <img src="http://dummyimage.com/500/333/fff.png&text=260+x+260" style="max-width:260px;" mc:edit="two_col_image_01" class="flexibleImage"/>
+                                                                        <img src="http://dummyimage.com/500/333/fff.png" style="max-width:260px;" mc:edit="two_col_image_01" class="flexibleImage"/>
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
@@ -1095,7 +1030,7 @@
                                                             <table align="left" border="0" cellpadding="0" cellspacing="0" width="160" class="colAdjust">
                                                                 <tr>
                                                                     <td align="center" valign="top" class="fullPad">
-                                                                        <table border="0" cellpadding="0" cellspacing="0" width="160" class="emailCalendar">
+                                                                        <table border="0" cellpadding="0" cellspacing="0" width="160" class="emailCalendar" style="Margin-top:20px;">
                                                                             <tr>
                                                                                 <td align="center" valign="top" >
                                                                                     <table border="0" cellpadding="0" cellspacing="0" width="100%">
@@ -1135,7 +1070,7 @@
                                                             <table align="right" border="0" cellpadding="0" cellspacing="0" width="160" class="colAdjust">
                                                                 <tr>
                                                                     <td align="center" valign="top" class="fullPad">
-                                                                        <table border="0" cellpadding="0" cellspacing="0" width="160" class="emailCalendar">
+                                                                        <table border="0" cellpadding="0" cellspacing="0" width="160" class="emailCalendar" style="Margin-top:20px;">
                                                                             <tr>
                                                                                 <td align="center" valign="top">
                                                                                     <table border="0" cellpadding="0" cellspacing="0" width="100%">
